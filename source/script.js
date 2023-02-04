@@ -763,7 +763,7 @@ function openExtraItemsModal () {
 }
 // Thank you note modal
 function openThankYouModal () {
-  modalContent.innerHTML = 'Gracias, puedes continuar seleccionando la siguiente página.' // Text to display on the modal.
+  modalContent.innerHTML = 'Gracias. Puede continuar. Pulse sobre Prueba completada.' // Text to display on the modal.
   firstModalButton.innerText = 'Terminado'
   secondModalButton.classList.add('hidden')
   firstModalButton.style.width = '100%'
@@ -786,7 +786,7 @@ function openLastItemModal () {
     var thisBox = gridItems[i]
     thisBox.classList.add('disabled')
   }
-  modalContent.innerText = 'Por favor, selecciona el último elemento intentado.'
+  modalContent.innerText = 'Por favor, pulse el último elemento intentado.'
   firstModalButton.innerText = 'OK'
   secondModalButton.classList.add('hidden')
   firstModalButton.style.width = '100%'
@@ -945,7 +945,7 @@ function checkAllAnswered () {
 }
 
 function moveForward () {
-  button.innerHTML = 'Test complete'
+  button.innerHTML = 'Prueba completa'
   button.onclick = function () {
     goToNextField()
   }

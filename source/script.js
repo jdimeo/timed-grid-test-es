@@ -36,6 +36,7 @@ var items = [] // Array to keep the selected items.
 var intervalId
 
 var timerDisp = document.querySelector('#timer') // Span displaying the actual timer.
+var timeLeft = document.querySelector('#timeLeft') // Label showing "TIME LEFT" (need to use javascript for translation)
 var backButton = document.getElementById('backButton') // back button for navigation
 var button = document.querySelector('#startstop') // Button to start, stop, pause and resume test.
 var pauseIcon = button.querySelector('#icon-pause')
@@ -71,6 +72,18 @@ x.addListener(myFunction)
 
 // For testing purposes!
 // screenSize = 'small'
+
+// TRANSLATION LOOKUP - common to all "universal" plugins and assumes translations.js exists
+function translation(key) {
+  var ret = translations?.[key]?.[fieldProperties.LANGUAGE];
+  if (ret) { return ret; }
+
+  // Fall back to English and warn in the console
+  console.warn("No translation for key " + key + " found for language " + fieldProperties.LANGUAGE);
+  return translations?.[key]?.["Reference English"];
+}
+
+timeLeft.innerHTML = translation('grid_time_left');
 
 // Set parameter default values.
 if (duration == null) {
@@ -621,7 +634,7 @@ function itemClicked (item, itemIndex) {
     }
   } else if (timeLeft === 0 && extraItems === 0) { // This is for selecting the last letter, and it will be used at the very end.
     if (item.classList.contains('disabled')) { // Shows modal warning user that that item cannot be selected
-      modalContent.innerText = 'Either pick the last incorrect item, or one after that.'
+      modalContent.innerText = translation('grid_time_expired');
       firstModalButton.innerText = 'Okay'
       secondModalButton.classList.add('hidden')
       firstModalButton.style.width = '100%'
@@ -752,8 +765,8 @@ function pageReading () {
 
 // Incorrect last item modal
 function openExtraItemsModal () {
-  modalContent.innerHTML = 'Make any corrections now. Tap the <strong>Finished</strong> button when you are finished.'
-  firstModalButton.innerText = 'Okay'
+  modalContent.innerHTML = translation('grid_corrections');
+  firstModalButton.innerText = translation('ok');
   secondModalButton.classList.add('hidden')
   firstModalButton.style.width = '100%'
   modal.style.display = 'block'
@@ -763,8 +776,8 @@ function openExtraItemsModal () {
 }
 // Thank you note modal
 function openThankYouModal () {
-  modalContent.innerHTML = 'Thank you! You can continue. <br> Tap on Test Complete.' // Text to display on the modal.
-  firstModalButton.innerText = 'Done'
+  modalContent.innerHTML = translation('grid_complete');
+  firstModalButton.innerText = translation('done');
   secondModalButton.classList.add('hidden')
   firstModalButton.style.width = '100%'
   modal.style.display = 'block'
@@ -786,8 +799,8 @@ function openLastItemModal () {
     var thisBox = gridItems[i]
     thisBox.classList.add('disabled')
   }
-  modalContent.innerText = 'Please tap the last item attempted.'
-  firstModalButton.innerText = 'Okay'
+  modalContent.innerText = translation('grid_last_item');
+  firstModalButton.innerText = translation('ok');
   secondModalButton.classList.add('hidden')
   firstModalButton.style.width = '100%'
   modal.style.display = 'block'
@@ -798,8 +811,8 @@ function openLastItemModal () {
 
 function openIncorrectItemsModal () {
   if (strict === 1 && endAfter != null) {
-    modalContent.innerText = endAfter + ' wrong answers on row 1.'
-    firstModalButton.innerText = 'Okay'
+    modalContent.innerText = endAfter + ' ' + translation('grid_incorrect_on_first_row');
+    firstModalButton.innerText = translation('ok');
     secondModalButton.classList.add('hidden')
     firstModalButton.style.width = '100%'
     modal.style.display = 'block'
@@ -815,9 +828,9 @@ function openIncorrectItemsModal () {
       goToNextField(true)
     }
   } else {
-    modalContent.innerText = 'End now? ' + endAfter + ' wrong answers on row 1.'
-    firstModalButton.innerText = 'Yes'
-    secondModalButton.innerText = 'No'
+    modalContent.innerText = translation('grid_end_now') + ' ' + endAfter + ' ' + translation('grid_incorrect_on_first_row');
+    firstModalButton.innerText = translation('yes');
+    secondModalButton.innerText = translation('no');
     modal.style.display = 'block'
     firstModalButton.onclick = function () {
       modal.style.display = 'none'
@@ -832,9 +845,9 @@ function openIncorrectItemsModal () {
 
 function endTest () {
   if (finishParameter === 2) {
-    modalContent.innerText = 'Do you want to end the test now?'
-    firstModalButton.innerText = 'Yes'
-    secondModalButton.innerText = 'No'
+    modalContent.innerText = translation('grid_end_now');
+    firstModalButton.innerText = translation('yes');
+    secondModalButton.innerText = translation('no');
     modal.style.display = 'block'
     firstModalButton.onclick = function () {
       finishEarly = 1
@@ -878,9 +891,9 @@ function endTest () {
 
 // Modal to confirm finishing a test early.
 function finishModal () {
-  modalContent.innerText = 'Do you want to end the test now?'
-  firstModalButton.innerText = 'Yes'
-  secondModalButton.innerText = 'No'
+  modalContent.innerText = translation('grid_end_now');
+  firstModalButton.innerText = translation('yes');
+  secondModalButton.innerText = translation('no');
   modal.style.display = 'block'
   firstModalButton.onclick = function () {
     modal.style.display = 'none'
@@ -945,7 +958,7 @@ function checkAllAnswered () {
 }
 
 function moveForward () {
-  button.innerHTML = 'Test complete'
+  button.innerHTML = translation('grid_complete_button');
   button.onclick = function () {
     goToNextField()
   }

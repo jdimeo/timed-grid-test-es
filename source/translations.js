@@ -61,6 +61,10 @@ const translations = {
     "Reference English" : "Done",
     "Indonesian" : "Selesai"
   },
+  "other_placeholder" : {
+    "Reference English" : "Enter other response here...",
+    "Indonesian" : "Masukkan tanggapan lain di sini..."
+  },
   "unknown" : {
     "Reference English" : "I don't know",
     "Bangla" : "আমি জানি না",

@@ -146,6 +146,12 @@ if (type === 'letters') {
   columns = parseInt(type)
 }
 
+// Set end after to 'null' when it has a value of 0. 
+// This is the equivalent of not providing a value for this (disabling it)
+if (endAfter == 0) {
+  endAfter = null
+}
+
 // Set end after default to 10 for letters and 5 for words.
 if (endAfter == null && type === 'letters') {
   endAfter = 10

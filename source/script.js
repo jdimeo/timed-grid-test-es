@@ -405,7 +405,6 @@ function createGrid (keys) {
       var fieldset = document.createElement('div') // Creates a section element. Each section is the equivalent of a row.
       fieldset.setAttribute('class', 'pg')
       if (isRTL === 1) {
-        console.log('Add div RTL')
         fieldset.dir = "rtl";
       }
       for (var j = 0; j < columns; j++) { // Create the individual boxes in each row/screen.
@@ -482,7 +481,6 @@ function createGrid (keys) {
     div.classList.add('pgNumber')
   }
   if (isRTL === 1) {
-    console.log('Add div RTL')
     div.dir = "rtl";
   }
   return true
@@ -649,8 +647,6 @@ function itemClicked (item, itemIndex) {
       }
       item.classList.add('lastSelected')
       lastSelectedIndex = itemIndex // Get index of last selected item.
-      lastSelectedIndex = itemIndex // Get index of last selected item
-      // checkLastItem() // Check that the selected last item is not before the last clicked item as part of the test.
       complete = 'true'
       finishEarly = 1
       setResult()
@@ -686,6 +682,7 @@ function setResult () {
     totalItems = lastSelectedIndex // total items are all the items.
   }
   if (type === 'reading') { // For reading test.
+    punctuationCount = 0 //Reset the current punctuation count
     for (var x = 0; x < totalItems; x++) {
       var textLabel = choices[x].CHOICE_LABEL // Get the label of each item.
       if ($.inArray(textLabel, marks) !== -1) { // Check if the label is a punctuation mark.

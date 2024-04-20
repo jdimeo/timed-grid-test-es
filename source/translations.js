@@ -1,9 +1,10 @@
 // This file is generated using: translate scto-plugin-translations. DO NOT HAND EDIT
-// Current as of COF version UNDER-DEVELOPMENT
+// Current as of COF version 4.1.9-develop
 const translations = {
   "valid_integer" : {
     "Reference English" : "Invalid: Answer must be a valid integer.",
     "Asante Twi" : "Ɛnni mu: Ɛsɛ sɛ mmuaeɛ no yɛ nɔmmɛse a yɛde hyehyɛ nɔmmalae so a ɛdi mu.",
+    "Amharic" : "የተሳሳተ፡- መልሱ ሊሆን የሚገባው ትክክል የሆነ ድፍን ቁጥር (ክፍልፋይ ያልሆነ) ነው፡፡",
     "Ewe" : "Mesɔ o: Ele be ŋuɖoɖoa nanye xexlẽdzesi blibo.",
     "Gonja" : "GbeƐtoso: Adaga ketuwebi na ka la agbagbato",
     "Spanish" : "Inválido: La respuesta debe ser un número entero válido.",
@@ -13,7 +14,7 @@ const translations = {
     "Indonesian" : "Tidak valid: Jawaban harus bilangan bulat yang valid.",
     "Khmer" : "ចម្លើយ៖ ចម្លើយត្រូវតែជាចំនួនគត់។",
     "Kekchí" : "Moko us ta: li xsumenkil tento tixk'am jun ajl.",
-    "Nyanja" : "Cosayenera: Yankho iyenera kunkhala nambala yovomerezeka.",
+    "Nyanja" : "Zosavomerezeka: Yankho liyenera kukhala nambala yokwanira ilibe doti",
     "Portuguese" : "Inválido: A resposta deve ser um número inteiro válido.",
     "Kinyarwanda" : "Ibitemewe: Igisubizo kigomba kuba ari umubare wuzuye kandi wemewe.",
     "Swahili" : "Haikubaliki: Jibu lazima liwe nambari kamili sahihi.",
@@ -22,16 +23,17 @@ const translations = {
   "valid_decimal" : {
     "Reference English" : "Invalid: Answer must be a valid decimal number.",
     "Asante Twi" : "Ɛnni mu: Ɛsɛ sɛ mmuaeɛ no yɛ nɔmma akyiripɔ a ɛdi mu.",
+    "Amharic" : "የተሳሳተ፡- መልሱ ትክክል የሆነ አስርዮሽ ቁጥር መሆን አለበት",
     "Ewe" : "Mesɔ o: Ele be ŋuɖoɖo la nanye xexlẽmedzesi blibo kple esi kplɔ tɔtɔdzesi ɖo la.",
     "Gonja" : "GbeƐtoso: Adaga ketuwebi na ka la agbagbato",
     "Spanish" : "Inválido: La respuesta debe ser un número decimal válido.",
     "Reference Spanish" : "No válido: la respuesta debe ser un número decimal válido.",
     "French" : "Non valide : La réponse doit être un nombre décimal valide.",
     "Haitian Creole" : "Envalid: Repons lan dwe yon nimewo desimal valab.",
-    "Indonesian" : "Tidak valid: Jawaban harus berupa angka desimal yang valid.",
+    "Indonesian" : "Tidak Valid: Jawaban harus angka desimal yang valid.",
     "Khmer" : "មិនត្រឹមត្រូវ៖ ចម្លើយត្រូវតែជាតួលេខទសភាគ។",
     "Kekchí" : "Moko us ta: li xsumenkil tento tixk'am jun  ajl.",
-    "Nyanja" : "Siciloledwa: Yankho ifunika kukhala nambala ya mapointi.",
+    "Nyanja" : "Zosalondola: Yankho liyenera kukhala nambala yolondola kapena ili ndi pointi chakuti",
     "Portuguese" : "Inválido: A resposta deve ser um número decimal válido.",
     "Kinyarwanda" : "Ibitemewe: Igisubizo kigomba kuba ari umubare w'ibice wemewe.",
     "Swahili" : "Haikubaliki: Jibu lazima liwe nambari sahihi ya desimali.",
@@ -40,6 +42,7 @@ const translations = {
   "valid_digits_symbols" : {
     "Reference English" : "Invalid: Answer can only contain numbers, hyphens, plus signs, dots, hash signs, asterisks, and/or spaces.",
     "Asante Twi" : "Ɛnni mu: nɔmmɛse, nkabom nsεnkyerεne, nkekaho ahyɛnsodeɛ, osiwieeɛ, \"hash\" ahyɛnsodeɛ, \"asterisks\" ahyɛnsodeɛ, ne/anaa akwan a yɛgya to nsɛmfua ntam nko ara na ɛbɛtumi aba mmuaeɛ mu.",
+    "Amharic" : "የተሳሳተ፡- መልሱ ሊኖረው የሚገባው ቁጥሮች፣ ሰረዞች፣ የመደመር ምልክቶች፣ ነጥቦች፣ የመሰላል ምልክቶች፣ የኮከብ ምልክቶች እና/ወይም ባዶ ቦታዎች ብቻ ነው፡፡",
     "Ewe" : "Mesɔ o: Xexlẽmedzesiwo, fli kpuiwo, kpekpeɖeŋudzesi, tɔtɔdzesi, 'hashdzesi', ɣletividzesi kple/alo dometsotsowo koe ate ŋu anɔ ŋuɖoɖo la me.",
     "Gonja" : "GbeƐtoso: Ketuwebi beeῃ tiῃ a kↄ mbii, akurso, adodo nko egbaῃ",
     "Spanish" : "Inválido: La respuesta sólo puede contener números, guiones, signos más, puntos, numerales (#), asteriscos (*) y/o espacios.",
@@ -49,7 +52,7 @@ const translations = {
     "Indonesian" : "Tidak Valid: Jawaban hanya boleh berisi angka, tanda hubung, tanda tambah, titik, tanda pagar, tanda bintang, dan/atau spasi.",
     "Khmer" : "មិនត្រឹមត្រូវ៖ ចម្លើយអាចមានតែលេខ សញ្ញាដក សញ្ញាបូក ចុច ទ្រុងជ្រូក ផ្កាយ និង/ឬ ការដកឃ្លាប៉ុណ្ណោះ។",
     "Kekchí" : "Ink'a' us: Lix sumenkil tento roksi ajl ut malaj eb' li etalil a’in ( - + . # *) maraj xyanq.",
-    "Nyanja" : "Cosayenera: Yankho limatha kukhala ndi manambala, zizindikiro zapakompyuta ndi malo.",
+    "Nyanja" : "Zosavomerezeka: Yankho ifunika chabe kukhala ndi manambala, ma hyfenzi, kuphatikiza zizindikiro, madontho, zizindikiro za hashi, nyenyezi, ndi/kapena mipata.",
     "Portuguese" : "Inválido: a resposta pode conter apenas números, hífens, sinais de adição, pontos, hashtags, asteriscos e/ou espaços.",
     "Kinyarwanda" : "Ibitemewe: Igisubizo kigomba gusa kubamo imibare, utunyerezo, ibimenyetso byo guteranya, utumenyetso tw'utudirishya n'utunyenyeri, n'imyanya itanditsemo.",
     "Swahili" : "Haikubaliki: Jibu linaweza tu kuwa na nambari, vistari, alama za kuongeza, nukta, na/au nafasi.",
@@ -58,6 +61,7 @@ const translations = {
   "valid_digits_hyphens" : {
     "Reference English" : "Invalid: Answer can only contain numbers, hyphens, plus signs, dots, and/or spaces.",
     "Asante Twi" : "Ɛnni mu: nɔmmɛse, nkabom nsεnkyerεne, nkekaho ahyɛnsodeɛ, osiwieeɛ, ne/anaa akwan a yɛgya to nsɛmfua ntam nko ara na ɛbɛtumi aba mmuaeɛ mu.",
+    "Amharic" : "የተሳሳተ፡- መልሱ ሊኖረው የሚገባው ቁጥሮች፣ ሰረዞች፣ የመደመር ምልክቶች፣ ነጥቦች እና/ወይም ባዶ ቦታዎች ብቻ ነው፡፡",
     "Ewe" : "Mesɔ o: Xexlẽmedzesiwo, fli kpuiwo, kpekpeɖeŋudzesi, tɔtɔdzesi kple/alo dometsotsowo koe ate ŋu anɔ ŋuɖoɖo la me.",
     "Gonja" : "GbeƐtoso: Ketuwebi beeῃ tiῃ a kↄ mbii, akurso, adodo nko egbaῃ",
     "Spanish" : "Inválido: La respuesta solo puede contener números, guiones, signos más, puntos y/o espacios.",
@@ -67,7 +71,7 @@ const translations = {
     "Indonesian" : "Tidak Valid: Jawaban hanya boleh berisi angka, tanda hubung, tanda plus, titik, dan/atau spasi.",
     "Khmer" : "មិនត្រឹមត្រូវ៖ ចម្លើយអាចមានតែលេខ សញ្ញាដក សញ្ញាបូក ចុច និង/ឬ ការដកឃ្លាប៉ុណ្ណោះ។",
     "Kekchí" : "Ink'a' us:  Lix sumenkil tento roksi ajl ut malaj eb' li etalil a’in ( - +) tz'uq, malaj xyanq.",
-    "Nyanja" : "Cosayenera: Yankho ifunika kukhala cabe ndi manambala, zizindikiro zopumira kapena malo.",
+    "Nyanja" : "Zosavomerezeka: Yankho ifunika kukhala ndi manambala, ma hyphenzi, kuphatikiza zizindikiro, madontho, ndi/kapena mipata.",
     "Portuguese" : "Inválido: a resposta pode conter apenas números, hífens, sinais de adição, pontos e/ou espaços.",
     "Kinyarwanda" : "Ibitemewe: Igisubizo kigomba gusa kubamo imibare, utunyerezo, ibimenyetso byo guteranya, utubago, n'imyanya itanditsemo.",
     "Swahili" : "Haikubaliki: Jibu linaweza tu kuwa na nambari, vistari, alama za kuongeza, nukta, na/au nafasi.",
@@ -76,16 +80,17 @@ const translations = {
   "replace_value" : {
     "Reference English" : "Warning: This field already has a value. Are you sure you would like to replace it?",
     "Asante Twi" : "Kↄkↄbↄ: Ↄfa yi kura anoyie bi dada. Wogye di sɛ wopɛ sɛ wosesa no?",
+    "Amharic" : "ማስጠንቀቂያ፡ ይህ ቦታ መልስ ተጽፎበታል። በተጻፋ መልስ ፈንታ ሌላ መልስ ለመተካት እርግጠኛ ነህ?",
     "Ewe" : "Afɔɖoafɔta: Woŋlɔ nane ɖe afi sia xoxo. Èka ɖe edzi be yedi be yeatrɔea?",
     "Gonja" : "Kusoegberge: Mfe teŋ a kɔ kusɔnε ku daga nε ku ba wɔ ndoŋ. Fo yεrda fanε fee sha nε fo chεrga kumo aa?",
     "Spanish" : "Advertencia: Este campo ya tiene un valor. ¿Está seguro de que desea reemplazarlo?",
     "Reference Spanish" : "Advertencia: este campo ya tiene un valor. ¿Estás seguro de que deseas reemplazarlo?",
     "French" : "Attention : Ce champ a déjà une valeur. Êtes-vous sûr de vouloir le remplacer ?",
     "Haitian Creole" : "Avètisman: espas  sa a deja gen yon valè. Èske ou sèten ou vle ranplase li?",
-    "Indonesian" : "Peringatan: Kolom ini sudah memiliki nilai. Apakah Anda yakin ingin menggantinya?",
+    "Indonesian" : "Peringatan: Kolom ini sudah diisi. Apakah kamu yakin untuk menggantinya?",
     "Khmer" : "ការរំលឹក៖ ផ្នែកនេះបានឆ្លើយ​រួចហើយ។ តើអ្នកពិតជាចង់ជំនួសវាមែនទេ?",
     "Kekchí" : "Il chi us: Li patz'om ak wank xsumenkil. ¿Ma nakawaj xjalb'al ru?",
-    "Nyanja" : "Cenjezo: malo awa ali ndi zolembapo kale. Kodi musimikiza kuti mufuna muzicosa ndi kuikapo zina?",
+    "Nyanja" : "Chenjezo: Gawoli lili ndi mtengo kale. Mukutsimikiza kuti mukufuna kusintha?",
     "Portuguese" : "Atenção: Este campo já possui um valor. Tem certeza de que deseja substituí-lo?",
     "Kinyarwanda" : "Umuburo: Uyu mwanya usanzwe ufite agaciro. Urifuza kuwusimbuza koko?",
     "Swahili" : "Onyo: Sehemu hii tayari ina nambari. Je, una uhakika ungependa kuibadilisha?",
@@ -94,6 +99,7 @@ const translations = {
   "grid_time_left" : {
     "Reference English" : "TIME LEFT",
     "Asante Twi" : "MMERƐ DODOƆ A AKA",
+    "Amharic" : "ቀሪ ሰዓት",
     "Ewe" : "ƔEYIƔI SI SUSƆ",
     "Gonja" : "Jimanε monε ku ka",
     "Spanish" : "TIEMPO RESTANTE",
@@ -104,7 +110,7 @@ const translations = {
     "Khmer" : "រយៈពេលនៅសល់",
     "Pokot" : "PÖROYÏN NYO KÖNGÖTi",
     "Kekchí" : "Hoonal maa na raqe'k.",
-    "Nyanja" : "Nthawi yatsala",
+    "Nyanja" : "Nthawi yosalira",
     "Portuguese" : "TEMPO RESTANTE",
     "Kinyarwanda" : "IGIHE GISIGAYE",
     "Runyakitara" : "OBWIIRE OBUSIGEIREYO",
@@ -114,16 +120,17 @@ const translations = {
   "grid_time_expired" : {
     "Reference English" : "Either pick the last incorrect item, or one after that.",
     "Asante Twi" : "Yi asɛmmisa a ɛtwa toɔ a ɛnyɛ nokorɛ anaasɛ deɛ ɛtoa ne soɔ.",
+    "Amharic" : "መጨረሻ ላይ ያለውን ትክክል ያልሆነ ነገር ወይም ከሱ ቀጥሎ ያለውን ምረጥ",
     "Ewe" : "Tsɔ biabia mamlɛtɔ si mede o, alo esi kplɔ ema ɖo la",
     "Gonja" : "Lara lalaluwe be ketuwebi gbeƐtoso nko kumo nƐ ku beso nna.",
     "Spanish" : "Seleccione el último elemento incorrecto o uno después de ese.",
     "Reference Spanish" : "Elige la última opción incorrecta, o una opción después de esa.",
     "French" : "Choisissez le dernier élément incorrect ou l'élément suivant.",
     "Haitian Creole" : "Chwazi dènye atik ki pa kòrèk la oswa atik kap vini an.",
-    "Indonesian" : "Pilih item yang salah terakhir, atau satu setelah itu.",
+    "Indonesian" : "Pilih item terakhir yang salah, atau satu setelah itu.",
     "Khmer" : "សូមចុចយកចម្លើយមិនត្រឹមត្រូវចុងក្រោយ ឬមួយបន្ទាប់ពីនោះ។",
     "Kekchí" : "sik' b'ar wan ta woksi reheb' a’an li jun ink'a' us ut malaj junaq chik chirix a’an.",
-    "Nyanja" : "Mungatenge cimene sicili bwino kapena cokonkhapo.",
+    "Nyanja" : "Sankhani chinthu chomaliza cholakwika, kapena china pambuyo pake.",
     "Portuguese" : "Escolha o último item incorreto ou um depois dele.",
     "Kinyarwanda" : "Hitamo icya nyuma kitari cyo, cyangwa ikigikurikira.",
     "Swahili" : "Chagua kipengele cha mwisho kisicho sahihi, au kimoja baada ya hapo.",
@@ -132,16 +139,17 @@ const translations = {
   "grid_corrections" : {
     "Reference English" : "Make any corrections now. Tap the <strong>Finished</strong> button when you are finished.",
     "Asante Twi" : "Siesie mfomsoɔ biara seesei ara. Mia <strong>Finished</strong>  bɔton  no so wɔ berɛ a woawie.",
+    "Amharic" : "የምታስተካክለውን ማንኛውንም አሁን አስተካክል፡፡ ስትጨርስ <strong>Finished</strong> የሚለውን ቁልፍ ተጫን፡፡",
     "Ewe" : "Wɔ wò ɖɔɖɔɖoawo fifia. Te asi ɖe <esesẽ>Ewu nu</esesẽ>la dzi nenye be ewu nu.",
     "Gonja" : "Fo baa sha nε fo beta n sibε kusɔkama nε fo maŋ sibε nεnε. <strong>luwe</strong> be kebii na nε fo kaŋ luwe",
     "Spanish" : "Haga cualquier corrección ahora. Cuando haya terminado, toque el botón Terminado.",
     "Reference Spanish" : "Si tienes algo que corregir hazlo ahora. Presiona el botón <strong>Finished</strong> cuando hayas finalizado.",
     "French" : "Effectuez toute correction maintenant. Appuyez sur le bouton <strong>Terminé</strong> lorsque vous avez terminé.",
     "Haitian Creole" : "Fè koreksyon kounye a. Lè w fini, peze bouton <strong>Fini</strong>.",
-    "Indonesian" : "Buat koreksi apa pun sekarang. Ketuk <strong>Selesai</strong> tombol saat Anda selesai.",
+    "Indonesian" : "Periksa kembali jawaban Anda. Klik tombol <strong>Selesai</strong> jika sudah selesai.",
     "Khmer" : "បើមានការកែតម្រូវ សូមធ្វើឥលូវនេះ។ សូមចុចប៊ូតុង <strong>រួចរាល់</strong> នៅពេលអ្នកធ្វើរួចរាល់។",
     "Kekchí" : "Jal k'a' ru nakawaj anaqwan. Toch' jun sut li aatin <strong>Choyb'il</strong> naq ak xat raq’e xb'aanunkil.",
-    "Nyanja" : "Konzani zimene simunacite bwino tsopano. Mukasiliza mudinike pa batani kusonyeza kuti mwatha.",
+    "Nyanja" : "Konzani zokonza tsopano. Dinizani batani la <strong>Mwamaliza</strong> mukamaliza.",
     "Portuguese" : "Faça as correções agora. Toque no botão <strong>Finished</strong> quando terminar.",
     "Kinyarwanda" : "Noneho kosora ahari amakosa hose. Kanda kuri buto yanditseho <strong>Byarangiye</strong> mu gihe usoje.",
     "Swahili" : "Fanya marekebisho yoyote sasa hivi. Bonyeza kitufe cha <strong>Finished</strong> wakati umemaliza.",
@@ -150,16 +158,17 @@ const translations = {
   "grid_complete" : {
     "Reference English" : "Thank you! You can continue. Tap on Test Complete.",
     "Asante Twi" : "Meda wo ase! Wobɛtumi atoa so. Mia \"Woawie Sɔhwɛ\" no so.",
+    "Amharic" : "አመሰግናለሁ። መቀጠል ትችላለህ። ፈተናዉ ተጠናቅቋል የሚለውን መታ አድርግ።",
     "Ewe" : "Akpe na wò! Àte ŋu ayi edzi. Te asi ɖe Biabia ƒe Nuwuwu dzi.",
     "Gonja" : "Ansaŋ  n kushuŋ! Feeŋ  tiŋ  ta n chεso. Nyishi nsulwe na so nε ku fo n yɔ ekar.",
     "Spanish" : "¡Gracias! Puede continuar. Toque Prueba Completa.",
     "Reference Spanish" : "¡Gracias! Puedes continuar. Presiona en Prueba Terminada.",
     "French" : "Merci ! Vous pouvez continuer. Cliquer sur \"Test Terminé\".",
     "Haitian Creole" : "Mèsi! Ou ka kontinye. Tape sou Tès Konplete.",
-    "Indonesian" : "Terima kasih!Anda bisa melanjutkan. Ketuk pada Tes Lengkap.",
+    "Indonesian" : "Terima kasih! Lanjutkan. Klik pada Tes Lengkap.",
     "Khmer" : "សូមអរគុណ! អ្នកអាចបន្តបាន។ សូមចុច បានបញ្ចប់ការធ្វើតេស្ដ។",
     "Kekchí" : "B'antiox aawe. Anaqwan naru taachoy li patz'om a'in. Toch' jun sut b'ar wi' naxye Xchoyb'al li Patz'om.",
-    "Nyanja" : "Zikomo! Mungapitilize. Dinikani polangiza kuti mayeso yatha.",
+    "Nyanja" : "Zikomo! Mutha kupitiliza. Dinizani pa mayeso yatha.",
     "Portuguese" : "Obrigado! Pode continuar. Toque em Teste concluído.",
     "Kinyarwanda" : "Urakoze! Ushobora gukomeza. Kanda kuri Isuzuma Ryarangiye.",
     "Runyakitara" : "Webare! Nobaasa kugumizamu. Nyiga aha kamanyizo k'okuheza ekigyezo",
@@ -169,16 +178,17 @@ const translations = {
   "grid_last_item" : {
     "Reference English" : "Please tap the last item attempted.",
     "Asante Twi" : "Mesrɛ wo, mia asɛmmisa a ɛtwa toɔ a ɔsɔ hwɛeɛ no so.",
+    "Amharic" : "መጨረሻ የተሞከረው ጥያቄ ላይ መታ  አድርግ።",
     "Ewe" : "Meɖe kuku te asi ɖe biabia mamlɛtɔ si ŋu wòɖo la dzi.",
     "Gonja" : "Jande beta lalaluwe be mbishi kraῃso na",
     "Spanish" : "Por favor toque el último elemento intentado",
     "Reference Spanish" : "Por favor presiona la última opción intentada.",
     "French" : "Veuillez cliquer sur le dernier élément essayé.",
     "Haitian Creole" : "Tanpri tape sou dènye atik kew te eseye a",
-    "Indonesian" : "Silakan ketuk item terakhir yang dicoba.",
+    "Indonesian" : "Silakan klik item terakhir yang dicoba.",
     "Khmer" : "សូមចុចលើចម្លើយចុងក្រោយដែលអ្នកបានឆ្លើយ។",
     "Kekchí" : "B'aanu usilal pitz' sa’ li xraqik xyalb'al.",
-    "Nyanja" : "Chonde dinikani pa cinthu cimene munacita nthawi yapita.",
+    "Nyanja" : "Chonde dinani chinthu chomaliza chomwe mwayesera",
     "Portuguese" : "Toque no último item tentado.",
     "Kinyarwanda" : "Kanda icya nyuma cyasubijwe.",
     "Swahili" : "Tafadhali bonyeza kipengele cha mwisho kilichojaribiwa.",
@@ -187,6 +197,7 @@ const translations = {
   "grid_complete_button" : {
     "Reference English" : "Test Complete",
     "Asante Twi" : "Woawie Sɔhwɛ no",
+    "Amharic" : "ፈተናው ተጠናቅቋል",
     "Ewe" : "Biabia ƒe Nuwuwu",
     "Gonja" : "Nsulwe luwe",
     "Spanish" : "Prueba Completa",
@@ -196,7 +207,7 @@ const translations = {
     "Indonesian" : "Tes Lengkap",
     "Khmer" : "បានបញ្ចប់ការធ្វើតេស្ដ",
     "Kekchí" : "Choyb'il xsumenkil li patz'om a'in.",
-    "Nyanja" : "Mayeso yatha.",
+    "Nyanja" : "Mayeso yatha",
     "Portuguese" : "Teste concluído",
     "Kinyarwanda" : "Isuzuma Ryarangiye",
     "Runyakitara" : "Ekigyezo kyaahwa",
@@ -206,17 +217,18 @@ const translations = {
   "grid_end_now" : {
     "Reference English" : "Do you want to end the test now?",
     "Asante Twi" : "Wopɛ sɛ wode sɔhwɛ no ba awieeɛ seesei ara?",
+    "Amharic" : "ፈተናውን አሁን ማጠናቀቅ ትፈልጋለህ?",
     "Ewe" : "Èdi be yeawu dodokpɔ la nu fifia?",
     "Gonja" : "Fee sha keluwe nsulwe na naniere aa?",
     "Spanish" : "¿Quieres finalizar la prueba ahora?",
     "Reference Spanish" : "¿Quieres terminar la prueba ahora?",
     "French" : "Voulez-vous terminé le test maintenant ?",
     "Haitian Creole" : "Èske ou vle fini tès la kounye a?",
-    "Indonesian" : "Apakah Anda ingin mengakhiri tes sekarang?",
+    "Indonesian" : "Apakah kamu ingin menyelesaikan tes sekarang?",
     "Khmer" : "តើអ្នកចង់បញ្ចប់ការធ្វើតេស្ដឥលូវនេះទេ?",
     "Pokot" : "Imökenyi wonye teput ye?",
     "Kekchí" : "¿Ma ta waj xraqb'al li patz'om anaqwan?",
-    "Nyanja" : "Kodi mufuna kusiliza mayeso tsopano?",
+    "Nyanja" : "Kodi mukufuna kutsiriza mayeso tsopano?",
     "Portuguese" : "Deseja terminar o teste agora?",
     "Kinyarwanda" : "Wifuza gusoza isuzuma ubu?",
     "Runyakitara" : "Okubuuzibwa noyenda kukuhendera  hati?",
@@ -226,16 +238,17 @@ const translations = {
   "grid_incorrect_on_first_row" : {
     "Reference English" : "wrong answers on row 1.",
     "Asante Twi" : "Mmuaeɛ a ɛnyɛ nokorɛ wɔ nsaneeɛ 1 so.",
+    "Amharic" : "የተሳሳቱ መልሶች በረድፍ ቁጥር 1",
     "Ewe" : "ŋuɖoɖo gbegblẽtɔwo le fli ɖeka me",
     "Gonja" : "Ketuwebi monε ku maŋ niŋŋi wɔ sososo be egbaŋ to",
     "Spanish" : "respuestas incorrectas en la fila 1.",
     "Reference Spanish" : "Hay respuestas incorrectas en la fila 1.",
     "French" : "réponses incorrectes sur la ligne 1.",
     "Haitian Creole" : "move repons sou ranje 1.",
-    "Indonesian" : "jawaban yang salah di baris 1.",
+    "Indonesian" : "Jawaban salah di baris 1.",
     "Khmer" : "ចម្លើយខុសនៅជួរទី១។",
     "Kekchí" : "Ink'a' us xsumenk sa’  xb'een tzol.",
-    "Nyanja" : "Mayankho yaboza pa mzera woyamba.",
+    "Nyanja" : "mayankho olakwika pamzere woyamba.",
     "Portuguese" : "respostas erradas na linha 1.",
     "Kinyarwanda" : "Ibisubizo bitari byo ku murongo wa 1.",
     "Runyakitara" : "Eby'okugarukwamu ebigwiire aha runyiriri orw'okubanza",
@@ -245,17 +258,19 @@ const translations = {
   "ok" : {
     "Reference English" : "Okay",
     "Asante Twi" : "Yoo",
+    "Amharic" : "እሺ",
     "Ewe" : "Enyo",
     "Gonja" : "Ku nyalε",
     "Spanish" : "Bien",
     "Reference Spanish" : "Okey",
     "French" : "OK",
     "Haitian Creole" : "Dakò",
-    "Indonesian" : "Oke",
+    "Indonesian" : "OKE",
     "Khmer" : "យល់ព្រម",
     "Pokot" : "Owöy",
     "Kekchí" : "Us",
-    "Nyanja" : "Inde.",
+    "Nyanja" : "Chabwino",
+    "Oromo" : "Tole",
     "Portuguese" : "OK",
     "Kinyarwanda" : "Ni byo",
     "Swahili" : "Sawa",
@@ -264,6 +279,7 @@ const translations = {
   "done" : {
     "Reference English" : "Done",
     "Asante Twi" : "Woawie",
+    "Amharic" : "ተጠናቋል",
     "Ewe" : "Ewu  nu",
     "Gonja" : "Luwe",
     "Spanish" : "Hecho",
@@ -274,7 +290,7 @@ const translations = {
     "Khmer" : "រួចរាល់",
     "Pokot" : "Keghä.",
     "Kekchí" : "Choyb'il chikan",
-    "Nyanja" : "Kwatha",
+    "Nyanja" : "Zachitika",
     "Portuguese" : "Feito",
     "Kinyarwanda" : "Byarangiye",
     "Runyakitara" : "Kyaahwa",
@@ -284,16 +300,17 @@ const translations = {
   "other_placeholder" : {
     "Reference English" : "Enter other response here...",
     "Asante Twi" : "Twerɛ mmuaeɛ foforɔ wɔ ha...",
+    "Amharic" : "ሌላ ምላሽ ካለ እዚህ አስገባ",
     "Ewe" : "De ŋuɖoɖo bubu teƒe sia...",
     "Gonja" : "Wɔtɔ keshuliso pɔtε mfe...",
     "Spanish" : "Ingrese otra respuesta aquí...",
     "Reference Spanish" : "Escriba aquí otra respuesta...",
     "French" : "Inscrivez ici une autre réponse...",
     "Haitian Creole" : "Antre yon lòt repons isit la...",
-    "Indonesian" : "Masukkan tanggapan lain di sini...",
+    "Indonesian" : "Tuliskan respon lainnya di sini...",
     "Khmer" : "សូមបញ្ចូលចម្លើយនៅត្រង់នេះ....",
     "Kekchí" : "Tz'iib'a  jalan chik xkomon xsumenkil arin...",
-    "Nyanja" : "Ikani mayankho ena pano.",
+    "Nyanja" : "Lowetsani yankho lina apa...",
     "Portuguese" : "Digite outra resposta aqui...",
     "Kinyarwanda" : "Shyiramo ikindi gisubizo hano...",
     "Runyakitara" : "Okugarukamu kutasyemu hanu",
@@ -306,6 +323,7 @@ const translations = {
     "Acholi" : "Eyo",
     "Akaramojong" : "Ee",
     "Alur" : "Eyo",
+    "Amharic" : "አዎ",
     "Ateso" : "Eebo",
     "Bangla" : "হ্যাঁ",
     "Cebuano" : "Oo",
@@ -329,6 +347,7 @@ const translations = {
     "Lugbara" : "Ee",
     "Lugishu" : "Yee",
     "Nyanja" : "Inde",
+    "Oromo" : "Eeyyee",
     "Portuguese" : "Sim",
     "Runyakitara" : "Eego",
     "Swahili" : "Ndio",
@@ -382,11 +401,11 @@ const translations = {
     "Reference English" : "Yes"
   },
   "yes_ET" : {
-    "Oromo" : "Yes",
+    "Oromo" : "Eeyyee",
     "Reference English" : "Yes",
     "Tigrinya" : "Yes",
     "Somali" : "Yes",
-    "Amharic" : "Yes"
+    "Amharic" : "አዎ"
   },
   "yes_GH" : {
     "Asante Twi" : "Aane",
@@ -528,6 +547,7 @@ const translations = {
     "Acholi" : "Alama me lapeny",
     "Akaramojong" : "?",
     "Alur" : "Nyanedi",
+    "Amharic" : "?",
     "Ateso" : "?",
     "Bangla" : "?",
     "Ewe" : "?",
@@ -547,6 +567,7 @@ const translations = {
     "Ganda" : "?",
     "Lugbara" : "?",
     "Lugishu" : "?",
+    "Oromo" : "?",
     "Portuguese" : "?",
     "Runyakitara" : "Akabuuza",
     "Swahili" : "?"
@@ -557,6 +578,7 @@ const translations = {
     "Acholi" : "Pe",
     "Akaramojong" : "Mam",
     "Alur" : "Ungo",
+    "Amharic" : "አይ",
     "Ateso" : "Mam",
     "Bangla" : "না",
     "Cebuano" : "Dili/Wala",
@@ -584,6 +606,7 @@ const translations = {
     "Runyakitara" : "Ngaaha",
     "Swahili" : "Hapana",
     "Waray" : "Diri/Waray",
+    "Oromo" : "Lakki",
     "Reference French" : "Non",
     "Karen" : "တမ့ၢ်ဘၣ်",
     "Khmer" : "ទេ",
@@ -633,11 +656,11 @@ const translations = {
     "Reference English" : "No"
   },
   "no_ET" : {
-    "Oromo" : "No",
+    "Oromo" : "Lakki",
     "Reference English" : "No",
     "Tigrinya" : "No",
     "Somali" : "No",
-    "Amharic" : "No"
+    "Amharic" : "አይ"
   },
   "no_GH" : {
     "Asante Twi" : "Daabi",
@@ -779,6 +802,7 @@ const translations = {
     "Acholi" : "kwero Adada",
     "Akaramojong" : "ngechamuna jik",
     "Alur" : "Akwetu Mandha",
+    "Amharic" : "ሙሉ በሙሉ አልስማማም",
     "Ateso" : "Mam acamunit cut",
     "Bangla" : "সম্পূর্ণ অসম্মত",
     "Cebuano" : "Dili Mouyon",
@@ -852,7 +876,7 @@ const translations = {
     "Reference English" : "Completely Disagree",
     "Tigrinya" : "Completely Disagree",
     "Somali" : "Completely Disagree",
-    "Amharic" : "Completely Disagree"
+    "Amharic" : "ሙሉ በሙሉ አልስማማም"
   },
   "completely_disagree_GH" : {
     "Asante Twi" : "Mennye ntom koraa",
@@ -994,6 +1018,7 @@ const translations = {
     "Acholi" : "Ye ki cwinye ducu",
     "Akaramojong" : "Ecamuna jik",
     "Alur" : "Ayio Mandha",
+    "Amharic" : "ሙሉ በሙሉ እስማማለሁ",
     "Ateso" : "Acamunit cut",
     "Bangla" : "সম্পূর্ণ একমত",
     "Cebuano" : "Hingpit nga Miuyon",
@@ -1067,7 +1092,7 @@ const translations = {
     "Reference English" : "Completely Agree",
     "Tigrinya" : "Completely Agree",
     "Somali" : "Completely Agree",
-    "Amharic" : "Completely Agree"
+    "Amharic" : "ሙሉ በሙሉ እስማማለሁ"
   },
   "completely_agree_GH" : {
     "Asante Twi" : "Megye tom pa ara",
@@ -2241,9 +2266,12 @@ const translations = {
   },
   "all_of_the_time" : {
     "Reference English" : "All of the time",
+    "Amharic" : "ሁል ጊዜ",
     "Spanish" : "Todo el tiempo",
     "Tagalog" : "Palagi",
     "Reference French" : "Tout le temps",
+    "Indonesian" : "Selalu",
+    "Nyanja" : "Nthawi zonse",
     "Swahili" : "Kila wakati",
     "Waray" : "Pirmi ha ngatanan nga panahon"
   },
@@ -2431,11 +2459,15 @@ const translations = {
   },
   "most_of_the_time" : {
     "Reference English" : "Most of the time",
+    "Amharic" : "አብዛኛውን ጊዜ",
     "Cebuano" : "Kadaghanan nga panahon",
     "Spanish" : "Casi siempre",
     "Tagalog" : "Kadalasan",
     "Reference French" : "La plupart du temps",
     "Hiligaynon" : "Sa masami nga tion",
+    "Indonesian" : "Sebagian besar waktu",
+    "Nyanja" : "Nthawi zambiri",
+    "Oromo" : "Yeroo baay'ee",
     "Swahili" : "Zaidi ya muda",
     "Waray" : "Kaurogan/Agsob/Haros Pirme",
     "Asante Twi" : "Mmerɛ dodoɔ no ara",
@@ -2449,7 +2481,6 @@ const translations = {
     "Reference Spanish" : "La mayoría del tiempo",
     "French" : "La plupart du temps",
     "Haitian Creole" : "Pifò nan tan an",
-    "Indonesian" : "Sebagian besar waktu",
     "Kabiye" : "Alɩwaatʊ sakɩyɛ lɛ",
     "Khmer" : "ភាគច្រើន",
     "Kinyarwanda" : "Akenshi",
@@ -2461,7 +2492,6 @@ const translations = {
     "Ganda" : "Ebiseera ebisinga",
     "Lugbara" : "Sawa pari 'diyi si",
     "Lugishu" : "Imbuka ifura bukali",
-    "Nyanja" : "Nthawi zambiri",
     "Portuguese" : "A maior parte do tempo",
     "Runyakitara" : "Obwire obwingi",
     "Sinhala" : "බොහෝ වේලාවට",
@@ -2509,11 +2539,11 @@ const translations = {
     "Reference English" : "Most of the time"
   },
   "most_of_the_time_ET" : {
-    "Oromo" : "Most of the time",
+    "Oromo" : "Yeroo baay'ee",
     "Reference English" : "Most of the time",
     "Tigrinya" : "Most of the time",
     "Somali" : "Most of the time",
-    "Amharic" : "Most of the time"
+    "Amharic" : "አብዛኛውን ጊዜ"
   },
   "most_of_the_time_GH" : {
     "Asante Twi" : "Mmerɛ dodoɔ no ara",
@@ -2651,9 +2681,12 @@ const translations = {
   },
   "some_of_the_time" : {
     "Reference English" : "Some of the time",
+    "Amharic" : "አንዳንድ ጊዜ",
     "Spanish" : "En alguna ocasión",
     "Tagalog" : "Kung minsan",
     "Reference French" : "De temps en temps",
+    "Nyanja" : "Nthawi zina",
+    "Oromo" : "Yeroo tokko tokko",
     "Swahili" : "Wakati mwingine",
     "Waray" : "Danay la ha panahaon"
   },
@@ -2699,11 +2732,11 @@ const translations = {
     "Reference English" : "Some of the time"
   },
   "some_of_the_time_ET" : {
-    "Oromo" : "Some of the time",
+    "Oromo" : "Yeroo tokko tokko",
     "Reference English" : "Some of the time",
     "Tigrinya" : "Some of the time",
     "Somali" : "Some of the time",
-    "Amharic" : "Some of the time"
+    "Amharic" : "አንዳንድ ጊዜ"
   },
   "some_of_the_time_GH" : {
     "Asante Twi" : "Some of the time",
@@ -2835,17 +2868,21 @@ const translations = {
     "Pokot" : "Some of the time"
   },
   "some_of_the_time_ZM" : {
-    "Nyanja" : "Some of the time",
+    "Nyanja" : "Nthawi zina",
     "Reference English" : "Some of the time",
     "Bemba" : "Some of the time"
   },
   "rarely" : {
     "Reference English" : "Rarely",
+    "Amharic" : "አልፎ አልፎ",
     "Cebuano" : "Panagsa ra",
     "Spanish" : "Casi nunca",
     "Tagalog" : "Bihira",
     "Reference French" : "Rarement",
     "Hiligaynon" : "Kis-a",
+    "Indonesian" : "Jarang",
+    "Nyanja" : "Sikambiri",
+    "Oromo" : "Darbee darbee",
     "Swahili" : "Mara chache",
     "Waray" : "Talagsa",
     "Asante Twi" : "Ɛntaa nsi",
@@ -2859,7 +2896,6 @@ const translations = {
     "Reference Spanish" : "Rara vez",
     "French" : "Rarement",
     "Haitian Creole" : "Raman",
-    "Indonesian" : "Jarang",
     "Kabiye" : "Kɔlɩ-kɔlɩ / Nabʊyʋ nabʋyʋ",
     "Khmer" : "កម្រ",
     "Kinyarwanda" : "Gake cyane",
@@ -2871,7 +2907,6 @@ const translations = {
     "Ganda" : "Lumu na lumu",
     "Lugbara" : "Sawa azi 'diyi si te tutu ku",
     "Lugishu" : "Si shitela ta",
-    "Nyanja" : "Sikambiri",
     "Portuguese" : "Raramente",
     "Runyakitara" : "Tikyobutoosha",
     "Sinhala" : "කලාතුරකින්",
@@ -2919,11 +2954,11 @@ const translations = {
     "Reference English" : "Rarely"
   },
   "rarely_ET" : {
-    "Oromo" : "Rarely",
+    "Oromo" : "Darbee darbee",
     "Reference English" : "Rarely",
     "Tigrinya" : "Rarely",
     "Somali" : "Rarely",
-    "Amharic" : "Rarely"
+    "Amharic" : "አልፎ አልፎ"
   },
   "rarely_GH" : {
     "Asante Twi" : "Ɛntaa nsi",
@@ -3061,9 +3096,12 @@ const translations = {
   },
   "none_of_the_time" : {
     "Reference English" : "None of the time",
+    "Amharic" : "በጭራሽ",
     "Spanish" : "En ninguna ocasión",
     "Tagalog" : "Hindi kailanman",
     "Reference French" : "Rien de temps",
+    "Indonesian" : "Tidak sama sekali",
+    "Nyanja" : "Palibe nthawi iliyonse",
     "Swahili" : "Hakuna wakati",
     "Waray" : "Waray ha bisan ano nga panahon"
   },
@@ -3252,11 +3290,13 @@ const translations = {
   "ISCEDO" : {
     "Reference English" : "Early childhood education",
     "Asante Twi" : "Mmɔfra ntɔtɔfewa nwomasua",
+    "Amharic" : "ቅድመ መደበኛ ትምህርት",
     "Ewe" : "Nusɔsrɔ̃ si ku ɖe hehenana ɖeviwo ŋu",
     "Gonja" : "mbiawurbi be keniso be sukuru",
     "Spanish" : "Educación de primera infancia",
     "French" : "Enseignement préscolaire",
     "Haitian Creole" : "Edikasyon timoun piti",
+    "Indonesian" : "Pendidikan Anak Usia Dini",
     "Pokot" : "kisomönöt nyo pö otinö täkïmïnïng chi",
     "Portuguese" : "Educação Infantil",
     "Kinyarwanda" : "Amashuri y'incuke",
@@ -3308,7 +3348,7 @@ const translations = {
     "Reference English" : "Early childhood education",
     "Tigrinya" : "Early childhood education",
     "Somali" : "Early childhood education",
-    "Amharic" : "Early childhood education"
+    "Amharic" : "ቅድመ መደበኛ ትምህርት"
   },
   "ISCEDO_GH" : {
     "Asante Twi" : "Mmɔfra ntɔtɔfewa nwomasua",
@@ -3338,7 +3378,7 @@ const translations = {
     "Reference English" : "Early childhood education"
   },
   "ISCEDO_ID" : {
-    "Indonesian" : "Early childhood education",
+    "Indonesian" : "Pendidikan Anak Usia Dini",
     "Reference English" : "Early childhood education"
   },
   "ISCEDO_IN" : {
@@ -3447,13 +3487,16 @@ const translations = {
   "ISCED1" : {
     "Reference English" : "Primary education",
     "Asante Twi" : "Mfitiaseɛ nwomasua",
+    "Amharic" : "የመጀመሪያ ደረጃ ትምህርት",
     "Ewe" : "Gɔmedzesuku",
     "Gonja" : "Peramire be sukuru",
     "Spanish" : "Educación primaria",
     "French" : "Enseignement primaire",
     "Haitian Creole" : "Edikasyon primè",
+    "Indonesian" : "Sekolah Dasar",
     "Pokot" : "kisomönöt nyo pö pïremar",
     "Nyanja" : "Pulayimale",
+    "Oromo" : "Barnoota sadarkaa tokkoffaa",
     "Portuguese" : "Educação primária",
     "Kinyarwanda" : "Amashuri abanza",
     "Swahili" : "Elimu ya msingi"
@@ -3500,11 +3543,11 @@ const translations = {
     "Reference English" : "Primary education"
   },
   "ISCED1_ET" : {
-    "Oromo" : "Primary education",
+    "Oromo" : "Barnoota sadarkaa tokkoffaa",
     "Reference English" : "Primary education",
     "Tigrinya" : "Primary education",
     "Somali" : "Primary education",
-    "Amharic" : "Primary education"
+    "Amharic" : "የመጀመሪያ ደረጃ ትምህርት"
   },
   "ISCED1_GH" : {
     "Asante Twi" : "Mfitiaseɛ nwomasua",
@@ -3534,7 +3577,7 @@ const translations = {
     "Reference English" : "Primary education"
   },
   "ISCED1_ID" : {
-    "Indonesian" : "Primary education",
+    "Indonesian" : "Sekolah Dasar",
     "Reference English" : "Primary education"
   },
   "ISCED1_IN" : {
@@ -3643,11 +3686,13 @@ const translations = {
   "ISCED2" : {
     "Reference English" : "Lower secondary education",
     "Asante Twi" : "Ntoasoɔ sukuu ahyɛaseɛ nwomasua.",
+    "Amharic" : "መሃከለኛ ደረጃ ትምህርት",
     "Ewe" : "Sekɛndrisuku xɔ gbãtɔwo",
     "Gonja" : "Kaseto be sekendere sukuru",
     "Spanish" : "Educación secundaria inferior",
     "French" : "Enseignement post-primaire",
     "Haitian Creole" : "Edikasyon segondè ki pi ba a",
+    "Indonesian" : "Sekolah Menengah Pertama",
     "Pokot" : "kitoröto sekontär",
     "Portuguese" : "Ensino Fundamental I",
     "Kinyarwanda" : "Icyiciro rusange cy'amashuri yisumbuye",
@@ -3699,7 +3744,7 @@ const translations = {
     "Reference English" : "Lower secondary education",
     "Tigrinya" : "Lower secondary education",
     "Somali" : "Lower secondary education",
-    "Amharic" : "Lower secondary education"
+    "Amharic" : "መሃከለኛ ደረጃ ትምህርት"
   },
   "ISCED2_GH" : {
     "Asante Twi" : "Ntoasoɔ sukuu ahyɛaseɛ nwomasua.",
@@ -3729,7 +3774,7 @@ const translations = {
     "Reference English" : "Lower secondary education"
   },
   "ISCED2_ID" : {
-    "Indonesian" : "Lower secondary education",
+    "Indonesian" : "Sekolah Menengah Pertama",
     "Reference English" : "Lower secondary education"
   },
   "ISCED2_IN" : {
@@ -3838,11 +3883,13 @@ const translations = {
   "ISCED3" : {
     "Reference English" : "Upper secondary education",
     "Asante Twi" : "Ntoasoɔ sukuu mpanimfoɔ nwomasua",
+    "Amharic" : "የከፍተኛ ሁለተኛ ደረጃ ትምህርት",
     "Ewe" : "Sekɛndrisuku xɔ mamlɛa",
     "Gonja" : "Esoso be sekendere be sukuru",
     "Spanish" : "Educación secundaria superior",
     "French" : "Enseignement du second cycle",
     "Haitian Creole" : "Edikasyon segondè siperyè",
+    "Indonesian" : "Sekolah Menengah Atas",
     "Pokot" : "päräku sekontär",
     "Nyanja" : "Sekondale ya m'mwamba",
     "Portuguese" : "Ensino Fundamental II",
@@ -3895,7 +3942,7 @@ const translations = {
     "Reference English" : "Upper secondary education",
     "Tigrinya" : "Upper secondary education",
     "Somali" : "Upper secondary education",
-    "Amharic" : "Upper secondary education"
+    "Amharic" : "የከፍተኛ ሁለተኛ ደረጃ ትምህርት"
   },
   "ISCED3_GH" : {
     "Asante Twi" : "Ntoasoɔ sukuu mpanimfoɔ nwomasua",
@@ -3925,7 +3972,7 @@ const translations = {
     "Reference English" : "Upper secondary education"
   },
   "ISCED3_ID" : {
-    "Indonesian" : "Upper secondary education",
+    "Indonesian" : "Sekolah Menengah Atas",
     "Reference English" : "Upper secondary education"
   },
   "ISCED3_IN" : {
@@ -4034,6 +4081,7 @@ const translations = {
   "ISCED4" : {
     "Reference English" : "Post-secondary non-tertiary education",
     "Asante Twi" : "Adesua a ɛboro ntoso sukuu nanso ɛnnuru suapɔn ne nwomasua a ɛnni suapɔn mu",
+    "Amharic" : "ሶስተኛ ደረጃ ያልሆነ ፣ የድህረ-ሁለተኛ ደረጃ ትምህርት",
     "Ewe" : "Nusɔsrɔ̃ le dodo le sekɛndrisuku vɔ megbe",
     "Gonja" : "Asukuru monε a maŋ la Yunivεsiti",
     "Spanish" : "Educación post-secundaria no terciaria",
@@ -4089,7 +4137,7 @@ const translations = {
     "Reference English" : "Post-secondary non-tertiary education",
     "Tigrinya" : "Post-secondary non-tertiary education",
     "Somali" : "Post-secondary non-tertiary education",
-    "Amharic" : "Post-secondary non-tertiary education"
+    "Amharic" : "ሶስተኛ ደረጃ ያልሆነ ፣ የድህረ-ሁለተኛ ደረጃ ትምህርት"
   },
   "ISCED4_GH" : {
     "Asante Twi" : "Adesua a ɛboro ntoso sukuu nanso ɛnnuru suapɔn ne nwomasua a ɛnni suapɔn mu",
@@ -4228,11 +4276,13 @@ const translations = {
   "ISCED5" : {
     "Reference English" : "Short-cycle tertiary education",
     "Asante Twi" : "Suapɔn nwomasua tiawa",
+    "Amharic" : "የአጭር ጊዜ ሶስተኛ ደረጃ ትምህርት",
     "Ewe" : "Sukukɔkɔ nusɔsrɔ̃ kpui",
     "Gonja" : "Yunivεsiti be kakraŋ monε kumobe jimanε maŋ wɔ nteŋ",
     "Spanish" : "Educación terciaria de ciclo corto",
     "French" : "Enseignement supérieur de cycle court",
     "Haitian Creole" : "Sik kout edikasyon siperyè",
+    "Indonesian" : "Diploma",
     "Pokot" : "kisomönöt nyo kakiwany sekontär nyo tängogh",
     "Kinyarwanda" : "Icyiciro rusange cy'amashuri makuru",
     "Swahili" : "Elimu ya vyuo ya awamu fupifupi"
@@ -4283,7 +4333,7 @@ const translations = {
     "Reference English" : "Short-cycle tertiary education",
     "Tigrinya" : "Short-cycle tertiary education",
     "Somali" : "Short-cycle tertiary education",
-    "Amharic" : "Short-cycle tertiary education"
+    "Amharic" : "የአጭር ጊዜ ሶስተኛ ደረጃ ትምህርት"
   },
   "ISCED5_GH" : {
     "Asante Twi" : "Suapɔn nwomasua tiawa",
@@ -4313,7 +4363,7 @@ const translations = {
     "Reference English" : "Short-cycle tertiary education"
   },
   "ISCED5_ID" : {
-    "Indonesian" : "Short-cycle tertiary education",
+    "Indonesian" : "Diploma",
     "Reference English" : "Short-cycle tertiary education"
   },
   "ISCED5_IN" : {
@@ -4422,11 +4472,13 @@ const translations = {
   "ISCDE6" : {
     "Reference English" : "Bachelors degree",
     "Asante Twi" : "Suapɔn abɔdin krataa",
+    "Amharic" : "የመጀመሪያ ዲግሪ",
     "Ewe" : "yunivesiti digri",
     "Gonja" : "Yunivεsiti Kejigiwol gboῃ",
     "Spanish" : "Licenciatura",
     "French" : "Diplôme de licence",
     "Haitian Creole" : "Diplòm bakaloreya",
+    "Indonesian" : "Sarjana",
     "Pokot" : "dikïri",
     "Portuguese" : "Diploma de bacharel",
     "Kinyarwanda" : "Icyiciro cya kabiri cya kaminuza",
@@ -4478,7 +4530,7 @@ const translations = {
     "Reference English" : "Bachelors degree",
     "Tigrinya" : "Bachelors degree",
     "Somali" : "Bachelors degree",
-    "Amharic" : "Bachelors degree"
+    "Amharic" : "የመጀመሪያ ዲግሪ"
   },
   "ISCDE6_GH" : {
     "Asante Twi" : "Suapɔn abɔdin krataa",
@@ -4508,7 +4560,7 @@ const translations = {
     "Reference English" : "Bachelors degree"
   },
   "ISCDE6_ID" : {
-    "Indonesian" : "Bachelors degree",
+    "Indonesian" : "Sarjana",
     "Reference English" : "Bachelors degree"
   },
   "ISCDE6_IN" : {
@@ -4617,6 +4669,7 @@ const translations = {
   "ISCED7" : {
     "Reference English" : "Masters degree",
     "Asante Twi" : "Masters abodin krataa",
+    "Amharic" : "የማስተርስ ዲግሪ (2ኛ ደረጃ ዲግሪ)",
     "Ewe" : "Masta ɖaseɖigbalẽ",
     "Gonja" : "Kejigiwol kpra",
     "Spanish" : "Maestría",
@@ -4673,7 +4726,7 @@ const translations = {
     "Reference English" : "Masters degree",
     "Tigrinya" : "Masters degree",
     "Somali" : "Masters degree",
-    "Amharic" : "Masters degree"
+    "Amharic" : "የማስተርስ ዲግሪ (2ኛ ደረጃ ዲግሪ)"
   },
   "ISCED7_GH" : {
     "Asante Twi" : "Masters abodin krataa",
@@ -4812,6 +4865,7 @@ const translations = {
   "ISCED8" : {
     "Reference English" : "Doctoral degree",
     "Asante Twi" : "Dɔketa abodin krataa",
+    "Amharic" : "የዶክትሬት ዲግሪ",
     "Ewe" : "Đɔkita ɖaseɖigbalẽ",
     "Gonja" : "Kejigiwol kpra kumu",
     "Spanish" : "Doctorado",
@@ -4868,7 +4922,7 @@ const translations = {
     "Reference English" : "Doctoral degree",
     "Tigrinya" : "Doctoral degree",
     "Somali" : "Doctoral degree",
-    "Amharic" : "Doctoral degree"
+    "Amharic" : "የዶክትሬት ዲግሪ"
   },
   "ISCED8_GH" : {
     "Asante Twi" : "Dɔketa abodin krataa",
@@ -5010,6 +5064,7 @@ const translations = {
     "Acholi" : "Petye Kakare",
     "Akaramojong" : "Emam ngiyokino",
     "Alur" : "Atira ngo",
+    "Amharic" : "ትክክል አይደለም",
     "Ateso" : "Mam edolit",
     "Bangla" : "সঠিক নয়",
     "Cebuano" : "Mali",
@@ -5032,6 +5087,7 @@ const translations = {
     "Ganda" : "Si kituufu",
     "Lugbara" : "Ada ku",
     "Lugishu" : "Si shili shitufu ta",
+    "Oromo" : "Sirrii miti",
     "Portuguese" : "Incorreto",
     "Runyakitara" : "Tikihikire",
     "Swahili" : "Kosa",
@@ -5079,11 +5135,11 @@ const translations = {
     "Reference English" : "Incorrect"
   },
   "incorrect_ET" : {
-    "Oromo" : "Incorrect",
+    "Oromo" : "Sirrii miti",
     "Reference English" : "Incorrect",
     "Tigrinya" : "Incorrect",
     "Somali" : "Incorrect",
-    "Amharic" : "Incorrect"
+    "Amharic" : "ትክክል አይደለም"
   },
   "incorrect_GH" : {
     "Asante Twi" : "Ɛnyɛ saa",
@@ -5225,6 +5281,7 @@ const translations = {
     "Acholi" : "Kakare",
     "Akaramojong" : "iyookino",
     "Alur" : "Atira",
+    "Amharic" : "ትክክል",
     "Ateso" : "Edolit",
     "Bangla" : "সঠিক",
     "Cebuano" : "Tama",
@@ -5298,7 +5355,7 @@ const translations = {
     "Reference English" : "Correct",
     "Tigrinya" : "Correct",
     "Somali" : "Correct",
-    "Amharic" : "Correct"
+    "Amharic" : "ትክክል"
   },
   "correct_GH" : {
     "Asante Twi" : "Ɛyɛ nokorɛ",
@@ -5440,6 +5497,7 @@ const translations = {
     "Acholi" : "Pe  angeyo",
     "Akaramojong" : "Emam ngayeni ayong",
     "Alur" : "Angeyo ngo",
+    "Amharic" : "አላውቅም",
     "Ateso" : "Mam eong ajeni",
     "Bangla" : "আমি জানি না",
     "Cebuano" : "Wala ko kabalo",
@@ -5519,7 +5577,7 @@ const translations = {
     "Reference English" : "I don't know",
     "Tigrinya" : "I don't know",
     "Somali" : "I don't know",
-    "Amharic" : "I don't know"
+    "Amharic" : "አላውቅም"
   },
   "unknown_GH" : {
     "Asante Twi" : "Mennim",
@@ -5661,6 +5719,7 @@ const translations = {
     "Acholi" : "Okwero miyo lagam",
     "Akaramojong" : "Tonger abongokin",
     "Alur" : "Ekweru kani gamu",
+    "Amharic" : "መልስ ለመስጠት ፈቃደኛ አይደለም",
     "Ateso" : "Kobu kogir abongokin",
     "Bangla" : "উত্তর দিতে অস্বীকার করেছে",
     "Cebuano" : "Nibalibad nga motubag",
@@ -5740,7 +5799,7 @@ const translations = {
     "Reference English" : "Refused to answer",
     "Tigrinya" : "Refused to answer",
     "Somali" : "Refused to answer",
-    "Amharic" : "Refused to answer"
+    "Amharic" : "መልስ ለመስጠት ፈቃደኛ አይደለም"
   },
   "refused_GH" : {
     "Asante Twi" : "Wammua",
@@ -5882,6 +5941,7 @@ const translations = {
     "Acholi" : "Matwal pe twere",
     "Akaramojong" : "Mam jik",
     "Alur" : "Tak",
+    "Amharic" : "በጭራሽ",
     "Ateso" : "Mam cut",
     "Bangla" : "কখনই নয়",
     "Cebuano" : "Dili gyud",
@@ -5960,7 +6020,7 @@ const translations = {
     "Reference English" : "Never",
     "Tigrinya" : "Never",
     "Somali" : "Never",
-    "Amharic" : "Never"
+    "Amharic" : "በጭራሽ"
   },
   "never_GH" : {
     "Asante Twi" : "Daabi da",
@@ -6102,6 +6162,7 @@ const translations = {
     "Acholi" : "I kare mukene",
     "Akaramojong" : "Ngacepakio",
     "Alur" : "Sawa moko",
+    "Amharic" : "አንዳንድ ጊዜ",
     "Ateso" : "Icie isaawan",
     "Bangla" : "মাঝে মাঝে",
     "Cebuano" : "Usahay",
@@ -6127,6 +6188,7 @@ const translations = {
     "Lugbara" : "Sawa azi 'diyi si",
     "Lugishu" : "Imbuka ikyindi",
     "Nyanja" : "Nthawi zina",
+    "Oromo" : "Yeroo tokko tokko",
     "Portuguese" : "Às vezes",
     "Runyakitara" : "Obumwe n'obumwe",
     "Sinhala" : "සමහරවිට",
@@ -6176,11 +6238,11 @@ const translations = {
     "Reference English" : "Sometimes"
   },
   "sometimes_ET" : {
-    "Oromo" : "Sometimes",
+    "Oromo" : "Yeroo tokko tokko",
     "Reference English" : "Sometimes",
     "Tigrinya" : "Sometimes",
     "Somali" : "Sometimes",
-    "Amharic" : "Sometimes"
+    "Amharic" : "አንዳንድ ጊዜ"
   },
   "sometimes_GH" : {
     "Asante Twi" : "Ɛtɔ berɛ bi a",
@@ -6322,6 +6384,7 @@ const translations = {
     "Acholi" : "Kare ducu",
     "Akaramojong" : "Jwijwi",
     "Alur" : "Kubang kare",
+    "Amharic" : "ሁልጊዜ",
     "Ateso" : "Duc",
     "Bangla" : "সবসময়",
     "Cebuano" : "Kanunay",
@@ -6347,6 +6410,7 @@ const translations = {
     "Lugbara" : "Sawa driasi",
     "Lugishu" : "Buli imbuka",
     "Nyanja" : "Nthawi zonse",
+    "Oromo" : "Yeroo hunda",
     "Portuguese" : "Sempre",
     "Runyakitara" : "Buriijo",
     "Sinhala" : "සෑමවිටම",
@@ -6396,11 +6460,11 @@ const translations = {
     "Reference English" : "Always"
   },
   "always_ET" : {
-    "Oromo" : "Always",
+    "Oromo" : "Yeroo hunda",
     "Reference English" : "Always",
     "Tigrinya" : "Always",
     "Somali" : "Always",
-    "Amharic" : "Always"
+    "Amharic" : "ሁልጊዜ"
   },
   "always_GH" : {
     "Asante Twi" : "Bere biara",
@@ -6538,8 +6602,11 @@ const translations = {
   },
   "never_true" : {
     "Reference English" : "Never true",
+    "Amharic" : "ፈጽሞ እውነት አይደለም",
     "Spanish" : "Nunca sí",
     "Reference French" : "Ce n'est jamais vrai",
+    "Indonesian" : "Tidak pernah",
+    "Nyanja" : "kukalibe  kunkhalapo zoona",
     "Sinhala" : "කවදාවත් ඇත්ත නොවේ",
     "Swahili" : "Kamwe si kweli",
     "Tamil" : "ஒருபோதும் உண்மை இல்லை",
@@ -6591,7 +6658,7 @@ const translations = {
     "Reference English" : "Never true",
     "Tigrinya" : "Never true",
     "Somali" : "Never true",
-    "Amharic" : "Never true"
+    "Amharic" : "ፈጽሞ እውነት አይደለም"
   },
   "never_true_GH" : {
     "Asante Twi" : "Never true",
@@ -6621,7 +6688,7 @@ const translations = {
     "Reference English" : "Never true"
   },
   "never_true_ID" : {
-    "Indonesian" : "Never true",
+    "Indonesian" : "Tidak pernah",
     "Reference English" : "Never true"
   },
   "never_true_IN" : {
@@ -6723,14 +6790,17 @@ const translations = {
     "Pokot" : "Never true"
   },
   "never_true_ZM" : {
-    "Nyanja" : "Never true",
+    "Nyanja" : "kukalibe  kunkhalapo zoona",
     "Reference English" : "Never true",
     "Bemba" : "Never true"
   },
   "rarely_true" : {
     "Reference English" : "Rarely true",
+    "Amharic" : "ብዙውን ጊዜ እውነት አይደለም",
     "Spanish" : "En ocasiones si",
     "Reference French" : "Rarement vrai",
+    "Indonesian" : "Jarang",
+    "Nyanja" : "Zoona patali patali",
     "Sinhala" : "කලාතුරකින් සත්‍යවේ",
     "Swahili" : "Ni kweli mara chache",
     "Tamil" : "அரிதாக உண்மை",
@@ -6782,7 +6852,7 @@ const translations = {
     "Reference English" : "Rarely true",
     "Tigrinya" : "Rarely true",
     "Somali" : "Rarely true",
-    "Amharic" : "Rarely true"
+    "Amharic" : "ብዙውን ጊዜ እውነት አይደለም"
   },
   "rarely_true_GH" : {
     "Asante Twi" : "Rarely true",
@@ -6812,7 +6882,7 @@ const translations = {
     "Reference English" : "Rarely true"
   },
   "rarely_true_ID" : {
-    "Indonesian" : "Rarely true",
+    "Indonesian" : "Jarang",
     "Reference English" : "Rarely true"
   },
   "rarely_true_IN" : {
@@ -6914,14 +6984,17 @@ const translations = {
     "Pokot" : "Rarely true"
   },
   "rarely_true_ZM" : {
-    "Nyanja" : "Rarely true",
+    "Nyanja" : "Zoona patali patali",
     "Reference English" : "Rarely true",
     "Bemba" : "Rarely true"
   },
   "sometimes_true" : {
     "Reference English" : "Sometimes true",
+    "Amharic" : "አንዳንድ ጊዜ እውነት ነው",
     "Spanish" : "A veces sí",
     "Reference French" : "Parfois vrai",
+    "Indonesian" : "Kadang-kadang",
+    "Nyanja" : "Nthawi zina nizoona",
     "Sinhala" : "සමහරවිට සත්‍යවේ",
     "Swahili" : "Wakati mwingine kweli",
     "Tamil" : "சில நேரங்களில் உண்மை",
@@ -6973,7 +7046,7 @@ const translations = {
     "Reference English" : "Sometimes true",
     "Tigrinya" : "Sometimes true",
     "Somali" : "Sometimes true",
-    "Amharic" : "Sometimes true"
+    "Amharic" : "አንዳንድ ጊዜ እውነት ነው"
   },
   "sometimes_true_GH" : {
     "Asante Twi" : "Sometimes true",
@@ -7003,7 +7076,7 @@ const translations = {
     "Reference English" : "Sometimes true"
   },
   "sometimes_true_ID" : {
-    "Indonesian" : "Sometimes true",
+    "Indonesian" : "Kadang-kadang",
     "Reference English" : "Sometimes true"
   },
   "sometimes_true_IN" : {
@@ -7105,14 +7178,17 @@ const translations = {
     "Pokot" : "Sometimes true"
   },
   "sometimes_true_ZM" : {
-    "Nyanja" : "Sometimes true",
+    "Nyanja" : "Nthawi zina nizoona",
     "Reference English" : "Sometimes true",
     "Bemba" : "Sometimes true"
   },
   "most_of_the_time_true" : {
     "Reference English" : "Most of the time true",
+    "Amharic" : "አብዛኛውን ጊዜ እውነት ነው",
     "Spanish" : "La mayoría de las veces sí",
     "Reference French" : "C'est vrai la plupart du temps",
+    "Indonesian" : "Sebagian besar waktu",
+    "Nyanja" : "Nthawi zambiri zoona",
     "Sinhala" : "බොහෝ වේලාවට ඇත්ත වේ",
     "Swahili" : "Mara nyingi ni kweli",
     "Tamil" : "சில நேரங்களில் உண்மை",
@@ -7164,7 +7240,7 @@ const translations = {
     "Reference English" : "Most of the time true",
     "Tigrinya" : "Most of the time true",
     "Somali" : "Most of the time true",
-    "Amharic" : "Most of the time true"
+    "Amharic" : "አብዛኛውን ጊዜ እውነት ነው"
   },
   "most_of_the_time_true_GH" : {
     "Asante Twi" : "Most of the time true",
@@ -7194,7 +7270,7 @@ const translations = {
     "Reference English" : "Most of the time true"
   },
   "most_of_the_time_true_ID" : {
-    "Indonesian" : "Most of the time true",
+    "Indonesian" : "Sebagian besar waktu",
     "Reference English" : "Most of the time true"
   },
   "most_of_the_time_true_IN" : {
@@ -7296,14 +7372,16 @@ const translations = {
     "Pokot" : "Most of the time true"
   },
   "most_of_the_time_true_ZM" : {
-    "Nyanja" : "Most of the time true",
+    "Nyanja" : "Nthawi zambiri zoona",
     "Reference English" : "Most of the time true",
     "Bemba" : "Most of the time true"
   },
   "always_true" : {
     "Reference English" : "Always true",
+    "Amharic" : "ሁልጊዜ እውነት ነው",
     "Spanish" : "Siempre sí",
     "Reference French" : "C'est toujours vrai",
+    "Nyanja" : "Nzoona nthawi zonse",
     "Sinhala" : "සැමවිටම  ඇත්ත වේ",
     "Swahili" : "Kweli kila wakati",
     "Tamil" : "எப்போதும் உண்மை",
@@ -7355,7 +7433,7 @@ const translations = {
     "Reference English" : "Always true",
     "Tigrinya" : "Always true",
     "Somali" : "Always true",
-    "Amharic" : "Always true"
+    "Amharic" : "ሁልጊዜ እውነት ነው"
   },
   "always_true_GH" : {
     "Asante Twi" : "Always true",
@@ -7487,7 +7565,7 @@ const translations = {
     "Pokot" : "Always true"
   },
   "always_true_ZM" : {
-    "Nyanja" : "Always true",
+    "Nyanja" : "Nzoona nthawi zonse",
     "Reference English" : "Always true",
     "Bemba" : "Always true"
   },
@@ -7497,6 +7575,7 @@ const translations = {
     "Acholi" : "Tyen acel imwaka acel",
     "Akaramojong" : "Apei alotoma ekaru.",
     "Alur" : "Nindu acel i oru acel",
+    "Amharic" : "በዓመት አንድ ጊዜ",
     "Ateso" : "Irwan atipe ekaru",
     "Bangla" : "বছরে একবার",
     "Cebuano" : "Kausa kada tuig",
@@ -7573,7 +7652,7 @@ const translations = {
     "Reference English" : "Once per year",
     "Tigrinya" : "Once per year",
     "Somali" : "Once per year",
-    "Amharic" : "Once per year"
+    "Amharic" : "በዓመት አንድ ጊዜ"
   },
   "once_per_year_GH" : {
     "Asante Twi" : "Mpɛn baako wɔ afe mu",
@@ -7715,6 +7794,7 @@ const translations = {
     "Acholi" : "Pi  tyen manok  mwaka ki mwaka",
     "Akaramojong" : "Ngarwa nguna ekidioko alotoma ekaru",
     "Alur" : "sawa moko nyanok",
+    "Amharic" : "በዓመት ጥቂት ጊዜ",
     "Ateso" : "Acie apaarasia kokaru",
     "Bangla" : "বছরে কয়েকবার",
     "Cebuano" : "Pipila ka beses kada tuig",
@@ -7740,6 +7820,7 @@ const translations = {
     "Lugbara" : "Paale were eli alu ma alea",
     "Lugishu" : "Kyimilundu mifiti mumwakha",
     "Nyanja" : "Nthawi zochepa pachaka",
+    "Oromo" : "Waggaatti yeroo muraasa",
     "Portuguese" : "Algumas vezes por ano",
     "Runyakitara" : "Emirundi mikye buri mwaka",
     "Swahili" : "Mara chache kwa mwaka",
@@ -7787,11 +7868,11 @@ const translations = {
     "Reference English" : "A few times per year"
   },
   "a_few_times_per_year_ET" : {
-    "Oromo" : "A few times per year",
+    "Oromo" : "Waggaatti yeroo muraasa",
     "Reference English" : "A few times per year",
     "Tigrinya" : "A few times per year",
     "Somali" : "A few times per year",
-    "Amharic" : "A few times per year"
+    "Amharic" : "በዓመት ጥቂት ጊዜ"
   },
   "a_few_times_per_year_GH" : {
     "Asante Twi" : "Mmrɛ kakraa bi wɔ afe mu",
@@ -7933,6 +8014,7 @@ const translations = {
     "Acholi" : "Pi tyen manok  idwe acel acel.",
     "Akaramojong" : "Ngarwa nguna ekidioko alotoma elap",
     "Alur" : "Sawa ma nyanok i dwi acel",
+    "Amharic" : "በወር ጥቂት ጊዜ",
     "Ateso" : "Acie apaarasia kolap",
     "Bangla" : "মাসে কয়েকবার",
     "Cebuano" : "Pipila ka beses kada bulan",
@@ -7958,6 +8040,7 @@ const translations = {
     "Lugbara" : "Paale were mba alu alu vusi.",
     "Lugishu" : "Kyimilundu mifiti mumwesi",
     "Nyanja" : "Nthawi zochepa pamwezi",
+    "Oromo" : "Ji'atti yeroo muraasa",
     "Portuguese" : "Algumas vezes por mês",
     "Runyakitara" : "Emirundi mikye buri kwezi",
     "Swahili" : "Mara chache kwa mwezi",
@@ -8005,11 +8088,11 @@ const translations = {
     "Reference English" : "A few times per month"
   },
   "a_few_times_per_month_ET" : {
-    "Oromo" : "A few times per month",
+    "Oromo" : "Ji'atti yeroo muraasa",
     "Reference English" : "A few times per month",
     "Tigrinya" : "A few times per month",
     "Somali" : "A few times per month",
-    "Amharic" : "A few times per month"
+    "Amharic" : "በወር ጥቂት ጊዜ"
   },
   "a_few_times_per_month_GH" : {
     "Asante Twi" : "Mmrɛ kakra wɔ bosome biara mu",
@@ -8151,6 +8234,7 @@ const translations = {
     "Acholi" : "Tyen acel icabit acel",
     "Akaramojong" : "Apei alotoma esabit",
     "Alur" : "Nindu acel i yenga acel",
+    "Amharic" : "በሳምንት አንድ ጊዜ",
     "Ateso" : "Irwan atipe esabiiti",
     "Bangla" : "সপ্তাহে একবার",
     "Cebuano" : "Kausa sa usa ka semana",
@@ -8227,7 +8311,7 @@ const translations = {
     "Reference English" : "Once a week",
     "Tigrinya" : "Once a week",
     "Somali" : "Once a week",
-    "Amharic" : "Once a week"
+    "Amharic" : "በሳምንት አንድ ጊዜ"
   },
   "once_a_week_GH" : {
     "Asante Twi" : "Mpɛn baako wɔ nnawɔtwe mu",
@@ -8369,6 +8453,7 @@ const translations = {
     "Acholi" : "Makato tyen acel icabit acel acel",
     "Akaramojong" : "Ngarwa nguna edeparit apei alosabit",
     "Alur" : "Ukadhu wang acel ku bang yenga",
+    "Amharic" : "በሳምንት ከአንድ ጊዜ በላይ",
     "Ateso" : "Adepar irwan atipe esabiiti",
     "Bangla" : "সপ্তাহে একাধিকবার",
     "Cebuano" : "Labaw sa usa ka beses kada semana",
@@ -8445,7 +8530,7 @@ const translations = {
     "Reference English" : "More than once per week",
     "Tigrinya" : "More than once per week",
     "Somali" : "More than once per week",
-    "Amharic" : "More than once per week"
+    "Amharic" : "በሳምንት ከአንድ ጊዜ በላይ"
   },
   "more_than_once_per_week_GH" : {
     "Asante Twi" : "Ɛboro mpɛn baako wɔ nnawɔtwe biara mu",
@@ -9331,6 +9416,7 @@ const translations = {
     "Acholi" : "Pe matwal",
     "Akaramojong" : "Emameete jik",
     "Alur" : "Umbe zo",
+    "Amharic" : "በጭራሽ አይደለም",
     "Ateso" : "Mam nepecepe da",
     "Bangla" : "মোটেই নয়",
     "Cebuano" : "Dili gyud",
@@ -9406,7 +9492,7 @@ const translations = {
     "Reference English" : "Not at all",
     "Tigrinya" : "Not at all",
     "Somali" : "Not at all",
-    "Amharic" : "Not at all"
+    "Amharic" : "በጭራሽ አይደለም"
   },
   "not_at_all_GH" : {
     "Asante Twi" : "Ɛnyɛ saa koraa",
@@ -9548,6 +9634,7 @@ const translations = {
     "Acholi" : "Manok",
     "Akaramojong" : "Ngadi",
     "Alur" : "Nyanok",
+    "Amharic" : "ትንሽ",
     "Ateso" : "Moti moti",
     "Bangla" : "একটু",
     "Cebuano" : "Gamay",
@@ -9623,7 +9710,7 @@ const translations = {
     "Reference English" : "A little",
     "Tigrinya" : "A little",
     "Somali" : "A little",
-    "Amharic" : "A little"
+    "Amharic" : "ትንሽ"
   },
   "a_little_GH" : {
     "Asante Twi" : "Kakra",
@@ -9765,6 +9852,7 @@ const translations = {
     "Acholi" : "Lakite mo",
     "Akaramojong" : "ebi ca",
     "Alur" : "Nya moku moku",
+    "Amharic" : "በመጠኑ",
     "Ateso" : "Bala ti kwangin",
     "Bangla" : "কিছুটা",
     "Cebuano" : "Medyo",
@@ -9840,7 +9928,7 @@ const translations = {
     "Reference English" : "Somewhat",
     "Tigrinya" : "Somewhat",
     "Somali" : "Somewhat",
-    "Amharic" : "Somewhat"
+    "Amharic" : "በመጠኑ"
   },
   "somewhat_GH" : {
     "Asante Twi" : "Hɔ-ne-hɔ",
@@ -9982,6 +10070,7 @@ const translations = {
     "Acholi" : "Manok nok",
     "Akaramojong" : "Eyai wadyo",
     "Alur" : "Nya nok moku",
+    "Amharic" : "በትንሹ",
     "Ateso" : "Mere noi",
     "Bangla" : "বেশ খানিকটা",
     "Cebuano" : "Medyo daghan",
@@ -10006,6 +10095,7 @@ const translations = {
     "Lugbara" : "Lu were",
     "Lugishu" : "Lukanile",
     "Nyanja" : "Ochepesetsa",
+    "Oromo" : "Xiqqoo xiqqoo",
     "Portuguese" : "Bastante",
     "Runyakitara" : "Keingi ho",
     "Swahili" : "Kidogo kabisa",
@@ -10053,11 +10143,11 @@ const translations = {
     "Reference English" : "Quite a bit"
   },
   "quite_a_bit_ET" : {
-    "Oromo" : "Quite a bit",
+    "Oromo" : "Xiqqoo xiqqoo",
     "Reference English" : "Quite a bit",
     "Tigrinya" : "Quite a bit",
     "Somali" : "Quite a bit",
-    "Amharic" : "Quite a bit"
+    "Amharic" : "በትንሹ"
   },
   "quite_a_bit_GH" : {
     "Asante Twi" : "Ɛyɛ kakra",
@@ -10199,6 +10289,7 @@ const translations = {
     "Acholi" : "Madwong",
     "Akaramojong" : "Elal nooi",
     "Alur" : "Madit",
+    "Amharic" : "ብዙ",
     "Ateso" : "Noi noi",
     "Bangla" : "অনেক",
     "Cebuano" : "Daghan",
@@ -10223,6 +10314,7 @@ const translations = {
     "Lugbara" : "Amba amba",
     "Lugishu" : "Bikali",
     "Nyanja" : "Ambiri",
+    "Oromo" : "Hedduu",
     "Portuguese" : "Muito",
     "Runyakitara" : "Kiingi/biingi",
     "Swahili" : "Mengi",
@@ -10270,11 +10362,11 @@ const translations = {
     "Reference English" : "A lot"
   },
   "a_lot_ET" : {
-    "Oromo" : "A lot",
+    "Oromo" : "Hedduu",
     "Reference English" : "A lot",
     "Tigrinya" : "A lot",
     "Somali" : "A lot",
-    "Amharic" : "A lot"
+    "Amharic" : "ብዙ"
   },
   "a_lot_GH" : {
     "Asante Twi" : "Bebree",
@@ -10416,6 +10508,7 @@ const translations = {
     "Acholi" : "Pe oyeng twatwal",
     "Akaramojong" : "Mam nyimwonikina nooi",
     "Alur" : "Uyeng akeca ngo",
+    "Amharic" : "ብዙም አልረካሁም",
     "Ateso" : "Mam emonikina noi",
     "Bangla" : "খুব সন্তুষ্ট নয়",
     "Ewe" : "Medze ŋunye kura o",
@@ -10488,7 +10581,7 @@ const translations = {
     "Reference English" : "Not Very Satisfied",
     "Tigrinya" : "Not Very Satisfied",
     "Somali" : "Not Very Satisfied",
-    "Amharic" : "Not Very Satisfied"
+    "Amharic" : "ብዙም አልረካሁም"
   },
   "not_very_satisfied_GH" : {
     "Asante Twi" : "M'ani nnyee koraa",
@@ -10630,6 +10723,7 @@ const translations = {
     "Acholi" : "Yengo matek",
     "Akaramojong" : "Emwonikina nooi",
     "Alur" : "Uyeng makwe",
+    "Amharic" : "በጣም ረክቻለሁ",
     "Ateso" : "Emonikina noi",
     "Bangla" : "খুব সন্তুষ্ট",
     "Cebuano" : "Natagbaw kaayo",
@@ -10652,6 +10746,7 @@ const translations = {
     "Ganda" : "Mumativu nnyo",
     "Lugbara" : "Ma api ani saaru",
     "Lugishu" : "Nashikakasile",
+    "Nyanja" : "Wokhutitsidwa  kwambiri",
     "Portuguese" : "Muito Satisfeito",
     "Runyakitara" : "Nkishemerereirwemu munonga",
     "Swahili" : "Kuridhika sana",
@@ -10703,7 +10798,7 @@ const translations = {
     "Reference English" : "Very Satisfied",
     "Tigrinya" : "Very Satisfied",
     "Somali" : "Very Satisfied",
-    "Amharic" : "Very Satisfied"
+    "Amharic" : "በጣም ረክቻለሁ"
   },
   "very_satisfied_GH" : {
     "Asante Twi" : "M'ani agye pa ara",
@@ -10835,7 +10930,7 @@ const translations = {
     "Pokot" : "kipköchanïn läsiny"
   },
   "very_satisfied_ZM" : {
-    "Nyanja" : "Very Satisfied",
+    "Nyanja" : "Wokhutitsidwa  kwambiri",
     "Reference English" : "Very Satisfied",
     "Bemba" : "Very Satisfied"
   },
@@ -11285,7 +11380,7 @@ const translations = {
     "Reference French" : "Autres éléments non répertoriés ici (veuillez préciser)",
     "Hiligaynon" : "Ang Iban pa nga wala nalista diri (palihog espicify)",
     "Haitian Creole" : "Lòt metye yo pa mansyone isit la (presize yo)",
-    "Indonesian" : "Lainnya tidak tercantum di sini (sebutkan)",
+    "Indonesian" : "Lainnya yang tidak tercantum di sini (Sebutkan)",
     "Karen" : "မူဒၤတၢ်ဖံးတၢ်မၤအဂုၤအဂၤ(ဃ့ဝံသးစူၤပာ်ဖျါတီၢ်အီၤတက့ၢ်)",
     "Kabiye" : "Lɛɛtʊ ndʊ         dɩtɩyɔɔdɩ tɩ-tɔm yɔ, ɛɖʊ-tʊ cɩnɛ.",
     "Khmer" : "ផ្សេងៗទៀត ដែលមិនមានដាក់នៅទីនេះ (សូមបញ្ជាក់)",
@@ -11383,7 +11478,7 @@ const translations = {
     "Reference English" : "Other not listed here (please specify)"
   },
   "other_not_listed_here_please_specify_ID" : {
-    "Indonesian" : "Lainnya tidak tercantum di sini (sebutkan)",
+    "Indonesian" : "Lainnya yang tidak tercantum di sini (Sebutkan)",
     "Reference English" : "Other not listed here (please specify)"
   },
   "other_not_listed_here_please_specify_IN" : {
@@ -11491,8 +11586,11 @@ const translations = {
   },
   "christian" : {
     "Reference English" : "Christian (Baptist, Assemblies of God, Pentecostal, Presbyterian, Anglican, Catholic, etc.)",
+    "Amharic" : "ክርስቲያን (መጥምቃውያን፣ ጉባኤ እግዚአብሔር፣ ጴንጤቆስጤ፣ ፕሪስቢቴሪያን፣ አንግሊካን፣ ካቶሊክ፣ ወዘተ.)",
     "Spanish" : "Cristiano (Bautista, Asambleas de Dios, Pentecostal, Presbiteriano, Anglicano, Católico, etc.)",
     "Reference French" : "Chrétien (baptiste, Assemblées de Dieu, pentecôtiste, presbytérien, anglican, catholique, etc.)",
+    "Indonesian" : "Kristen (Baptis, Sidang Jemaat Allah, Pantekosta, Presbiterian, Anglican, Katolik, etc)",
+    "Nyanja" : "Mkhristu (Baptist, Assemblies of God, Apente, Presbyterian, Anglican, katolika, etc.)",
     "Swahili" : "Mkristo (Mbatisti, Assemblies of God, Pentekosti, Pentecostal, Presbyterian, kianglikani, Katoliki, nk)"
   },
   "christian_BD" : {
@@ -11541,7 +11639,7 @@ const translations = {
     "Reference English" : "Christian (Baptist, Assemblies of God, Pentecostal, Presbyterian, Anglican, Catholic, etc.)",
     "Tigrinya" : "Christian (Baptist, Assemblies of God, Pentecostal, Presbyterian, Anglican, Catholic, etc.)",
     "Somali" : "Christian (Baptist, Assemblies of God, Pentecostal, Presbyterian, Anglican, Catholic, etc.)",
-    "Amharic" : "Christian (Baptist, Assemblies of God, Pentecostal, Presbyterian, Anglican, Catholic, etc.)"
+    "Amharic" : "ክርስቲያን (መጥምቃውያን፣ ጉባኤ እግዚአብሔር፣ ጴንጤቆስጤ፣ ፕሪስቢቴሪያን፣ አንግሊካን፣ ካቶሊክ፣ ወዘተ.)"
   },
   "christian_GH" : {
     "Asante Twi" : "Christian (Baptist, Assemblies of God, Pentecostal, Presbyterian, Anglican, Catholic, etc.)",
@@ -11571,7 +11669,7 @@ const translations = {
     "Reference English" : "Christian (Baptist, Assemblies of God, Pentecostal, Presbyterian, Anglican, Catholic, etc.)"
   },
   "christian_ID" : {
-    "Indonesian" : "Christian (Baptist, Assemblies of God, Pentecostal, Presbyterian, Anglican, Catholic, etc.)",
+    "Indonesian" : "Kristen (Baptis, Sidang Jemaat Allah, Pantekosta, Presbiterian, Anglican, Katolik, etc)",
     "Reference English" : "Christian (Baptist, Assemblies of God, Pentecostal, Presbyterian, Anglican, Catholic, etc.)"
   },
   "christian_IN" : {
@@ -11673,14 +11771,17 @@ const translations = {
     "Pokot" : "Christian (Baptist, Assemblies of God, Pentecostal, Presbyterian, Anglican, Catholic, etc.)"
   },
   "christian_ZM" : {
-    "Nyanja" : "Christian (Baptist, Assemblies of God, Pentecostal, Presbyterian, Anglican, Catholic, etc.)",
+    "Nyanja" : "Mkhristu (Baptist, Assemblies of God, Apente, Presbyterian, Anglican, katolika, etc.)",
     "Reference English" : "Christian (Baptist, Assemblies of God, Pentecostal, Presbyterian, Anglican, Catholic, etc.)",
     "Bemba" : "Christian (Baptist, Assemblies of God, Pentecostal, Presbyterian, Anglican, Catholic, etc.)"
   },
   "muslim" : {
     "Reference English" : "Muslim (Sunni, Shia, Sufi, etc.)",
+    "Amharic" : "ሙስሊም (ሱኒ፣ ሺያ፣ ሱፊ፣  ወዘተ.)",
     "Spanish" : "Musulmanes (sunitas, chiítas, sufíes, etc.)",
     "Reference French" : "Musulman (sunnite, chiite, soufi, etc.)",
+    "Indonesian" : "Islam (Sunni, Shia, Sufi, etc.)",
+    "Nyanja" : "Asilamu ((Sunni, Shia, Sufi, etc.)",
     "Swahili" : "Mwislamu (Sunni, Shia, Sufi, nk)"
   },
   "muslim_BD" : {
@@ -11729,7 +11830,7 @@ const translations = {
     "Reference English" : "Muslim (Sunni, Shia, Sufi, etc.)",
     "Tigrinya" : "Muslim (Sunni, Shia, Sufi, etc.)",
     "Somali" : "Muslim (Sunni, Shia, Sufi, etc.)",
-    "Amharic" : "Muslim (Sunni, Shia, Sufi, etc.)"
+    "Amharic" : "ሙስሊም (ሱኒ፣ ሺያ፣ ሱፊ፣  ወዘተ.)"
   },
   "muslim_GH" : {
     "Asante Twi" : "Muslim (Sunni, Shia, Sufi, etc.)",
@@ -11759,7 +11860,7 @@ const translations = {
     "Reference English" : "Muslim (Sunni, Shia, Sufi, etc.)"
   },
   "muslim_ID" : {
-    "Indonesian" : "Muslim (Sunni, Shia, Sufi, etc.)",
+    "Indonesian" : "Islam (Sunni, Shia, Sufi, etc.)",
     "Reference English" : "Muslim (Sunni, Shia, Sufi, etc.)"
   },
   "muslim_IN" : {
@@ -11861,14 +11962,17 @@ const translations = {
     "Pokot" : "Muslim (Sunni, Shia, Sufi, etc.)"
   },
   "muslim_ZM" : {
-    "Nyanja" : "Muslim (Sunni, Shia, Sufi, etc.)",
+    "Nyanja" : "Asilamu ((Sunni, Shia, Sufi, etc.)",
     "Reference English" : "Muslim (Sunni, Shia, Sufi, etc.)",
     "Bemba" : "Muslim (Sunni, Shia, Sufi, etc.)"
   },
   "buddhist" : {
     "Reference English" : "Buddhist (Mahayana, Theravada, Vajrayana, etc.)",
+    "Amharic" : "ቡድሂስት (ማሃያና፣ ቴራቫዳ፣ ቫጅራያና፣ ወዘተ.)",
     "Spanish" : "Budismo (Mahayana, Theravada, Vajrayana, etc.)",
     "Reference French" : "Bouddhiste (Mahayana, Theravada, Vajrayana, etc.)",
+    "Indonesian" : "Budha (Mahayana, Theravada, Vajrayana, etc.)",
+    "Nyanja" : "aBuddhist (Mahayana, Theravada, Vajrayana, ndi zina zotele.)",
     "Swahili" : "Buddhist (Mahayana, Theravada, Vajrayana, etc.)"
   },
   "buddhist_BD" : {
@@ -11917,7 +12021,7 @@ const translations = {
     "Reference English" : "Buddhist (Mahayana, Theravada, Vajrayana, etc.)",
     "Tigrinya" : "Buddhist (Mahayana, Theravada, Vajrayana, etc.)",
     "Somali" : "Buddhist (Mahayana, Theravada, Vajrayana, etc.)",
-    "Amharic" : "Buddhist (Mahayana, Theravada, Vajrayana, etc.)"
+    "Amharic" : "ቡድሂስት (ማሃያና፣ ቴራቫዳ፣ ቫጅራያና፣ ወዘተ.)"
   },
   "buddhist_GH" : {
     "Asante Twi" : "Buddhist (Mahayana, Theravada, Vajrayana, etc.)",
@@ -11947,7 +12051,7 @@ const translations = {
     "Reference English" : "Buddhist (Mahayana, Theravada, Vajrayana, etc.)"
   },
   "buddhist_ID" : {
-    "Indonesian" : "Buddhist (Mahayana, Theravada, Vajrayana, etc.)",
+    "Indonesian" : "Budha (Mahayana, Theravada, Vajrayana, etc.)",
     "Reference English" : "Buddhist (Mahayana, Theravada, Vajrayana, etc.)"
   },
   "buddhist_IN" : {
@@ -12049,14 +12153,17 @@ const translations = {
     "Pokot" : "Buddhist (Mahayana, Theravada, Vajrayana, etc.)"
   },
   "buddhist_ZM" : {
-    "Nyanja" : "Buddhist (Mahayana, Theravada, Vajrayana, etc.)",
+    "Nyanja" : "aBuddhist (Mahayana, Theravada, Vajrayana, ndi zina zotele.)",
     "Reference English" : "Buddhist (Mahayana, Theravada, Vajrayana, etc.)",
     "Bemba" : "Buddhist (Mahayana, Theravada, Vajrayana, etc.)"
   },
   "hindu" : {
     "Reference English" : "Hindu",
+    "Amharic" : "ሂንዱ",
     "Spanish" : "Hindú",
     "Reference French" : "Hindou",
+    "Nyanja" : "Ahindu",
+    "Oromo" : "Hinduu",
     "Swahili" : "Mhindu"
   },
   "hindu_BD" : {
@@ -12101,11 +12208,11 @@ const translations = {
     "Reference English" : "Hindu"
   },
   "hindu_ET" : {
-    "Oromo" : "Hindu",
+    "Oromo" : "Hinduu",
     "Reference English" : "Hindu",
     "Tigrinya" : "Hindu",
     "Somali" : "Hindu",
-    "Amharic" : "Hindu"
+    "Amharic" : "ሂንዱ"
   },
   "hindu_GH" : {
     "Asante Twi" : "Hindu",
@@ -12237,14 +12344,17 @@ const translations = {
     "Pokot" : "Hindu"
   },
   "hindu_ZM" : {
-    "Nyanja" : "Hindu",
+    "Nyanja" : "Ahindu",
     "Reference English" : "Hindu",
     "Bemba" : "Hindu"
   },
   "local" : {
     "Reference English" : "Traditional, local, or indigenous religions",
+    "Amharic" : "ባህላዊ፣ አካባቢያዊ ወይም አገር በቀል ሃይማኖቶች",
     "Spanish" : "Religiones tradicionales, locales o indígenas",
     "Reference French" : "Religions traditionnelles, locales ou autochtones",
+    "Indonesian" : "Tradisional, lokal, atau agama suku",
+    "Nyanja" : "Zipembedzo zamakolo, zakumalo, kapena zakwawo",
     "Swahili" : "Dini za kimapokeo, za kienyeji au za kiasili"
   },
   "local_BD" : {
@@ -12293,7 +12403,7 @@ const translations = {
     "Reference English" : "Traditional, local, or indigenous religions",
     "Tigrinya" : "Traditional, local, or indigenous religions",
     "Somali" : "Traditional, local, or indigenous religions",
-    "Amharic" : "Traditional, local, or indigenous religions"
+    "Amharic" : "ባህላዊ፣ አካባቢያዊ ወይም አገር በቀል ሃይማኖቶች"
   },
   "local_GH" : {
     "Asante Twi" : "Traditional, local, or indigenous religions",
@@ -12323,7 +12433,7 @@ const translations = {
     "Reference English" : "Traditional, local, or indigenous religions"
   },
   "local_ID" : {
-    "Indonesian" : "Traditional, local, or indigenous religions",
+    "Indonesian" : "Tradisional, lokal, atau agama suku",
     "Reference English" : "Traditional, local, or indigenous religions"
   },
   "local_IN" : {
@@ -12425,14 +12535,17 @@ const translations = {
     "Pokot" : "Traditional, local, or indigenous religions"
   },
   "local_ZM" : {
-    "Nyanja" : "Traditional, local, or indigenous religions",
+    "Nyanja" : "Zipembedzo zamakolo, zakumalo, kapena zakwawo",
     "Reference English" : "Traditional, local, or indigenous religions",
     "Bemba" : "Traditional, local, or indigenous religions"
   },
   "none" : {
     "Reference English" : "No religion (atheist, no particular religion)",
+    "Amharic" : "ሃይማኖት የሌለው (አምላክ የለም ባይ፣ ሃይማኖት የሌለው)",
     "Spanish" : "Sin religión (ateo, sin una religión en particular)",
     "Reference French" : "Aucune religion (athée, aucune religion particulière)",
+    "Indonesian" : "Tidak Beragama (Atheis, tidak tergabung dalam agama tertentu)",
+    "Nyanja" : "Palibe chipembedzo (okana Mulungu, alibe chipembedzo china)",
     "Swahili" : "Hakuna dini (atheist, hakuna dini fulani)"
   },
   "none_BD" : {
@@ -12481,7 +12594,7 @@ const translations = {
     "Reference English" : "No religion (atheist, no particular religion)",
     "Tigrinya" : "No religion (atheist, no particular religion)",
     "Somali" : "No religion (atheist, no particular religion)",
-    "Amharic" : "No religion (atheist, no particular religion)"
+    "Amharic" : "ሃይማኖት የሌለው (አምላክ የለም ባይ፣ ሃይማኖት የሌለው)"
   },
   "none_GH" : {
     "Asante Twi" : "No religion (atheist, no particular religion)",
@@ -12511,7 +12624,7 @@ const translations = {
     "Reference English" : "No religion (atheist, no particular religion)"
   },
   "none_ID" : {
-    "Indonesian" : "No religion (atheist, no particular religion)",
+    "Indonesian" : "Tidak Beragama (Atheis, tidak tergabung dalam agama tertentu)",
     "Reference English" : "No religion (atheist, no particular religion)"
   },
   "none_IN" : {
@@ -12613,7 +12726,7 @@ const translations = {
     "Pokot" : "No religion (atheist, no particular religion)"
   },
   "none_ZM" : {
-    "Nyanja" : "No religion (atheist, no particular religion)",
+    "Nyanja" : "Palibe chipembedzo (okana Mulungu, alibe chipembedzo china)",
     "Reference English" : "No religion (atheist, no particular religion)",
     "Bemba" : "No religion (atheist, no particular religion)"
   },
@@ -12623,6 +12736,7 @@ const translations = {
     "Acholi" : "Pe oo tyen acel i cabit acel acel",
     "Akaramojong" : "ekidioko adepar apei alotoma esabit",
     "Alur" : "Nok masagu wang acel ku bang yenga",
+    "Amharic" : "በሳምንት ከአንድ ጊዜ በታች",
     "Ateso" : "Mam edoli irwan atipe kangin isabiiti",
     "Bangla" : "সপ্তাহে ১ বারের কম",
     "Cebuano" : "Ubos sa usa ka beses kada semana",
@@ -12696,7 +12810,7 @@ const translations = {
     "Reference English" : "Less than one time per week",
     "Tigrinya" : "Less than one time per week",
     "Somali" : "Less than one time per week",
-    "Amharic" : "Less than one time per week"
+    "Amharic" : "በሳምንት ከአንድ ጊዜ በታች"
   },
   "less_than_one_time_per_week_GH" : {
     "Asante Twi" : "Ɛnsi baako wɔ nnawɔtwe mu",
@@ -12838,6 +12952,7 @@ const translations = {
     "Acholi" : "Tyien 1 i  cabit acel",
     "Akaramojong" : "ngarwa Apei (1) -Ngaarei alotoma esabit",
     "Alur" : "wang 1 ku bang yenga",
+    "Amharic" : "በሳምንት አንድ ጊዜ",
     "Ateso" : "Irwan atipe esabiiti",
     "Bangla" : "সপ্তাহে ১ বার",
     "Cebuano" : "1 ka beses kada semana",
@@ -12860,6 +12975,7 @@ const translations = {
     "Ganda" : "Omulundi gumu buli wiki",
     "Lugbara" : "Paale 1 sabitii vusi",
     "Lugishu" : "1 mu sabiti",
+    "Oromo" : "Torbanitti yeroo 1",
     "Portuguese" : "1 vez por semana",
     "Runyakitara" : "Omurundi gumwe buri wiiki",
     "Swahili" : "Mara 1 kwa wiki",
@@ -12907,11 +13023,11 @@ const translations = {
     "Reference English" : "1 time per week"
   },
   "1_time_per_week_ET" : {
-    "Oromo" : "1 time per week",
+    "Oromo" : "Torbanitti yeroo 1",
     "Reference English" : "1 time per week",
     "Tigrinya" : "1 time per week",
     "Somali" : "1 time per week",
-    "Amharic" : "1 time per week"
+    "Amharic" : "በሳምንት አንድ ጊዜ"
   },
   "1_time_per_week_GH" : {
     "Asante Twi" : "Baako wɔ nnawɔtwe biara mu",
@@ -13053,6 +13169,7 @@ const translations = {
     "Acholi" : "Pi cawa manok  icabit acel acel",
     "Akaramojong" : "ngarwa ngadi alosabit",
     "Alur" : "Wang manok ku bang yenga",
+    "Amharic" : "በሳምንት ጥቂት ጊዜ",
     "Ateso" : "Acie apaarasia kangin isabiiti",
     "Bangla" : "সপ্তাহে অল্প কয়েকবার",
     "Cebuano" : "Pipila ka beses kada semana",
@@ -13076,6 +13193,7 @@ const translations = {
     "Lugbara" : "Paale were sabiti vusi.",
     "Lugishu" : "Kyimilundu mifiti mu sabiti",
     "Nyanja" : "kangapo pa sabata",
+    "Oromo" : "Torbanitti yeroo muraasa",
     "Portuguese" : "Algumas vezes por semana",
     "Runyakitara" : "Emirundi mikye omu sabiiti",
     "Swahili" : "Mara chache kwa wiki",
@@ -13123,11 +13241,11 @@ const translations = {
     "Reference English" : "A few times per week"
   },
   "a_few_times_per_week_ET" : {
-    "Oromo" : "A few times per week",
+    "Oromo" : "Torbanitti yeroo muraasa",
     "Reference English" : "A few times per week",
     "Tigrinya" : "A few times per week",
     "Somali" : "A few times per week",
-    "Amharic" : "A few times per week"
+    "Amharic" : "በሳምንት ጥቂት ጊዜ"
   },
   "a_few_times_per_week_GH" : {
     "Asante Twi" : "Kakraa bi nnawɔtwe mu",
@@ -13269,6 +13387,7 @@ const translations = {
     "Acholi" : "Tyien 1 i nino acel acel",
     "Akaramojong" : "ngarwa Apei (1)  alotoma akolongit.",
     "Alur" : "Wang acel ku bang ceng",
+    "Amharic" : "በቀን አንድ ጊዜ",
     "Ateso" : "Irwan atipe apaaran",
     "Bangla" : "প্রতিদিন এক বার",
     "Cebuano" : "kas-a kada adlaw",
@@ -13291,6 +13410,7 @@ const translations = {
     "Ganda" : "Omulundi gumu buli lunaku",
     "Lugbara" : "Paale alu o'du vusi",
     "Lugishu" : "Lutwela mu lunakhu",
+    "Oromo" : "Guyyaatti yeroo tokko",
     "Portuguese" : "Uma vez por dia",
     "Runyakitara" : "Omurundi gumwe bur'izooba",
     "Swahili" : "Mara moja kwa siku",
@@ -13338,11 +13458,11 @@ const translations = {
     "Reference English" : "One time per day"
   },
   "one_time_per_day_ET" : {
-    "Oromo" : "One time per day",
+    "Oromo" : "Guyyaatti yeroo tokko",
     "Reference English" : "One time per day",
     "Tigrinya" : "One time per day",
     "Somali" : "One time per day",
-    "Amharic" : "One time per day"
+    "Amharic" : "በቀን አንድ ጊዜ"
   },
   "one_time_per_day_GH" : {
     "Asante Twi" : "Baako wɔ da biara mu",
@@ -13484,6 +13604,7 @@ const translations = {
     "Acholi" : "Kato  tyen acel i nino acel acel",
     "Akaramojong" : "edeparito apei alotoma akolongit",
     "Alur" : "Masagu wang acel ku bang ceng",
+    "Amharic" : "በቀን ከአንድ ጊዜ በላይ",
     "Ateso" : "Adepar irwan atipe kangin ipaaran",
     "Bangla" : "দিনে ১ বারের বেশি",
     "Cebuano" : "Labaw pa sa usa ka beses kada adlaw",
@@ -13557,7 +13678,7 @@ const translations = {
     "Reference English" : "More than one time per day",
     "Tigrinya" : "More than one time per day",
     "Somali" : "More than one time per day",
-    "Amharic" : "More than one time per day"
+    "Amharic" : "በቀን ከአንድ ጊዜ በላይ"
   },
   "more_than_one_time_per_day_GH" : {
     "Asante Twi" : "Ɛboro baako wɔ da biara mu",
@@ -13692,434 +13813,5 @@ const translations = {
     "Nyanja" : "More than one time per day",
     "Reference English" : "More than one time per day",
     "Bemba" : "More than one time per day"
-  },
-  "very_difficult" : {
-    "Reference English" : "Very Difficult",
-    "Asante Twi" : "Ɛyɛ den pa ara",
-    "Acholi" : "Tek twatwal",
-    "Akaramojong" : "Etyono nooi",
-    "Alur" : "Tek makwe",
-    "Ateso" : "Etiono noi.",
-    "Bangla" : "খুব কঠিন",
-    "Cebuano" : "Lisod Kaayo",
-    "Ewe" : "Esesẽ ŋutɔ",
-    "Gonja" : "du kpakpa ga",
-    "Spanish" : "Muy difícil",
-    "Reference Spanish" : "Muy difícil",
-    "Tagalog" : "Napakahirap",
-    "French" : "Très difficile",
-    "Hiligaynon" : "Tama kabudlay",
-    "Haitian Creole" : "Difisil anpil",
-    "Indonesian" : "Sangat Sulit",
-    "Kabiye" : "Pʋwɛ kaɖɛ sɩŋŋ.",
-    "Kinyarwanda" : "Birakomeye cyane",
-    "Kupsabiny" : "Wiy kapsa",
-    "Langi" : "Tek tutwal",
-    "Lukonzo" : "Kyikalire kutsibu",
-    "Pokot" : "Änger nyomän",
-    "Kekchí" : "jwal ch'aaj",
-    "Ganda" : "Kizibu Nnyo",
-    "Lugbara" : "Mba saaru",
-    "Portuguese" : "Muito Difícil",
-    "Runyakitara" : "Kigumire munonga",
-    "Swahili" : "Vigumu sana",
-    "Waray" : "Makuri hin duro"
-  },
-  "very_difficult_BD" : {
-    "Bangla" : "খুব কঠিন",
-    "Reference English" : "Very Difficult"
-  },
-  "very_difficult_BF" : {
-    "Mossi" : "Très difficile",
-    "French" : "Très difficile",
-    "Reference French" : "Very Difficult",
-    "English" : "Very Difficult",
-    "Reference English" : "Very Difficult",
-    "Dyula" : "Très difficile",
-    "Gourmanchéma" : "Très difficile"
-  },
-  "very_difficult_BO" : {
-    "Spanish" : "Muy difícil",
-    "Reference Spanish" : "Muy difícil",
-    "English" : "Muy difícil",
-    "Reference English" : "Very Difficult"
-  },
-  "very_difficult_BR" : {
-    "Portuguese" : "Muito Difícil",
-    "Reference English" : "Very Difficult"
-  },
-  "very_difficult_CO" : {
-    "Spanish" : "Muy difícil",
-    "Reference Spanish" : "Muy difícil",
-    "English" : "Muy difícil",
-    "Reference English" : "Very Difficult"
-  },
-  "very_difficult_DO" : {
-    "Spanish" : "Muy difícil",
-    "Reference Spanish" : "Muy difícil",
-    "English" : "Muy difícil",
-    "Reference English" : "Very Difficult"
-  },
-  "very_difficult_EC" : {
-    "Spanish" : "Muy difícil",
-    "Reference Spanish" : "Muy difícil",
-    "English" : "Muy difícil",
-    "Reference English" : "Very Difficult"
-  },
-  "very_difficult_ET" : {
-    "Oromo" : "Very Difficult",
-    "Reference English" : "Very Difficult",
-    "Tigrinya" : "Very Difficult",
-    "Somali" : "Very Difficult",
-    "Amharic" : "Very Difficult"
-  },
-  "very_difficult_GH" : {
-    "Asante Twi" : "Ɛyɛ den pa ara",
-    "English" : "Very Difficult",
-    "Reference English" : "Very Difficult",
-    "Ewe" : "Esesẽ ŋutɔ",
-    "Gonja" : "du kpakpa ga"
-  },
-  "very_difficult_GT" : {
-    "Spanish" : "Muy difícil",
-    "Reference Spanish" : "Muy difícil",
-    "English" : "Muy difícil",
-    "Reference English" : "Very Difficult",
-    "Kekchí" : "jwal ch'aaj"
-  },
-  "very_difficult_HN" : {
-    "Spanish" : "Muy difícil",
-    "Reference Spanish" : "Muy difícil",
-    "English" : "Muy difícil",
-    "Reference English" : "Very Difficult"
-  },
-  "very_difficult_HT" : {
-    "Haitian Creole" : "Difisil anpil",
-    "French" : "Very Difficult",
-    "Reference French" : "Very Difficult",
-    "English" : "Very Difficult",
-    "Reference English" : "Very Difficult"
-  },
-  "very_difficult_ID" : {
-    "Indonesian" : "Sangat Sulit",
-    "Reference English" : "Very Difficult"
-  },
-  "very_difficult_IN" : {
-    "Hindi" : "Very Difficult",
-    "Reference English" : "Very Difficult"
-  },
-  "very_difficult_KE" : {
-    "Swahili" : "Vigumu kabisa",
-    "English" : "Very Difficult",
-    "Reference English" : "Very Difficult"
-  },
-  "very_difficult_KH" : {
-    "Khmer" : "Very Difficult",
-    "Reference English" : "Very Difficult"
-  },
-  "very_difficult_LK" : {
-    "Tamil" : "Very Difficult",
-    "English" : "Very Difficult",
-    "Reference English" : "Very Difficult",
-    "Sinhala" : "Very Difficult"
-  },
-  "very_difficult_MM" : {
-    "Burmese" : "Very Difficult",
-    "Reference English" : "Very Difficult"
-  },
-  "very_difficult_MW" : {
-    "Nyanja" : "Very Difficult",
-    "Reference English" : "Very Difficult"
-  },
-  "very_difficult_MX" : {
-    "Spanish" : "Muy difícil",
-    "Reference Spanish" : "Muy difícil",
-    "English" : "Muy difícil",
-    "Reference English" : "Very Difficult"
-  },
-  "very_difficult_NI" : {
-    "Spanish" : "Muy Difícil",
-    "Reference Spanish" : "Muy difícil",
-    "English" : "Muy difícil",
-    "Reference English" : "Very Difficult"
-  },
-  "very_difficult_PE" : {
-    "Spanish" : "Muy difícil",
-    "Reference Spanish" : "Muy difícil",
-    "English" : "Muy difícil",
-    "Reference English" : "Very Difficult"
-  },
-  "very_difficult_PH" : {
-    "Waray" : "Makuri hin duro",
-    "English" : "Very Difficult",
-    "Reference English" : "Very Difficult",
-    "Cebuano" : "Lisod Kaayo",
-    "Tagalog" : "Napakahirap",
-    "Hiligaynon" : "Tama kabudlay"
-  },
-  "very_difficult_RW" : {
-    "Kinyarwanda" : "Birakomeye cyane",
-    "Reference English" : "Very Difficult"
-  },
-  "very_difficult_SV" : {
-    "Spanish" : "Muy difícil",
-    "Reference Spanish" : "Muy difícil",
-    "English" : "Muy difícil",
-    "Reference English" : "Very Difficult"
-  },
-  "very_difficult_TG" : {
-    "French" : "Très difficile",
-    "Reference French" : "Very Difficult",
-    "English" : "Very Difficult",
-    "Reference English" : "Very Difficult",
-    "Kabiye" : "Pʋwɛ kaɖɛ sɩŋŋ.",
-    "Ewe" : "Esesẽ ŋutɔ"
-  },
-  "very_difficult_TH" : {
-    "Lahu" : "Very Difficult",
-    "Reference English" : "Very Difficult",
-    "Karen" : "Very Difficult",
-    "Thai" : "Very Difficult"
-  },
-  "very_difficult_TZ" : {
-    "Swahili" : "Vigumu sana",
-    "Reference English" : "Very Difficult"
-  },
-  "very_difficult_UG" : {
-    "Alur" : "Tek makwe",
-    "English" : "Very Difficult",
-    "Reference English" : "Very Difficult",
-    "Ganda" : "Kizibu Nnyo",
-    "Akaramojong" : "Etyono nooi",
-    "Kinyarwanda" : "Birakomeye cyane",
-    "Acholi" : "Tek twatwal",
-    "Lukonzo" : "Kyikalire kutsibu",
-    "Kupsabiny" : "Wiy kapsa",
-    "Lugishu" : "Very Difficult",
-    "Ateso" : "Etiono noi.",
-    "Lugbara" : "Mba saaru",
-    "Runyakitara" : "Kigumire munonga",
-    "Langi" : "Tek tutwal",
-    "Pokot" : "Änger nyomän"
-  },
-  "very_difficult_ZM" : {
-    "Nyanja" : "Very Difficult",
-    "Reference English" : "Very Difficult",
-    "Bemba" : "Very Difficult"
-  },
-  "very_easy" : {
-    "Reference English" : "Very Easy",
-    "Asante Twi" : "Ɛnyɛ den koraa",
-    "Acholi" : "Yot adada",
-    "Akaramojong" : "Epatana nooi",
-    "Alur" : "Yot makwe",
-    "Ateso" : "Epatana noi.",
-    "Bangla" : "খুব সহজ",
-    "Cebuano" : "Sayon kaayo",
-    "Ewe" : "Ele bɔbɔe ŋutɔ",
-    "Gonja" : "Maῃ du kpakpa",
-    "Spanish" : "Muy fácil",
-    "Reference Spanish" : "Muy fácil",
-    "Tagalog" : "Napakadali",
-    "French" : "Très facile",
-    "Hiligaynon" : "mahapos katama",
-    "Haitian Creole" : "Fasil anpil",
-    "Indonesian" : "Sangat Mudah",
-    "Kabiye" : "Kpagbaa kɛlɛʋ yem.",
-    "Kinyarwanda" : "Biroroshye cyane",
-    "Kupsabiny" : "Kuskus koot",
-    "Langi" : "Yot tutwal",
-    "Lukonzo" : "Kyolhobire kutsibu",
-    "Pokot" : "kïskïs",
-    "Kekchí" : "Jwal sa xsumenkil",
-    "Ganda" : "Kyangu Nnyo",
-    "Lugbara" : "Ewani tua yo",
-    "Nyanja" : "Nkophweka kwambiri",
-    "Portuguese" : "Muito Fácil",
-    "Runyakitara" : "kyanguhi munonga",
-    "Swahili" : "Rahisi sana",
-    "Waray" : "Masayon hin duro"
-  },
-  "very_easy_BD" : {
-    "Bangla" : "খুব সহজ",
-    "Reference English" : "Very Easy"
-  },
-  "very_easy_BF" : {
-    "Mossi" : "Très facile",
-    "French" : "Très facile",
-    "Reference French" : "Very Easy",
-    "English" : "Very Easy",
-    "Reference English" : "Very Easy",
-    "Dyula" : "Très facile",
-    "Gourmanchéma" : "Très facile"
-  },
-  "very_easy_BO" : {
-    "Spanish" : "Muy fácil",
-    "Reference Spanish" : "Muy fácil",
-    "English" : "Muy fácil",
-    "Reference English" : "Very Easy"
-  },
-  "very_easy_BR" : {
-    "Portuguese" : "Muito Fácil",
-    "Reference English" : "Very Easy"
-  },
-  "very_easy_CO" : {
-    "Spanish" : "Muy fácil",
-    "Reference Spanish" : "Muy fácil",
-    "English" : "Muy fácil",
-    "Reference English" : "Very Easy"
-  },
-  "very_easy_DO" : {
-    "Spanish" : "Muy fácil",
-    "Reference Spanish" : "Muy fácil",
-    "English" : "Muy fácil",
-    "Reference English" : "Very Easy"
-  },
-  "very_easy_EC" : {
-    "Spanish" : "Muy fácil",
-    "Reference Spanish" : "Muy fácil",
-    "English" : "Muy fácil",
-    "Reference English" : "Very Easy"
-  },
-  "very_easy_ET" : {
-    "Oromo" : "Very Easy",
-    "Reference English" : "Very Easy",
-    "Tigrinya" : "Very Easy",
-    "Somali" : "Very Easy",
-    "Amharic" : "Very Easy"
-  },
-  "very_easy_GH" : {
-    "Asante Twi" : "Ɛnyɛ den koraa",
-    "English" : "Very Easy",
-    "Reference English" : "Very Easy",
-    "Ewe" : "Ele bɔbɔe ŋutɔ",
-    "Gonja" : "Maῃ du kpakpa"
-  },
-  "very_easy_GT" : {
-    "Spanish" : "Muy fácil",
-    "Reference Spanish" : "Muy fácil",
-    "English" : "Muy fácil",
-    "Reference English" : "Very Easy",
-    "Kekchí" : "Jwal sa xsumenkil"
-  },
-  "very_easy_HN" : {
-    "Spanish" : "Muy fácil",
-    "Reference Spanish" : "Muy fácil",
-    "English" : "Muy fácil",
-    "Reference English" : "Very Easy"
-  },
-  "very_easy_HT" : {
-    "Haitian Creole" : "Fasil anpil",
-    "French" : "Very Easy",
-    "Reference French" : "Very Easy",
-    "English" : "Very Easy",
-    "Reference English" : "Very Easy"
-  },
-  "very_easy_ID" : {
-    "Indonesian" : "Sangat Mudah",
-    "Reference English" : "Very Easy"
-  },
-  "very_easy_IN" : {
-    "Hindi" : "Very Easy",
-    "Reference English" : "Very Easy"
-  },
-  "very_easy_KE" : {
-    "Swahili" : "Rahisi sana",
-    "English" : "Very Easy",
-    "Reference English" : "Very Easy"
-  },
-  "very_easy_KH" : {
-    "Khmer" : "Very Easy",
-    "Reference English" : "Very Easy"
-  },
-  "very_easy_LK" : {
-    "Tamil" : "Very Easy",
-    "English" : "Very Easy",
-    "Reference English" : "Very Easy",
-    "Sinhala" : "Very Easy"
-  },
-  "very_easy_MM" : {
-    "Burmese" : "Very Easy",
-    "Reference English" : "Very Easy"
-  },
-  "very_easy_MW" : {
-    "Nyanja" : "Nkophweka kwambiri",
-    "Reference English" : "Very Easy"
-  },
-  "very_easy_MX" : {
-    "Spanish" : "Muy fácil",
-    "Reference Spanish" : "Muy fácil",
-    "English" : "Muy fácil",
-    "Reference English" : "Very Easy"
-  },
-  "very_easy_NI" : {
-    "Spanish" : "Muy Fácil",
-    "Reference Spanish" : "Muy fácil",
-    "English" : "Muy fácil",
-    "Reference English" : "Very Easy"
-  },
-  "very_easy_PE" : {
-    "Spanish" : "Muy fácil",
-    "Reference Spanish" : "Muy fácil",
-    "English" : "Muy fácil",
-    "Reference English" : "Very Easy"
-  },
-  "very_easy_PH" : {
-    "Waray" : "Masayon hin duro",
-    "English" : "Very Easy",
-    "Reference English" : "Very Easy",
-    "Cebuano" : "Sayon kaayo",
-    "Tagalog" : "Napakadali",
-    "Hiligaynon" : "mahapos katama"
-  },
-  "very_easy_RW" : {
-    "Kinyarwanda" : "Biroroshye cyane",
-    "Reference English" : "Very Easy"
-  },
-  "very_easy_SV" : {
-    "Spanish" : "Muy fácil",
-    "Reference Spanish" : "Muy fácil",
-    "English" : "Muy fácil",
-    "Reference English" : "Very Easy"
-  },
-  "very_easy_TG" : {
-    "French" : "Très facile",
-    "Reference French" : "Very Easy",
-    "English" : "Very Easy",
-    "Reference English" : "Very Easy",
-    "Kabiye" : "Kpagbaa kɛlɛʋ yem.",
-    "Ewe" : "Ele bɔbɔe ŋutɔ"
-  },
-  "very_easy_TH" : {
-    "Lahu" : "Very Easy",
-    "Reference English" : "Very Easy",
-    "Karen" : "Very Easy",
-    "Thai" : "Very Easy"
-  },
-  "very_easy_TZ" : {
-    "Swahili" : "Rahisi sana",
-    "Reference English" : "Very Easy"
-  },
-  "very_easy_UG" : {
-    "Alur" : "Yot makwe",
-    "English" : "Very Easy",
-    "Reference English" : "Very Easy",
-    "Ganda" : "Kyangu Nnyo",
-    "Akaramojong" : "Epatana nooi",
-    "Kinyarwanda" : "Biroroshe cyane",
-    "Acholi" : "Yot adada",
-    "Lukonzo" : "Kyolhobire kutsibu",
-    "Kupsabiny" : "Kuskus koot",
-    "Lugishu" : "Very Easy",
-    "Ateso" : "Epatana noi.",
-    "Lugbara" : "Ewani tua yo",
-    "Runyakitara" : "kyanguhi munonga",
-    "Langi" : "Yot tutwal",
-    "Pokot" : "kïskïs"
-  },
-  "very_easy_ZM" : {
-    "Nyanja" : "Very Easy",
-    "Reference English" : "Very Easy",
-    "Bemba" : "Very Easy"
   }
 };

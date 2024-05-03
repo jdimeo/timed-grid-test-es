@@ -1,5 +1,5 @@
 // This file is generated using: translate scto-plugin-translations. DO NOT HAND EDIT
-// Current as of COF version 4.1.9-develop
+// Current as of COF version UNDER-DEVELOPMENT
 const translations = {
   "valid_integer" : {
     "Reference English" : "Invalid: Answer must be a valid integer.",
@@ -187,7 +187,7 @@ const translations = {
     "Haitian Creole" : "Tanpri tape sou dènye atik kew te eseye a",
     "Indonesian" : "Silakan klik item terakhir yang dicoba.",
     "Khmer" : "សូមចុចលើចម្លើយចុងក្រោយដែលអ្នកបានឆ្លើយ។",
-    "Kekchí" : "B'aanu usilal pitz' sa’ li xraqik xyalb'al.",
+    "Kekchí" : "B'aanu usilal pitz' li xraqik xa yal xb'anunkil.",
     "Nyanja" : "Chonde dinani chinthu chomaliza chomwe mwayesera",
     "Portuguese" : "Toque no último item tentado.",
     "Kinyarwanda" : "Kanda icya nyuma cyasubijwe.",
@@ -352,7 +352,6 @@ const translations = {
     "Runyakitara" : "Eego",
     "Swahili" : "Ndio",
     "Waray" : "Oo",
-    "Reference French" : "Oui",
     "Karen" : "မ့ၢ်",
     "Khmer" : "បាទ/ចាស",
     "Sinhala" : "නැත",
@@ -366,8 +365,8 @@ const translations = {
   "yes_BF" : {
     "Mossi" : "Oui",
     "French" : "Oui",
-    "Reference French" : "Oui",
-    "English" : "Oui",
+    "Reference French" : "Yes",
+    "English" : "Yes",
     "Reference English" : "Yes",
     "Dyula" : "Oui",
     "Gourmanchéma" : "Oui"
@@ -430,8 +429,8 @@ const translations = {
   "yes_HT" : {
     "Haitian Creole" : "Wi",
     "French" : "Oui",
-    "Reference French" : "Oui",
-    "English" : "Oui",
+    "Reference French" : "Yes",
+    "English" : "Yes",
     "Reference English" : "Yes"
   },
   "yes_ID" : {
@@ -466,7 +465,7 @@ const translations = {
     "Reference English" : "Yes"
   },
   "yes_MX" : {
-    "Spanish" : "Sí",
+    "Spanish" : "Si",
     "Reference Spanish" : "Sí",
     "English" : "Sí",
     "Reference English" : "Yes"
@@ -503,8 +502,8 @@ const translations = {
   },
   "yes_TG" : {
     "French" : "Oui",
-    "Reference French" : "Oui",
-    "English" : "Oui",
+    "Reference French" : "Yes",
+    "English" : "Yes",
     "Reference English" : "Yes",
     "Kabiye" : "Ɛɛɛ",
     "Ewe" : "Ɛ̃"
@@ -607,7 +606,6 @@ const translations = {
     "Swahili" : "Hapana",
     "Waray" : "Diri/Waray",
     "Oromo" : "Lakki",
-    "Reference French" : "Non",
     "Karen" : "တမ့ၢ်ဘၣ်",
     "Khmer" : "ទេ",
     "Sinhala" : "නැත",
@@ -621,8 +619,8 @@ const translations = {
   "no_BF" : {
     "Mossi" : "Non",
     "French" : "Non",
-    "Reference French" : "Non",
-    "English" : "Non",
+    "Reference French" : "No",
+    "English" : "No",
     "Reference English" : "No",
     "Dyula" : "Non",
     "Gourmanchéma" : "Non"
@@ -685,8 +683,8 @@ const translations = {
   "no_HT" : {
     "Haitian Creole" : "Non",
     "French" : "Non",
-    "Reference French" : "Non",
-    "English" : "Non",
+    "Reference French" : "No",
+    "English" : "No",
     "Reference English" : "No"
   },
   "no_ID" : {
@@ -758,8 +756,8 @@ const translations = {
   },
   "no_TG" : {
     "French" : "Non",
-    "Reference French" : "Non",
-    "English" : "Non",
+    "Reference French" : "No",
+    "English" : "No",
     "Reference English" : "No",
     "Kabiye" : "Aayɩ",
     "Ewe" : "Ao"
@@ -1238,7 +1236,6 @@ const translations = {
     "Spanish" : "Totalmente de acuerdo",
     "Reference Spanish" : "Totalmente de acuerdo",
     "French" : "Tout à fait d'accord",
-    "Reference French" : "Tout à fait d'accord",
     "Hiligaynon" : "Nagasugot gid tudo",
     "Haitian Creole" : "Dakò anpil",
     "Indonesian" : "Sangat setuju",
@@ -1260,8 +1257,8 @@ const translations = {
   "strongly_agree_BF" : {
     "Mossi" : "Tout à fait d'accord",
     "French" : "Tout à fait d'accord",
-    "Reference French" : "Tout à fait d'accord",
-    "English" : "Tout à fait d'accord",
+    "Reference French" : "Strongly agree",
+    "English" : "Strongly agree",
     "Reference English" : "Strongly agree",
     "Dyula" : "Tout à fait d'accord",
     "Gourmanchéma" : "Tout à fait d'accord"
@@ -1324,8 +1321,8 @@ const translations = {
   "strongly_agree_HT" : {
     "Haitian Creole" : "Dakò anpil",
     "French" : "Tout à fait d'accord",
-    "Reference French" : "Tout à fait d'accord",
-    "English" : "Tout à fait d'accord",
+    "Reference French" : "Strongly agree",
+    "English" : "Strongly agree",
     "Reference English" : "Strongly agree"
   },
   "strongly_agree_ID" : {
@@ -1397,8 +1394,8 @@ const translations = {
   },
   "strongly_agree_TG" : {
     "French" : "Tout à fait d'accord",
-    "Reference French" : "Tout à fait d'accord",
-    "English" : "Tout à fait d'accord",
+    "Reference French" : "Strongly agree",
+    "English" : "Strongly agree",
     "Reference English" : "Strongly agree",
     "Kabiye" : "Mantisɩ tɩ-yɔɔ siŋŋ.",
     "Ewe" : "Lɔ̃ ɖe edzi blibo"
@@ -1447,7 +1444,6 @@ const translations = {
     "Reference Spanish" : "De acuerdo",
     "Tagalog" : "Sumasang-ayon",
     "French" : "D'accord",
-    "Reference French" : "Plutôt d'accord",
     "Hiligaynon" : "Nagapasugot",
     "Haitian Creole" : "Dakò",
     "Indonesian" : "Setuju",
@@ -1469,8 +1465,8 @@ const translations = {
   "somewhat_agree_BF" : {
     "Mossi" : "D'accord",
     "French" : "D'accord",
-    "Reference French" : "Plutôt d'accord",
-    "English" : "Plutôt d'accord",
+    "Reference French" : "Somewhat Agree",
+    "English" : "Somewhat Agree",
     "Reference English" : "Somewhat Agree",
     "Dyula" : "D'accord",
     "Gourmanchéma" : "D'accord"
@@ -1533,8 +1529,8 @@ const translations = {
   "somewhat_agree_HT" : {
     "Haitian Creole" : "Dakò",
     "French" : "D'accord",
-    "Reference French" : "Plutôt d'accord",
-    "English" : "Plutôt d'accord",
+    "Reference French" : "Somewhat Agree",
+    "English" : "Somewhat Agree",
     "Reference English" : "Somewhat Agree"
   },
   "somewhat_agree_ID" : {
@@ -1606,8 +1602,8 @@ const translations = {
   },
   "somewhat_agree_TG" : {
     "French" : "D'accord",
-    "Reference French" : "Plutôt d'accord",
-    "English" : "Plutôt d'accord",
+    "Reference French" : "Somewhat Agree",
+    "English" : "Somewhat Agree",
     "Reference English" : "Somewhat Agree",
     "Kabiye" : "Yoo / mant,isaa",
     "Ewe" : "Lɔ̃ ɖe dzí \n Enyo"
@@ -1655,7 +1651,6 @@ const translations = {
     "Spanish" : "Ni de acuerdo ni en desacuerdo",
     "Reference Spanish" : "Ni de acuerdo ni en desacuerdo",
     "French" : "Ni d'accord ni en désaccord",
-    "Reference French" : "Ni d'accord ni en désaccord",
     "Hiligaynon" : "Nagasugot ukon wala nagasugot",
     "Haitian Creole" : "Ni dakò ni pa dakò",
     "Indonesian" : "Netral (Tidak \"setuju\" ataupun \"tidak setuju\")",
@@ -1675,8 +1670,8 @@ const translations = {
   "neither_agree_nor_disagree_BF" : {
     "Mossi" : "Ni d'accord ni en désaccord",
     "French" : "Ni d'accord ni en désaccord",
-    "Reference French" : "Ni d'accord ni en désaccord",
-    "English" : "Ni d'accord ni en désaccord",
+    "Reference French" : "Neither agree nor disagree",
+    "English" : "Neither agree nor disagree",
     "Reference English" : "Neither agree nor disagree",
     "Dyula" : "Ni d'accord ni en désaccord",
     "Gourmanchéma" : "Ni d'accord ni en désaccord"
@@ -1739,8 +1734,8 @@ const translations = {
   "neither_agree_nor_disagree_HT" : {
     "Haitian Creole" : "Ni dakò ni pa dakò",
     "French" : "Ni d'accord ni en désaccord",
-    "Reference French" : "Ni d'accord ni en désaccord",
-    "English" : "Ni d'accord ni en désaccord",
+    "Reference French" : "Neither agree nor disagree",
+    "English" : "Neither agree nor disagree",
     "Reference English" : "Neither agree nor disagree"
   },
   "neither_agree_nor_disagree_ID" : {
@@ -1812,8 +1807,8 @@ const translations = {
   },
   "neither_agree_nor_disagree_TG" : {
     "French" : "Ni d'accord ni en désaccord",
-    "Reference French" : "Ni d'accord ni en désaccord",
-    "English" : "Ni d'accord ni en désaccord",
+    "Reference French" : "Neither agree nor disagree",
+    "English" : "Neither agree nor disagree",
     "Reference English" : "Neither agree nor disagree",
     "Kabiye" : "Hɛkʋ nɛ hɛkʋ / Mantɩtisɩ / mantɩkɩsi",
     "Ewe" : "Mélɔ̃ hã o mégbe hã o"
@@ -1861,7 +1856,6 @@ const translations = {
     "Reference Spanish" : "En desacuerdo",
     "Tagalog" : "Hindi sang-ayon",
     "French" : "Pas d'accord",
-    "Reference French" : "Plutôt en désaccord",
     "Hiligaynon" : "Wala nagapasugot",
     "Haitian Creole" : "Pa dakò",
     "Indonesian" : "Tidak setuju",
@@ -1883,8 +1877,8 @@ const translations = {
   "somewhat_disagree_BF" : {
     "Mossi" : "Pas d'accord",
     "French" : "Pas d'accord",
-    "Reference French" : "Plutôt en désaccord",
-    "English" : "Plutôt en désaccord",
+    "Reference French" : "Somewhat Disagree",
+    "English" : "Somewhat Disagree",
     "Reference English" : "Somewhat Disagree",
     "Dyula" : "Pas d'accord",
     "Gourmanchéma" : "Pas d'accord"
@@ -1947,8 +1941,8 @@ const translations = {
   "somewhat_disagree_HT" : {
     "Haitian Creole" : "Pa dakò",
     "French" : "Pas d'accord",
-    "Reference French" : "Plutôt en désaccord",
-    "English" : "Plutôt en désaccord",
+    "Reference French" : "Somewhat Disagree",
+    "English" : "Somewhat Disagree",
     "Reference English" : "Somewhat Disagree"
   },
   "somewhat_disagree_ID" : {
@@ -2020,8 +2014,8 @@ const translations = {
   },
   "somewhat_disagree_TG" : {
     "French" : "Pas d'accord",
-    "Reference French" : "Plutôt en désaccord",
-    "English" : "Plutôt en désaccord",
+    "Reference French" : "Somewhat Disagree",
+    "English" : "Somewhat Disagree",
     "Reference English" : "Somewhat Disagree",
     "Kabiye" : "Mantɩtisɩ",
     "Ewe" : "Ao nyemelɔ̃ ɖe edzi o"
@@ -2069,7 +2063,6 @@ const translations = {
     "Spanish" : "Totalmente en desacuerdo",
     "Reference Spanish" : "Totalmente en desacuerdo",
     "French" : "Pas du tout d'accord",
-    "Reference French" : "Pas du tout d'accord",
     "Hiligaynon" : "Wala gid nagasugot",
     "Haitian Creole" : "Pa dakò menm",
     "Indonesian" : "Sangat tidak setuju",
@@ -2089,8 +2082,8 @@ const translations = {
   "strongly_disagree_BF" : {
     "Mossi" : "Tout à fait en désaccord",
     "French" : "Tout à fait en désaccord",
-    "Reference French" : "Pas du tout d'accord",
-    "English" : "Pas du tout d'accord",
+    "Reference French" : "Strongly disagree",
+    "English" : "Strongly disagree",
     "Reference English" : "Strongly disagree",
     "Dyula" : "Tout à fait en désaccord",
     "Gourmanchéma" : "Tout à fait en désaccord"
@@ -2153,8 +2146,8 @@ const translations = {
   "strongly_disagree_HT" : {
     "Haitian Creole" : "Pa dakò menm",
     "French" : "Pas du tout d'accord",
-    "Reference French" : "Pas du tout d'accord",
-    "English" : "Pas du tout d'accord",
+    "Reference French" : "Strongly disagree",
+    "English" : "Strongly disagree",
     "Reference English" : "Strongly disagree"
   },
   "strongly_disagree_ID" : {
@@ -2226,8 +2219,8 @@ const translations = {
   },
   "strongly_disagree_TG" : {
     "French" : "Pas du tout d'accord",
-    "Reference French" : "Pas du tout d'accord",
-    "English" : "Pas du tout d'accord",
+    "Reference French" : "Strongly disagree",
+    "English" : "Strongly disagree",
     "Reference English" : "Strongly disagree",
     "Kabiye" : "Manɖɩmʊ tʊ paa ñɩɩ.",
     "Ewe" : "Nyemelɔ̃ ɖe edzi kura o"
@@ -2269,7 +2262,6 @@ const translations = {
     "Amharic" : "ሁል ጊዜ",
     "Spanish" : "Todo el tiempo",
     "Tagalog" : "Palagi",
-    "Reference French" : "Tout le temps",
     "Indonesian" : "Selalu",
     "Nyanja" : "Nthawi zonse",
     "Swahili" : "Kila wakati",
@@ -2463,7 +2455,6 @@ const translations = {
     "Cebuano" : "Kadaghanan nga panahon",
     "Spanish" : "Casi siempre",
     "Tagalog" : "Kadalasan",
-    "Reference French" : "La plupart du temps",
     "Hiligaynon" : "Sa masami nga tion",
     "Indonesian" : "Sebagian besar waktu",
     "Nyanja" : "Nthawi zambiri",
@@ -2504,8 +2495,8 @@ const translations = {
   "most_of_the_time_BF" : {
     "Mossi" : "La plupart du temps",
     "French" : "La plupart du temps",
-    "Reference French" : "La plupart du temps",
-    "English" : "La plupart du temps",
+    "Reference French" : "Most of the time",
+    "English" : "Most of the time",
     "Reference English" : "Most of the time",
     "Dyula" : "La plupart du temps",
     "Gourmanchéma" : "La plupart du temps"
@@ -2567,9 +2558,9 @@ const translations = {
   },
   "most_of_the_time_HT" : {
     "Haitian Creole" : "Pifò nan tan an",
-    "French" : "La plupart du temps",
-    "Reference French" : "La plupart du temps",
-    "English" : "La plupart du temps",
+    "French" : "Most of the time",
+    "Reference French" : "Most of the time",
+    "English" : "Most of the time",
     "Reference English" : "Most of the time"
   },
   "most_of_the_time_ID" : {
@@ -2641,8 +2632,8 @@ const translations = {
   },
   "most_of_the_time_TG" : {
     "French" : "La plupart du temps",
-    "Reference French" : "La plupart du temps",
-    "English" : "La plupart du temps",
+    "Reference French" : "Most of the time",
+    "English" : "Most of the time",
     "Reference English" : "Most of the time",
     "Kabiye" : "Alɩwaatʊ sakɩyɛ lɛ",
     "Ewe" : "Zi geɖe la"
@@ -2684,7 +2675,6 @@ const translations = {
     "Amharic" : "አንዳንድ ጊዜ",
     "Spanish" : "En alguna ocasión",
     "Tagalog" : "Kung minsan",
-    "Reference French" : "De temps en temps",
     "Nyanja" : "Nthawi zina",
     "Oromo" : "Yeroo tokko tokko",
     "Swahili" : "Wakati mwingine",
@@ -2695,13 +2685,13 @@ const translations = {
     "Reference English" : "Some of the time"
   },
   "some_of_the_time_BF" : {
-    "Mossi" : "De temps en temps",
-    "French" : "De temps en temps",
-    "Reference French" : "De temps en temps",
-    "English" : "De temps en temps",
+    "Mossi" : "Some of the time",
+    "French" : "Some of the time",
+    "Reference French" : "Some of the time",
+    "English" : "Some of the time",
     "Reference English" : "Some of the time",
-    "Dyula" : "De temps en temps",
-    "Gourmanchéma" : "De temps en temps"
+    "Dyula" : "Some of the time",
+    "Gourmanchéma" : "Some of the time"
   },
   "some_of_the_time_BO" : {
     "Spanish" : "Alguna vez",
@@ -2759,10 +2749,10 @@ const translations = {
     "Reference English" : "Some of the time"
   },
   "some_of_the_time_HT" : {
-    "Haitian Creole" : "De temps en temps",
-    "French" : "De temps en temps",
-    "Reference French" : "De temps en temps",
-    "English" : "De temps en temps",
+    "Haitian Creole" : "Some of the time",
+    "French" : "Some of the time",
+    "Reference French" : "Some of the time",
+    "English" : "Some of the time",
     "Reference English" : "Some of the time"
   },
   "some_of_the_time_ID" : {
@@ -2833,12 +2823,12 @@ const translations = {
     "Reference English" : "Some of the time"
   },
   "some_of_the_time_TG" : {
-    "French" : "De temps en temps",
-    "Reference French" : "De temps en temps",
-    "English" : "De temps en temps",
+    "French" : "Some of the time",
+    "Reference French" : "Some of the time",
+    "English" : "Some of the time",
     "Reference English" : "Some of the time",
-    "Kabiye" : "De temps en temps",
-    "Ewe" : "De temps en temps"
+    "Kabiye" : "Some of the time",
+    "Ewe" : "Some of the time"
   },
   "some_of_the_time_TH" : {
     "Lahu" : "Some of the time",
@@ -2878,7 +2868,6 @@ const translations = {
     "Cebuano" : "Panagsa ra",
     "Spanish" : "Casi nunca",
     "Tagalog" : "Bihira",
-    "Reference French" : "Rarement",
     "Hiligaynon" : "Kis-a",
     "Indonesian" : "Jarang",
     "Nyanja" : "Sikambiri",
@@ -2903,7 +2892,7 @@ const translations = {
     "Langi" : "Icel icel",
     "Lukonzo" : "Isikutsibu",
     "Pokot" : "melö läsiny",
-    "Kekchí" : "Moko junelik ta",
+    "Kekchí" : "Ma'ka ch'in ma majunwa",
     "Ganda" : "Lumu na lumu",
     "Lugbara" : "Sawa azi 'diyi si te tutu ku",
     "Lugishu" : "Si shitela ta",
@@ -2919,8 +2908,8 @@ const translations = {
   "rarely_BF" : {
     "Mossi" : "Rarement",
     "French" : "Rarement",
-    "Reference French" : "Rarement",
-    "English" : "Rarement",
+    "Reference French" : "Rarely",
+    "English" : "Rarely",
     "Reference English" : "Rarely",
     "Dyula" : "Rarement",
     "Gourmanchéma" : "Rarement"
@@ -2972,7 +2961,7 @@ const translations = {
     "Reference Spanish" : "Rara vez",
     "English" : "Rara vez",
     "Reference English" : "Rarely",
-    "Kekchí" : "Moko junelik ta"
+    "Kekchí" : "Ma'ka ch'in ma majunwa"
   },
   "rarely_HN" : {
     "Spanish" : "Rara vez",
@@ -2982,9 +2971,9 @@ const translations = {
   },
   "rarely_HT" : {
     "Haitian Creole" : "Raman",
-    "French" : "Rarement",
-    "Reference French" : "Rarement",
-    "English" : "Rarement",
+    "French" : "Rarely",
+    "Reference French" : "Rarely",
+    "English" : "Rarely",
     "Reference English" : "Rarely"
   },
   "rarely_ID" : {
@@ -3056,8 +3045,8 @@ const translations = {
   },
   "rarely_TG" : {
     "French" : "Rarement",
-    "Reference French" : "Rarement",
-    "English" : "Rarement",
+    "Reference French" : "Rarely",
+    "English" : "Rarely",
     "Reference English" : "Rarely",
     "Kabiye" : "Kɔlɩ-kɔlɩ / Nabʊyʋ nabʋyʋ",
     "Ewe" : "Ɣe aɖewo ɣi"
@@ -3099,7 +3088,6 @@ const translations = {
     "Amharic" : "በጭራሽ",
     "Spanish" : "En ninguna ocasión",
     "Tagalog" : "Hindi kailanman",
-    "Reference French" : "Rien de temps",
     "Indonesian" : "Tidak sama sekali",
     "Nyanja" : "Palibe nthawi iliyonse",
     "Swahili" : "Hakuna wakati",
@@ -3298,6 +3286,7 @@ const translations = {
     "Haitian Creole" : "Edikasyon timoun piti",
     "Indonesian" : "Pendidikan Anak Usia Dini",
     "Pokot" : "kisomönöt nyo pö otinö täkïmïnïng chi",
+    "Kekchí" : "Tzolok re li  primera infancia",
     "Portuguese" : "Educação Infantil",
     "Kinyarwanda" : "Amashuri y'incuke",
     "Swahili" : "Elimu ya chekechea"
@@ -3362,7 +3351,7 @@ const translations = {
     "Reference Spanish" : "Early childhood education",
     "English" : "Early childhood education",
     "Reference English" : "Early childhood education",
-    "Kekchí" : "Educación de niñez temprana"
+    "Kekchí" : "Tzolok re li  primera infancia"
   },
   "ISCEDO_HN" : {
     "Spanish" : "Early childhood education",
@@ -3495,6 +3484,7 @@ const translations = {
     "Haitian Creole" : "Edikasyon primè",
     "Indonesian" : "Sekolah Dasar",
     "Pokot" : "kisomönöt nyo pö pïremar",
+    "Kekchí" : "Wanq chik xsexto Primaria",
     "Nyanja" : "Pulayimale",
     "Oromo" : "Barnoota sadarkaa tokkoffaa",
     "Portuguese" : "Educação primária",
@@ -3561,7 +3551,7 @@ const translations = {
     "Reference Spanish" : "Primary education",
     "English" : "Primary education",
     "Reference English" : "Primary education",
-    "Kekchí" : "Educación primaria"
+    "Kekchí" : "Wanq chik xsexto Primaria"
   },
   "ISCED1_HN" : {
     "Spanish" : "Primary education",
@@ -3694,6 +3684,7 @@ const translations = {
     "Haitian Creole" : "Edikasyon segondè ki pi ba a",
     "Indonesian" : "Sekolah Menengah Pertama",
     "Pokot" : "kitoröto sekontär",
+    "Kekchí" : "Educación secundaria inferior",
     "Portuguese" : "Ensino Fundamental I",
     "Kinyarwanda" : "Icyiciro rusange cy'amashuri yisumbuye",
     "Swahili" : "Elimu ya sekondari ya madarasa ya chini"
@@ -3758,7 +3749,7 @@ const translations = {
     "Reference Spanish" : "Lower secondary education",
     "English" : "Lower secondary education",
     "Reference English" : "Lower secondary education",
-    "Kekchí" : "Básicos (Primera parte de la secundaria)"
+    "Kekchí" : "Educación secundaria inferior"
   },
   "ISCED2_HN" : {
     "Spanish" : "Lower secondary education",
@@ -3891,6 +3882,7 @@ const translations = {
     "Haitian Creole" : "Edikasyon segondè siperyè",
     "Indonesian" : "Sekolah Menengah Atas",
     "Pokot" : "päräku sekontär",
+    "Kekchí" : "Educación secundaria superior",
     "Nyanja" : "Sekondale ya m'mwamba",
     "Portuguese" : "Ensino Fundamental II",
     "Kinyarwanda" : "Icyiciro gikuru cy'amashuri yisumbuye",
@@ -3956,7 +3948,7 @@ const translations = {
     "Reference Spanish" : "Upper secondary education",
     "English" : "Upper secondary education",
     "Reference English" : "Upper secondary education",
-    "Kekchí" : "Diversificado (Segunda parte de la secundaria)"
+    "Kekchí" : "Educación secundaria superior"
   },
   "ISCED3_HN" : {
     "Spanish" : "Upper secondary education",
@@ -4284,6 +4276,7 @@ const translations = {
     "Haitian Creole" : "Sik kout edikasyon siperyè",
     "Indonesian" : "Diploma",
     "Pokot" : "kisomönöt nyo kakiwany sekontär nyo tängogh",
+    "Kekchí" : "Educación terciaria de ciclo corto",
     "Kinyarwanda" : "Icyiciro rusange cy'amashuri makuru",
     "Swahili" : "Elimu ya vyuo ya awamu fupifupi"
   },
@@ -4347,7 +4340,7 @@ const translations = {
     "Reference Spanish" : "Short-cycle tertiary education",
     "English" : "Short-cycle tertiary education",
     "Reference English" : "Short-cycle tertiary education",
-    "Kekchí" : "Educación universitaria de corta duración (Técnico universitario)"
+    "Kekchí" : "Educación terciaria de ciclo corto"
   },
   "ISCED5_HN" : {
     "Spanish" : "Short-cycle tertiary education",
@@ -4480,6 +4473,7 @@ const translations = {
     "Haitian Creole" : "Diplòm bakaloreya",
     "Indonesian" : "Sarjana",
     "Pokot" : "dikïri",
+    "Kekchí" : "Wanq chik xtz'ob'al se Universidad",
     "Portuguese" : "Diploma de bacharel",
     "Kinyarwanda" : "Icyiciro cya kabiri cya kaminuza",
     "Swahili" : "Shahada ya kwanza"
@@ -4544,7 +4538,7 @@ const translations = {
     "Reference Spanish" : "Bachelors degree",
     "English" : "Bachelors degree",
     "Reference English" : "Bachelors degree",
-    "Kekchí" : "Licenciatura"
+    "Kekchí" : "Wanq chik xtz'ob'al se Universidad"
   },
   "ISCDE6_HN" : {
     "Spanish" : "Bachelors degree",
@@ -4677,6 +4671,7 @@ const translations = {
     "Haitian Creole" : "Metriz",
     "Kinyarwanda" : "Impamyabumenyi yisumbuye cyana",
     "Pokot" : "dikïri nyo pö mastus",
+    "Kekchí" : "Wanq chil xmaestría se Universidad",
     "Portuguese" : "Mestrado",
     "Swahili" : "Shahada ya uzamili"
   },
@@ -4740,7 +4735,7 @@ const translations = {
     "Reference Spanish" : "Masters degree",
     "English" : "Masters degree",
     "Reference English" : "Masters degree",
-    "Kekchí" : "Maestría"
+    "Kekchí" : "Wanq chil xmaestría se Universidad"
   },
   "ISCED7_HN" : {
     "Spanish" : "Masters degree",
@@ -4872,6 +4867,7 @@ const translations = {
     "French" : "Diplôme de Doctorat",
     "Haitian Creole" : "Doktora",
     "Pokot" : "dikïri nyo pö doktäret",
+    "Kekchí" : "Wanq chik xdoctorado sa Universidad",
     "Portuguese" : "Doutorado",
     "Kinyarwanda" : "Icyiciro cya kane cya kaminuza",
     "Swahili" : "Shahada ya uzamivu"
@@ -4936,7 +4932,7 @@ const translations = {
     "Reference Spanish" : "Doctoral degree",
     "English" : "Doctoral degree",
     "Reference English" : "Doctoral degree",
-    "Kekchí" : "Doctorado"
+    "Kekchí" : "Wanq chik xdoctorado sa Universidad"
   },
   "ISCED8_HN" : {
     "Spanish" : "Doctoral degree",
@@ -5507,7 +5503,6 @@ const translations = {
     "Reference Spanish" : "No sé",
     "Tagalog" : "Hindi ko alam",
     "French" : "Je ne sais pas",
-    "Reference French" : "Je ne sais pas",
     "Hiligaynon" : "Indi ako kabalo",
     "Haitian Creole" : "Mwen pa konnen",
     "Indonesian" : "Saya tidak tahu",
@@ -5538,8 +5533,8 @@ const translations = {
   "unknown_BF" : {
     "Mossi" : "Je ne sais pas",
     "French" : "Je ne sais pas",
-    "Reference French" : "Je ne sais pas",
-    "English" : "Je ne sais pas",
+    "Reference French" : "I don't know",
+    "English" : "I don't know",
     "Reference English" : "I don't know",
     "Dyula" : "Je ne sais pas",
     "Gourmanchéma" : "Je ne sais pas"
@@ -5602,8 +5597,8 @@ const translations = {
   "unknown_HT" : {
     "Haitian Creole" : "Mwen pa konnen",
     "French" : "Je ne sais pas",
-    "Reference French" : "Je ne sais pas",
-    "English" : "Je ne sais pas",
+    "Reference French" : "I don't know",
+    "English" : "I don't know",
     "Reference English" : "I don't know"
   },
   "unknown_ID" : {
@@ -5675,8 +5670,8 @@ const translations = {
   },
   "unknown_TG" : {
     "French" : "Je ne sais pas",
-    "Reference French" : "Je ne sais pas",
-    "English" : "Je ne sais pas",
+    "Reference French" : "I don't know",
+    "English" : "I don't know",
     "Reference English" : "I don't know",
     "Kabiye" : "Maasɩ-ŋ",
     "Ewe" : "Nyemenya o"
@@ -5729,7 +5724,6 @@ const translations = {
     "Reference Spanish" : "Se niega a responder",
     "Tagalog" : "Tumangging sumagot",
     "French" : "Refuse de répondre",
-    "Reference French" : "A refusé de répondre",
     "Hiligaynon" : "Naglikaw sa pagsabat",
     "Haitian Creole" : "Refize reponn",
     "Indonesian" : "Menolak menjawab",
@@ -5760,8 +5754,8 @@ const translations = {
   "refused_BF" : {
     "Mossi" : "Refus de répondre",
     "French" : "Refus de répondre",
-    "Reference French" : "A refusé de répondre",
-    "English" : "A refusé de répondre",
+    "Reference French" : "Refused to answer",
+    "English" : "Refused to answer",
     "Reference English" : "Refused to answer",
     "Dyula" : "Refus de répondre",
     "Gourmanchéma" : "Refus de répondre"
@@ -5824,8 +5818,8 @@ const translations = {
   "refused_HT" : {
     "Haitian Creole" : "Refize reponn",
     "French" : "Refus de répondre",
-    "Reference French" : "A refusé de répondre",
-    "English" : "A refusé de répondre",
+    "Reference French" : "Refused to answer",
+    "English" : "Refused to answer",
     "Reference English" : "Refused to answer"
   },
   "refused_ID" : {
@@ -5897,8 +5891,8 @@ const translations = {
   },
   "refused_TG" : {
     "French" : "Refuse de répondre",
-    "Reference French" : "A refusé de répondre",
-    "English" : "A refusé de répondre",
+    "Reference French" : "Refused to answer",
+    "English" : "Refused to answer",
     "Reference English" : "Refused to answer",
     "Kabiye" : "Ekizaa se eecosuu.",
     "Ewe" : "Gbe ŋuɖoɖo la nana"
@@ -5951,7 +5945,6 @@ const translations = {
     "Reference Spanish" : "Nunca",
     "Tagalog" : "Hindi kailanman",
     "French" : "Jamais",
-    "Reference French" : "Jamais",
     "Hiligaynon" : "Wala gid",
     "Haitian Creole" : "Jamè",
     "Indonesian" : "Tidak pernah",
@@ -5981,8 +5974,8 @@ const translations = {
   "never_BF" : {
     "Mossi" : "Jamais",
     "French" : "Jamais",
-    "Reference French" : "Jamais",
-    "English" : "Jamais",
+    "Reference French" : "Never",
+    "English" : "Never",
     "Reference English" : "Never",
     "Dyula" : "Jamais",
     "Gourmanchéma" : "Jamais"
@@ -6044,9 +6037,9 @@ const translations = {
   },
   "never_HT" : {
     "Haitian Creole" : "Jamè",
-    "French" : "Jamais",
-    "Reference French" : "Jamais",
-    "English" : "Jamais",
+    "French" : "Never",
+    "Reference French" : "Never",
+    "English" : "Never",
     "Reference English" : "Never"
   },
   "never_ID" : {
@@ -6118,8 +6111,8 @@ const translations = {
   },
   "never_TG" : {
     "French" : "Jamais",
-    "Reference French" : "Jamais",
-    "English" : "Jamais",
+    "Reference French" : "Never",
+    "English" : "Never",
     "Reference English" : "Never",
     "Kabiye" : "Kpa / Kaʋ",
     "Ewe" : "Gbeɖe o"
@@ -6172,7 +6165,6 @@ const translations = {
     "Reference Spanish" : "Algunas veces",
     "Tagalog" : "Minsan",
     "French" : "Parfois",
-    "Reference French" : "Parfois",
     "Hiligaynon" : "Kon kaisa",
     "Haitian Creole" : "Pafwa",
     "Indonesian" : "Kadang-kadang",
@@ -6203,8 +6195,8 @@ const translations = {
   "sometimes_BF" : {
     "Mossi" : "Parfois",
     "French" : "Parfois",
-    "Reference French" : "Parfois",
-    "English" : "Parfois",
+    "Reference French" : "Sometimes",
+    "English" : "Sometimes",
     "Reference English" : "Sometimes",
     "Dyula" : "Parfois",
     "Gourmanchéma" : "Parfois"
@@ -6266,9 +6258,9 @@ const translations = {
   },
   "sometimes_HT" : {
     "Haitian Creole" : "Pafwa",
-    "French" : "Parfois",
-    "Reference French" : "Parfois",
-    "English" : "Parfois",
+    "French" : "Sometimes",
+    "Reference French" : "Sometimes",
+    "English" : "Sometimes",
     "Reference English" : "Sometimes"
   },
   "sometimes_ID" : {
@@ -6340,8 +6332,8 @@ const translations = {
   },
   "sometimes_TG" : {
     "French" : "Parfois",
-    "Reference French" : "Parfois",
-    "English" : "Parfois",
+    "Reference French" : "Sometimes",
+    "English" : "Sometimes",
     "Reference English" : "Sometimes",
     "Kabiye" : "Nabʋyʋ taa.",
     "Ewe" : "Ɣe aɖewo ɣi"
@@ -6394,7 +6386,6 @@ const translations = {
     "Reference Spanish" : "Siempre",
     "Tagalog" : "Palagi",
     "French" : "Toujours",
-    "Reference French" : "Toujours",
     "Hiligaynon" : "Pirme",
     "Haitian Creole" : "Toujou",
     "Indonesian" : "Selalu",
@@ -6425,8 +6416,8 @@ const translations = {
   "always_BF" : {
     "Mossi" : "Toujours",
     "French" : "Toujours",
-    "Reference French" : "Toujours",
-    "English" : "Toujours",
+    "Reference French" : "Always",
+    "English" : "Always",
     "Reference English" : "Always",
     "Dyula" : "Toujours",
     "Gourmanchéma" : "Toujours"
@@ -6488,9 +6479,9 @@ const translations = {
   },
   "always_HT" : {
     "Haitian Creole" : "Toujou",
-    "French" : "Toujours",
-    "Reference French" : "Toujours",
-    "English" : "Toujours",
+    "French" : "Always",
+    "Reference French" : "Always",
+    "English" : "Always",
     "Reference English" : "Always"
   },
   "always_ID" : {
@@ -6562,8 +6553,8 @@ const translations = {
   },
   "always_TG" : {
     "French" : "Toujours",
-    "Reference French" : "Toujours",
-    "English" : "Toujours",
+    "Reference French" : "Always",
+    "English" : "Always",
     "Reference English" : "Always",
     "Kabiye" : "Tam tam / Tam yɔɔ lɛ.",
     "Ewe" : "Ɣe sia ɣi"
@@ -6604,7 +6595,6 @@ const translations = {
     "Reference English" : "Never true",
     "Amharic" : "ፈጽሞ እውነት አይደለም",
     "Spanish" : "Nunca sí",
-    "Reference French" : "Ce n'est jamais vrai",
     "Indonesian" : "Tidak pernah",
     "Nyanja" : "kukalibe  kunkhalapo zoona",
     "Sinhala" : "කවදාවත් ඇත්ත නොවේ",
@@ -6617,13 +6607,13 @@ const translations = {
     "Reference English" : "Never true"
   },
   "never_true_BF" : {
-    "Mossi" : "Ce n'est jamais vrai",
-    "French" : "Ce n'est jamais vrai",
-    "Reference French" : "Ce n'est jamais vrai",
-    "English" : "Ce n'est jamais vrai",
+    "Mossi" : "Never true",
+    "French" : "Never true",
+    "Reference French" : "Never true",
+    "English" : "Never true",
     "Reference English" : "Never true",
-    "Dyula" : "Ce n'est jamais vrai",
-    "Gourmanchéma" : "Ce n'est jamais vrai"
+    "Dyula" : "Never true",
+    "Gourmanchéma" : "Never true"
   },
   "never_true_BO" : {
     "Spanish" : "Nunca es cierto",
@@ -6681,10 +6671,10 @@ const translations = {
     "Reference English" : "Never true"
   },
   "never_true_HT" : {
-    "Haitian Creole" : "Ce n'est jamais vrai",
-    "French" : "Ce n'est jamais vrai",
-    "Reference French" : "Ce n'est jamais vrai",
-    "English" : "Ce n'est jamais vrai",
+    "Haitian Creole" : "Never true",
+    "French" : "Never true",
+    "Reference French" : "Never true",
+    "English" : "Never true",
     "Reference English" : "Never true"
   },
   "never_true_ID" : {
@@ -6755,12 +6745,12 @@ const translations = {
     "Reference English" : "Never true"
   },
   "never_true_TG" : {
-    "French" : "Ce n'est jamais vrai",
-    "Reference French" : "Ce n'est jamais vrai",
-    "English" : "Ce n'est jamais vrai",
+    "French" : "Never true",
+    "Reference French" : "Never true",
+    "English" : "Never true",
     "Reference English" : "Never true",
-    "Kabiye" : "Ce n'est jamais vrai",
-    "Ewe" : "Ce n'est jamais vrai"
+    "Kabiye" : "Never true",
+    "Ewe" : "Never true"
   },
   "never_true_TH" : {
     "Lahu" : "Never true",
@@ -6798,7 +6788,6 @@ const translations = {
     "Reference English" : "Rarely true",
     "Amharic" : "ብዙውን ጊዜ እውነት አይደለም",
     "Spanish" : "En ocasiones si",
-    "Reference French" : "Rarement vrai",
     "Indonesian" : "Jarang",
     "Nyanja" : "Zoona patali patali",
     "Sinhala" : "කලාතුරකින් සත්‍යවේ",
@@ -6811,13 +6800,13 @@ const translations = {
     "Reference English" : "Rarely true"
   },
   "rarely_true_BF" : {
-    "Mossi" : "Rarement vrai",
-    "French" : "Rarement vrai",
-    "Reference French" : "Rarement vrai",
-    "English" : "Rarement vrai",
+    "Mossi" : "Rarely true",
+    "French" : "Rarely true",
+    "Reference French" : "Rarely true",
+    "English" : "Rarely true",
     "Reference English" : "Rarely true",
-    "Dyula" : "Rarement vrai",
-    "Gourmanchéma" : "Rarement vrai"
+    "Dyula" : "Rarely true",
+    "Gourmanchéma" : "Rarely true"
   },
   "rarely_true_BO" : {
     "Spanish" : "Rara vez es cierto",
@@ -6875,10 +6864,10 @@ const translations = {
     "Reference English" : "Rarely true"
   },
   "rarely_true_HT" : {
-    "Haitian Creole" : "Rarement vrai",
-    "French" : "Rarement vrai",
-    "Reference French" : "Rarement vrai",
-    "English" : "Rarement vrai",
+    "Haitian Creole" : "Rarely true",
+    "French" : "Rarely true",
+    "Reference French" : "Rarely true",
+    "English" : "Rarely true",
     "Reference English" : "Rarely true"
   },
   "rarely_true_ID" : {
@@ -6949,12 +6938,12 @@ const translations = {
     "Reference English" : "Rarely true"
   },
   "rarely_true_TG" : {
-    "French" : "Rarement vrai",
-    "Reference French" : "Rarement vrai",
-    "English" : "Rarement vrai",
+    "French" : "Rarely true",
+    "Reference French" : "Rarely true",
+    "English" : "Rarely true",
     "Reference English" : "Rarely true",
-    "Kabiye" : "Rarement vrai",
-    "Ewe" : "Rarement vrai"
+    "Kabiye" : "Rarely true",
+    "Ewe" : "Rarely true"
   },
   "rarely_true_TH" : {
     "Lahu" : "Rarely true",
@@ -6992,7 +6981,6 @@ const translations = {
     "Reference English" : "Sometimes true",
     "Amharic" : "አንዳንድ ጊዜ እውነት ነው",
     "Spanish" : "A veces sí",
-    "Reference French" : "Parfois vrai",
     "Indonesian" : "Kadang-kadang",
     "Nyanja" : "Nthawi zina nizoona",
     "Sinhala" : "සමහරවිට සත්‍යවේ",
@@ -7005,13 +6993,13 @@ const translations = {
     "Reference English" : "Sometimes true"
   },
   "sometimes_true_BF" : {
-    "Mossi" : "Parfois vrai",
-    "French" : "Parfois vrai",
-    "Reference French" : "Parfois vrai",
-    "English" : "Parfois vrai",
+    "Mossi" : "Sometimes true",
+    "French" : "Sometimes true",
+    "Reference French" : "Sometimes true",
+    "English" : "Sometimes true",
     "Reference English" : "Sometimes true",
-    "Dyula" : "Parfois vrai",
-    "Gourmanchéma" : "Parfois vrai"
+    "Dyula" : "Sometimes true",
+    "Gourmanchéma" : "Sometimes true"
   },
   "sometimes_true_BO" : {
     "Spanish" : "Algunas veces es cierto",
@@ -7069,10 +7057,10 @@ const translations = {
     "Reference English" : "Sometimes true"
   },
   "sometimes_true_HT" : {
-    "Haitian Creole" : "Parfois vrai",
-    "French" : "Parfois vrai",
-    "Reference French" : "Parfois vrai",
-    "English" : "Parfois vrai",
+    "Haitian Creole" : "Sometimes true",
+    "French" : "Sometimes true",
+    "Reference French" : "Sometimes true",
+    "English" : "Sometimes true",
     "Reference English" : "Sometimes true"
   },
   "sometimes_true_ID" : {
@@ -7143,12 +7131,12 @@ const translations = {
     "Reference English" : "Sometimes true"
   },
   "sometimes_true_TG" : {
-    "French" : "Parfois vrai",
-    "Reference French" : "Parfois vrai",
-    "English" : "Parfois vrai",
+    "French" : "Sometimes true",
+    "Reference French" : "Sometimes true",
+    "English" : "Sometimes true",
     "Reference English" : "Sometimes true",
-    "Kabiye" : "Parfois vrai",
-    "Ewe" : "Parfois vrai"
+    "Kabiye" : "Sometimes true",
+    "Ewe" : "Sometimes true"
   },
   "sometimes_true_TH" : {
     "Lahu" : "Sometimes true",
@@ -7186,7 +7174,6 @@ const translations = {
     "Reference English" : "Most of the time true",
     "Amharic" : "አብዛኛውን ጊዜ እውነት ነው",
     "Spanish" : "La mayoría de las veces sí",
-    "Reference French" : "C'est vrai la plupart du temps",
     "Indonesian" : "Sebagian besar waktu",
     "Nyanja" : "Nthawi zambiri zoona",
     "Sinhala" : "බොහෝ වේලාවට ඇත්ත වේ",
@@ -7199,13 +7186,13 @@ const translations = {
     "Reference English" : "Most of the time true"
   },
   "most_of_the_time_true_BF" : {
-    "Mossi" : "C'est vrai la plupart du temps",
-    "French" : "C'est vrai la plupart du temps",
-    "Reference French" : "C'est vrai la plupart du temps",
-    "English" : "C'est vrai la plupart du temps",
+    "Mossi" : "Most of the time true",
+    "French" : "Most of the time true",
+    "Reference French" : "Most of the time true",
+    "English" : "Most of the time true",
     "Reference English" : "Most of the time true",
-    "Dyula" : "C'est vrai la plupart du temps",
-    "Gourmanchéma" : "C'est vrai la plupart du temps"
+    "Dyula" : "Most of the time true",
+    "Gourmanchéma" : "Most of the time true"
   },
   "most_of_the_time_true_BO" : {
     "Spanish" : "La mayoría de las veces es cierto",
@@ -7263,10 +7250,10 @@ const translations = {
     "Reference English" : "Most of the time true"
   },
   "most_of_the_time_true_HT" : {
-    "Haitian Creole" : "C'est vrai la plupart du temps",
-    "French" : "C'est vrai la plupart du temps",
-    "Reference French" : "C'est vrai la plupart du temps",
-    "English" : "C'est vrai la plupart du temps",
+    "Haitian Creole" : "Most of the time true",
+    "French" : "Most of the time true",
+    "Reference French" : "Most of the time true",
+    "English" : "Most of the time true",
     "Reference English" : "Most of the time true"
   },
   "most_of_the_time_true_ID" : {
@@ -7337,12 +7324,12 @@ const translations = {
     "Reference English" : "Most of the time true"
   },
   "most_of_the_time_true_TG" : {
-    "French" : "C'est vrai la plupart du temps",
-    "Reference French" : "C'est vrai la plupart du temps",
-    "English" : "C'est vrai la plupart du temps",
+    "French" : "Most of the time true",
+    "Reference French" : "Most of the time true",
+    "English" : "Most of the time true",
     "Reference English" : "Most of the time true",
-    "Kabiye" : "C'est vrai la plupart du temps",
-    "Ewe" : "C'est vrai la plupart du temps"
+    "Kabiye" : "Most of the time true",
+    "Ewe" : "Most of the time true"
   },
   "most_of_the_time_true_TH" : {
     "Lahu" : "Most of the time true",
@@ -7380,7 +7367,6 @@ const translations = {
     "Reference English" : "Always true",
     "Amharic" : "ሁልጊዜ እውነት ነው",
     "Spanish" : "Siempre sí",
-    "Reference French" : "C'est toujours vrai",
     "Nyanja" : "Nzoona nthawi zonse",
     "Sinhala" : "සැමවිටම  ඇත්ත වේ",
     "Swahili" : "Kweli kila wakati",
@@ -7392,13 +7378,13 @@ const translations = {
     "Reference English" : "Always true"
   },
   "always_true_BF" : {
-    "Mossi" : "C'est toujours vrai",
-    "French" : "C'est toujours vrai",
-    "Reference French" : "C'est toujours vrai",
-    "English" : "C'est toujours vrai",
+    "Mossi" : "Always true",
+    "French" : "Always true",
+    "Reference French" : "Always true",
+    "English" : "Always true",
     "Reference English" : "Always true",
-    "Dyula" : "C'est toujours vrai",
-    "Gourmanchéma" : "C'est toujours vrai"
+    "Dyula" : "Always true",
+    "Gourmanchéma" : "Always true"
   },
   "always_true_BO" : {
     "Spanish" : "Siempre es cierto",
@@ -7456,10 +7442,10 @@ const translations = {
     "Reference English" : "Always true"
   },
   "always_true_HT" : {
-    "Haitian Creole" : "C'est toujours vrai",
-    "French" : "C'est toujours vrai",
-    "Reference French" : "C'est toujours vrai",
-    "English" : "C'est toujours vrai",
+    "Haitian Creole" : "Always true",
+    "French" : "Always true",
+    "Reference French" : "Always true",
+    "English" : "Always true",
     "Reference English" : "Always true"
   },
   "always_true_ID" : {
@@ -7530,12 +7516,12 @@ const translations = {
     "Reference English" : "Always true"
   },
   "always_true_TG" : {
-    "French" : "C'est toujours vrai",
-    "Reference French" : "C'est toujours vrai",
-    "English" : "C'est toujours vrai",
+    "French" : "Always true",
+    "Reference French" : "Always true",
+    "English" : "Always true",
     "Reference English" : "Always true",
-    "Kabiye" : "C'est toujours vrai",
-    "Ewe" : "C'est toujours vrai"
+    "Kabiye" : "Always true",
+    "Ewe" : "Always true"
   },
   "always_true_TH" : {
     "Lahu" : "Always true",
@@ -7585,7 +7571,6 @@ const translations = {
     "Reference Spanish" : "Una vez al año",
     "Tagalog" : "Isang beses sa isang taon",
     "French" : "Une fois par an",
-    "Reference French" : "Une fois par an",
     "Hiligaynon" : "Kaisa sa isa ka tuig",
     "Haitian Creole" : "Yon fwa chak ane",
     "Indonesian" : "Setahun 1X",
@@ -7613,8 +7598,8 @@ const translations = {
   "once_per_year_BF" : {
     "Mossi" : "Une fois par an",
     "French" : "Une fois par an",
-    "Reference French" : "Une fois par an",
-    "English" : "Une fois par an",
+    "Reference French" : "Once per year",
+    "English" : "Once per year",
     "Reference English" : "Once per year",
     "Dyula" : "Une fois par an",
     "Gourmanchéma" : "Une fois par an"
@@ -7676,9 +7661,9 @@ const translations = {
   },
   "once_per_year_HT" : {
     "Haitian Creole" : "Yon fwa chak ane",
-    "French" : "Une fois par an",
-    "Reference French" : "Une fois par an",
-    "English" : "Une fois par an",
+    "French" : "Once per year",
+    "Reference French" : "Once per year",
+    "English" : "Once per year",
     "Reference English" : "Once per year"
   },
   "once_per_year_ID" : {
@@ -7750,8 +7735,8 @@ const translations = {
   },
   "once_per_year_TG" : {
     "French" : "Une fois par an",
-    "Reference French" : "Une fois par an",
-    "English" : "Une fois par an",
+    "Reference French" : "Once per year",
+    "English" : "Once per year",
     "Reference English" : "Once per year",
     "Kabiye" : "Kʋɖʋmam pɩnaɣ taa.",
     "Ewe" : "Zi ɖeka le ƒè me"
@@ -7804,7 +7789,6 @@ const translations = {
     "Reference Spanish" : "Algunas veces al año",
     "Tagalog" : "iilang beses sa isang taon",
     "French" : "Quelques fois par an",
-    "Reference French" : "Quelques fois par an",
     "Hiligaynon" : "Pila lang ka beses sa isa ka tuig",
     "Haitian Creole" : "Kèk fwa pa ane",
     "Indonesian" : "Beberapa kali setahun",
@@ -7833,8 +7817,8 @@ const translations = {
   "a_few_times_per_year_BF" : {
     "Mossi" : "Quelques fois par an",
     "French" : "Quelques fois par an",
-    "Reference French" : "Quelques fois par an",
-    "English" : "Quelques fois par an",
+    "Reference French" : "A few times per year",
+    "English" : "A few times per year",
     "Reference English" : "A few times per year",
     "Dyula" : "Quelques fois par an",
     "Gourmanchéma" : "Quelques fois par an"
@@ -7896,9 +7880,9 @@ const translations = {
   },
   "a_few_times_per_year_HT" : {
     "Haitian Creole" : "Kèk fwa pa ane",
-    "French" : "Quelques fois par an",
-    "Reference French" : "Quelques fois par an",
-    "English" : "Quelques fois par an",
+    "French" : "A few times per year",
+    "Reference French" : "A few times per year",
+    "English" : "A few times per year",
     "Reference English" : "A few times per year"
   },
   "a_few_times_per_year_ID" : {
@@ -7970,8 +7954,8 @@ const translations = {
   },
   "a_few_times_per_year_TG" : {
     "French" : "Quelques fois par an",
-    "Reference French" : "Quelques fois par an",
-    "English" : "Quelques fois par an",
+    "Reference French" : "A few times per year",
+    "English" : "A few times per year",
     "Reference English" : "A few times per year",
     "Kabiye" : "Tam cabɩ pɩnaɣ taa",
     "Ewe" : "Zi ʋɛ aɖewo le ƒèa me"
@@ -8024,7 +8008,6 @@ const translations = {
     "Reference Spanish" : "Algunas veces al mes",
     "Tagalog" : "iilang beses sa isang buwan",
     "French" : "Quelques fois par mois",
-    "Reference French" : "Quelques fois par mois",
     "Hiligaynon" : "Pila lang ka beses sa isa ka bulan",
     "Haitian Creole" : "Kèk fwa pa mwa",
     "Indonesian" : "Beberapa kali dalam sebulan",
@@ -8053,8 +8036,8 @@ const translations = {
   "a_few_times_per_month_BF" : {
     "Mossi" : "Quelques fois par mois",
     "French" : "Quelques fois par mois",
-    "Reference French" : "Quelques fois par mois",
-    "English" : "Quelques fois par mois",
+    "Reference French" : "A few times per month",
+    "English" : "A few times per month",
     "Reference English" : "A few times per month",
     "Dyula" : "Quelques fois par mois",
     "Gourmanchéma" : "Quelques fois par mois"
@@ -8116,9 +8099,9 @@ const translations = {
   },
   "a_few_times_per_month_HT" : {
     "Haitian Creole" : "Kèk fwa pa mwa",
-    "French" : "Quelques fois par mois",
-    "Reference French" : "Quelques fois par mois",
-    "English" : "Quelques fois par mois",
+    "French" : "A few times per month",
+    "Reference French" : "A few times per month",
+    "English" : "A few times per month",
     "Reference English" : "A few times per month"
   },
   "a_few_times_per_month_ID" : {
@@ -8190,8 +8173,8 @@ const translations = {
   },
   "a_few_times_per_month_TG" : {
     "French" : "Quelques fois par mois",
-    "Reference French" : "Quelques fois par mois",
-    "English" : "Quelques fois par mois",
+    "Reference French" : "A few times per month",
+    "English" : "A few times per month",
     "Reference English" : "A few times per month",
     "Kabiye" : "Tam cabɩ fenaɣ taa.",
     "Ewe" : "Quelques fois par mois / Zi ʋɛ aɖewo le ɣletia me"
@@ -8244,7 +8227,6 @@ const translations = {
     "Reference Spanish" : "Una vez a la semana",
     "Tagalog" : "Isang beses sa isang linggo",
     "French" : "Une fois par semaine",
-    "Reference French" : "Une fois par semaine",
     "Hiligaynon" : "Isa ka beses sa semana",
     "Haitian Creole" : "Yon fwa pa semèn",
     "Indonesian" : "Seminggu 1X",
@@ -8272,8 +8254,8 @@ const translations = {
   "once_a_week_BF" : {
     "Mossi" : "Une fois par semaine",
     "French" : "Une fois par semaine",
-    "Reference French" : "Une fois par semaine",
-    "English" : "Une fois par semaine",
+    "Reference French" : "Once a week",
+    "English" : "Once a week",
     "Reference English" : "Once a week",
     "Dyula" : "Une fois par semaine",
     "Gourmanchéma" : "Une fois par semaine"
@@ -8335,9 +8317,9 @@ const translations = {
   },
   "once_a_week_HT" : {
     "Haitian Creole" : "Yon fwa pa semèn",
-    "French" : "Une fois par semaine",
-    "Reference French" : "Une fois par semaine",
-    "English" : "Une fois par semaine",
+    "French" : "Once a week",
+    "Reference French" : "Once a week",
+    "English" : "Once a week",
     "Reference English" : "Once a week"
   },
   "once_a_week_ID" : {
@@ -8409,8 +8391,8 @@ const translations = {
   },
   "once_a_week_TG" : {
     "French" : "Une fois par semaine",
-    "Reference French" : "Une fois par semaine",
-    "English" : "Une fois par semaine",
+    "Reference French" : "Once a week",
+    "English" : "Once a week",
     "Reference English" : "Once a week",
     "Kabiye" : "Tam kʊɖʋmam kpɩtaʋ taa",
     "Ewe" : "Zi ɖeka le Kwasiɖa me"
@@ -8463,7 +8445,6 @@ const translations = {
     "Reference Spanish" : "Más de una vez por semana",
     "Tagalog" : "Higit sa isang beses sa isang linggo",
     "French" : "Plus d'une fois par semaine",
-    "Reference French" : "Plus d'une fois par semaine",
     "Hiligaynon" : "Masobra isa sa isa ka semana",
     "Haitian Creole" : "Plis pase yon fwa pa semèn",
     "Indonesian" : "Lebih dari 1X seminggu",
@@ -8491,8 +8472,8 @@ const translations = {
   "more_than_once_per_week_BF" : {
     "Mossi" : "Plus d'une fois par semaine",
     "French" : "Plus d'une fois par semaine",
-    "Reference French" : "Plus d'une fois par semaine",
-    "English" : "Plus d'une fois par semaine",
+    "Reference French" : "More than once per week",
+    "English" : "More than once per week",
     "Reference English" : "More than once per week",
     "Dyula" : "Plus d'une fois par semaine",
     "Gourmanchéma" : "Plus d'une fois par semaine"
@@ -8554,9 +8535,9 @@ const translations = {
   },
   "more_than_once_per_week_HT" : {
     "Haitian Creole" : "Plis pase yon fwa pa semèn",
-    "French" : "Plus d'une fois par semaine",
-    "Reference French" : "Plus d'une fois par semaine",
-    "English" : "Plus d'une fois par semaine",
+    "French" : "More than once per week",
+    "Reference French" : "More than once per week",
+    "English" : "More than once per week",
     "Reference English" : "More than once per week"
   },
   "more_than_once_per_week_ID" : {
@@ -8628,8 +8609,8 @@ const translations = {
   },
   "more_than_once_per_week_TG" : {
     "French" : "Plus d'une fois par semaine",
-    "Reference French" : "Plus d'une fois par semaine",
-    "English" : "Plus d'une fois par semaine",
+    "Reference French" : "More than once per week",
+    "English" : "More than once per week",
     "Reference English" : "More than once per week",
     "Kabiye" : "Tam kʋɖʋmam kpɩtaʋ taa",
     "Ewe" : "Wua zi ɖeka le Kwasiɖa me"
@@ -9426,7 +9407,6 @@ const translations = {
     "Reference Spanish" : "Para nada",
     "Tagalog" : "Hindi\nKailanman",
     "French" : "Jamais",
-    "Reference French" : "Pas du tout",
     "Hiligaynon" : "Indi tanan",
     "Haitian Creole" : "Pa ditou",
     "Indonesian" : "Tidak sama sekali",
@@ -9436,7 +9416,7 @@ const translations = {
     "Langi" : "Pe atwali",
     "Lukonzo" : "Eyihi",
     "Pokot" : "melö lenyoni kokäy",
-    "Kekchí" : "Moko tz'aqal ta",
+    "Kekchí" : "Jwal mak'a",
     "Ganda" : "Wadde na katono",
     "Lugbara" : "Toa yo",
     "Lugishu" : "Imbawo nakhari ta",
@@ -9453,8 +9433,8 @@ const translations = {
   "not_at_all_BF" : {
     "Mossi" : "Pas du tout",
     "French" : "Pas du tout",
-    "Reference French" : "Pas du tout",
-    "English" : "Pas du tout",
+    "Reference French" : "Not at all",
+    "English" : "Not at all",
     "Reference English" : "Not at all",
     "Dyula" : "Pas du tout",
     "Gourmanchéma" : "Pas du tout"
@@ -9506,7 +9486,7 @@ const translations = {
     "Reference Spanish" : "Para nada",
     "English" : "Para nada",
     "Reference English" : "Not at all",
-    "Kekchí" : "Moko tz'aqal ta"
+    "Kekchí" : "Jwal mak'a"
   },
   "not_at_all_HN" : {
     "Spanish" : "No en absoluto",
@@ -9516,9 +9496,9 @@ const translations = {
   },
   "not_at_all_HT" : {
     "Haitian Creole" : "Pa ditou",
-    "French" : "Pas du tout",
-    "Reference French" : "Pas du tout",
-    "English" : "Pas du tout",
+    "French" : "Not at all",
+    "Reference French" : "Not at all",
+    "English" : "Not at all",
     "Reference English" : "Not at all"
   },
   "not_at_all_ID" : {
@@ -9590,8 +9570,8 @@ const translations = {
   },
   "not_at_all_TG" : {
     "French" : "Jamais",
-    "Reference French" : "Pas du tout",
-    "English" : "Pas du tout",
+    "Reference French" : "Not at all",
+    "English" : "Not at all",
     "Reference English" : "Not at all",
     "Kabiye" : "Kpa / Kaʊ",
     "Ewe" : "Gbeɖe o"
@@ -9644,7 +9624,6 @@ const translations = {
     "Reference Spanish" : "Un poco",
     "Tagalog" : "Paminsan\n-minsan",
     "French" : "Un peu",
-    "Reference French" : "Un peu",
     "Hiligaynon" : "Gamay lang",
     "Haitian Creole" : "Yon ti kras",
     "Indonesian" : "Sedikit",
@@ -9671,8 +9650,8 @@ const translations = {
   "a_little_BF" : {
     "Mossi" : "Un peu",
     "French" : "Un peu",
-    "Reference French" : "Un peu",
-    "English" : "Un peu",
+    "Reference French" : "A little",
+    "English" : "A little",
     "Reference English" : "A little",
     "Dyula" : "Un peu",
     "Gourmanchéma" : "Un peu"
@@ -9734,9 +9713,9 @@ const translations = {
   },
   "a_little_HT" : {
     "Haitian Creole" : "Yon ti kras",
-    "French" : "Un peu",
-    "Reference French" : "Un peu",
-    "English" : "Un peu",
+    "French" : "A little",
+    "Reference French" : "A little",
+    "English" : "A little",
     "Reference English" : "A little"
   },
   "a_little_ID" : {
@@ -9808,8 +9787,8 @@ const translations = {
   },
   "a_little_TG" : {
     "French" : "Un peu",
-    "Reference French" : "Un peu",
-    "English" : "Un peu",
+    "Reference French" : "A little",
+    "English" : "A little",
     "Reference English" : "A little",
     "Kabiye" : "Cʊkɔ / Pazɩ yem",
     "Ewe" : "Ʋɛ  aɖe ko, alo víí áɖé kò"
@@ -9862,7 +9841,6 @@ const translations = {
     "Reference Spanish" : "De alguna forma",
     "Tagalog" : "Bihira",
     "French" : "Quelque peu",
-    "Reference French" : "Un peu",
     "Hiligaynon" : "Medyo pareho",
     "Haitian Creole" : "Yon ti jan",
     "Indonesian" : "Ada",
@@ -9889,8 +9867,8 @@ const translations = {
   "somewhat_BF" : {
     "Mossi" : "Quelque peu",
     "French" : "Quelque peu",
-    "Reference French" : "Un peu",
-    "English" : "Un peu",
+    "Reference French" : "Somewhat",
+    "English" : "Somewhat",
     "Reference English" : "Somewhat",
     "Dyula" : "Quelque peu",
     "Gourmanchéma" : "Quelque peu"
@@ -9952,9 +9930,9 @@ const translations = {
   },
   "somewhat_HT" : {
     "Haitian Creole" : "Yon ti jan",
-    "French" : "Un peu",
-    "Reference French" : "Un peu",
-    "English" : "Un peu",
+    "French" : "Somewhat",
+    "Reference French" : "Somewhat",
+    "English" : "Somewhat",
     "Reference English" : "Somewhat"
   },
   "somewhat_ID" : {
@@ -10026,8 +10004,8 @@ const translations = {
   },
   "somewhat_TG" : {
     "French" : "Quelque peu",
-    "Reference French" : "Un peu",
-    "English" : "Un peu",
+    "Reference French" : "Somewhat",
+    "English" : "Somewhat",
     "Reference English" : "Somewhat",
     "Kabiye" : "Paa ñɩɩ yem",
     "Ewe" : "Sɔgbɔ̀ vííe"
@@ -10080,7 +10058,6 @@ const translations = {
     "Reference Spanish" : "Bastante",
     "Tagalog" : "Karaniwan",
     "French" : "assez peu",
-    "Reference French" : "Pas mal",
     "Hiligaynon" : "Medyo diutay lang",
     "Haitian Creole" : "yon ti jan",
     "Indonesian" : "Cukup lumayan",
@@ -10090,7 +10067,7 @@ const translations = {
     "Langi" : "Anonokoro",
     "Lukonzo" : "Inina haneneho",
     "Pokot" : "kite pat",
-    "Kekchí" : "Jwal naab'al",
+    "Kekchí" : "Ba'bay",
     "Ganda" : "Ssi nnyo",
     "Lugbara" : "Lu were",
     "Lugishu" : "Lukanile",
@@ -10108,8 +10085,8 @@ const translations = {
   "quite_a_bit_BF" : {
     "Mossi" : "Juste un peu",
     "French" : "Juste un peu",
-    "Reference French" : "Pas mal",
-    "English" : "Pas mal",
+    "Reference French" : "Quite a bit",
+    "English" : "Quite a bit",
     "Reference English" : "Quite a bit",
     "Dyula" : "Juste un peu",
     "Gourmanchéma" : "Juste un peu"
@@ -10161,7 +10138,7 @@ const translations = {
     "Reference Spanish" : "Bastante",
     "English" : "Bastante",
     "Reference English" : "Quite a bit",
-    "Kekchí" : "Jwal naab'al"
+    "Kekchí" : "Ba'bay"
   },
   "quite_a_bit_HN" : {
     "Spanish" : "Poco",
@@ -10171,9 +10148,9 @@ const translations = {
   },
   "quite_a_bit_HT" : {
     "Haitian Creole" : "yon ti jan",
-    "French" : "Pas mal",
-    "Reference French" : "Pas mal",
-    "English" : "Pas mal",
+    "French" : "Quite a bit",
+    "Reference French" : "Quite a bit",
+    "English" : "Quite a bit",
     "Reference English" : "Quite a bit"
   },
   "quite_a_bit_ID" : {
@@ -10245,8 +10222,8 @@ const translations = {
   },
   "quite_a_bit_TG" : {
     "French" : "assez peu",
-    "Reference French" : "Pas mal",
-    "English" : "Pas mal",
+    "Reference French" : "Quite a bit",
+    "English" : "Quite a bit",
     "Reference English" : "Quite a bit",
     "Kabiye" : "Pazɩ yem / Cʊkɔ yem",
     "Ewe" : "Víí"
@@ -10299,7 +10276,6 @@ const translations = {
     "Reference Spanish" : "Mucho",
     "Tagalog" : "Palagi",
     "French" : "Beaucoup",
-    "Reference French" : "Beaucoup",
     "Hiligaynon" : "Madamo gid",
     "Haitian Creole" : "Anpil",
     "Indonesian" : "Banyak",
@@ -10327,8 +10303,8 @@ const translations = {
   "a_lot_BF" : {
     "Mossi" : "Beaucoup",
     "French" : "Beaucoup",
-    "Reference French" : "Beaucoup",
-    "English" : "Beaucoup",
+    "Reference French" : "A lot",
+    "English" : "A lot",
     "Reference English" : "A lot",
     "Dyula" : "Beaucoup",
     "Gourmanchéma" : "Beaucoup"
@@ -10390,9 +10366,9 @@ const translations = {
   },
   "a_lot_HT" : {
     "Haitian Creole" : "Anpil",
-    "French" : "Beaucoup",
-    "Reference French" : "Beaucoup",
-    "English" : "Beaucoup",
+    "French" : "A lot",
+    "Reference French" : "A lot",
+    "English" : "A lot",
     "Reference English" : "A lot"
   },
   "a_lot_ID" : {
@@ -10464,8 +10440,8 @@ const translations = {
   },
   "a_lot_TG" : {
     "French" : "Beaucoup",
-    "Reference French" : "Beaucoup",
-    "English" : "Beaucoup",
+    "Reference French" : "A lot",
+    "English" : "A lot",
     "Reference English" : "A lot",
     "Kabiye" : "Sakɩyɛ / Kumm",
     "Ewe" : "Sɔ gbɔ / fũ/ geɖe"
@@ -10526,7 +10502,7 @@ const translations = {
     "Langi" : "Pe ayeng tutwal",
     "Lukonzo" : "Singananukire ndeke",
     "Pokot" : "möpköchanïnye läsiny",
-    "Kekchí" : "Ink'a k'ojk'oo lin ch'ool",
+    "Kekchí" : "Ink'a jwal k'ojk'oo lin ch'ool",
     "Ganda" : "Ssi mumativu nnyo",
     "Lugbara" : "Ma apini ani tu ku",
     "Lugishu" : "Nakhushikakasa ta",
@@ -10591,11 +10567,11 @@ const translations = {
     "Gonja" : "Maῃ kukwƐ nƐnƐ"
   },
   "not_very_satisfied_GT" : {
-    "Spanish" : "Insatisfecho",
+    "Spanish" : "No muy satisfecho",
     "Reference Spanish" : "No muy satisfecho",
     "English" : "No muy satisfecho",
     "Reference English" : "Not Very Satisfied",
-    "Kekchí" : "Ink'a k'ojk'oo lin ch'ool"
+    "Kekchí" : "Ink'a jwal k'ojk'oo lin ch'ool"
   },
   "not_very_satisfied_HN" : {
     "Spanish" : "No Muy Satisfecho",
@@ -11377,7 +11353,6 @@ const translations = {
     "Reference Spanish" : "Otros no mencionados aquí (por favor, especifique)",
     "Tagalog" : "Iba pang hindi nakalista sa ibaba (tukuyin dito)",
     "French" : "Autre non répertorié ici (veuillez préciser)",
-    "Reference French" : "Autres éléments non répertoriés ici (veuillez préciser)",
     "Hiligaynon" : "Ang Iban pa nga wala nalista diri (palihog espicify)",
     "Haitian Creole" : "Lòt metye yo pa mansyone isit la (presize yo)",
     "Indonesian" : "Lainnya yang tidak tercantum di sini (Sebutkan)",
@@ -11409,8 +11384,8 @@ const translations = {
   "other_not_listed_here_please_specify_BF" : {
     "Mossi" : "Autre non mentionné ici (veuillez préciser)",
     "French" : "Autre non mentionné ici (veuillez préciser)",
-    "Reference French" : "Autres éléments non répertoriés ici (veuillez préciser)",
-    "English" : "Autres éléments non répertoriés ici (veuillez préciser)",
+    "Reference French" : "Other not listed here (please specify)",
+    "English" : "Other not listed here (please specify)",
     "Reference English" : "Other not listed here (please specify)",
     "Dyula" : "Autre non mentionné ici (veuillez préciser)",
     "Gourmanchéma" : "Autre non mentionné ici (veuillez préciser)"
@@ -11473,8 +11448,8 @@ const translations = {
   "other_not_listed_here_please_specify_HT" : {
     "Haitian Creole" : "Lòt metye yo pa mansyone isit la (presize yo)",
     "French" : "Autre non listé ici (veuillez préciser)",
-    "Reference French" : "Autres éléments non répertoriés ici (veuillez préciser)",
-    "English" : "Autres éléments non répertoriés ici (veuillez préciser)",
+    "Reference French" : "Other not listed here (please specify)",
+    "English" : "Other not listed here (please specify)",
     "Reference English" : "Other not listed here (please specify)"
   },
   "other_not_listed_here_please_specify_ID" : {
@@ -11546,8 +11521,8 @@ const translations = {
   },
   "other_not_listed_here_please_specify_TG" : {
     "French" : "Autre non répertorié ici (veuillez préciser)",
-    "Reference French" : "Autres éléments non répertoriés ici (veuillez préciser)",
-    "English" : "Autres éléments non répertoriés ici (veuillez préciser)",
+    "Reference French" : "Other not listed here (please specify)",
+    "English" : "Other not listed here (please specify)",
     "Reference English" : "Other not listed here (please specify)",
     "Kabiye" : "Lɛɛtʊ ndʊ         dɩtɩyɔɔdɩ tɩ-tɔm yɔ, ɛɖʊ-tʊ cɩnɛ.",
     "Ewe" : "Bubu siwo womeŋlɔ ɖe afisia o (taflatse gblɔe) Avɔtɔdɔ; atikpakpadɔ; afɔkpadɔ kpakple bubuwo"
@@ -11588,7 +11563,6 @@ const translations = {
     "Reference English" : "Christian (Baptist, Assemblies of God, Pentecostal, Presbyterian, Anglican, Catholic, etc.)",
     "Amharic" : "ክርስቲያን (መጥምቃውያን፣ ጉባኤ እግዚአብሔር፣ ጴንጤቆስጤ፣ ፕሪስቢቴሪያን፣ አንግሊካን፣ ካቶሊክ፣ ወዘተ.)",
     "Spanish" : "Cristiano (Bautista, Asambleas de Dios, Pentecostal, Presbiteriano, Anglicano, Católico, etc.)",
-    "Reference French" : "Chrétien (baptiste, Assemblées de Dieu, pentecôtiste, presbytérien, anglican, catholique, etc.)",
     "Indonesian" : "Kristen (Baptis, Sidang Jemaat Allah, Pantekosta, Presbiterian, Anglican, Katolik, etc)",
     "Nyanja" : "Mkhristu (Baptist, Assemblies of God, Apente, Presbyterian, Anglican, katolika, etc.)",
     "Swahili" : "Mkristo (Mbatisti, Assemblies of God, Pentekosti, Pentecostal, Presbyterian, kianglikani, Katoliki, nk)"
@@ -11598,13 +11572,13 @@ const translations = {
     "Reference English" : "Christian (Baptist, Assemblies of God, Pentecostal, Presbyterian, Anglican, Catholic, etc.)"
   },
   "christian_BF" : {
-    "Mossi" : "Chrétien (baptiste, Assemblées de Dieu, pentecôtiste, presbytérien, anglican, catholique, etc.)",
-    "French" : "Chrétien (baptiste, Assemblées de Dieu, pentecôtiste, presbytérien, anglican, catholique, etc.)",
-    "Reference French" : "Chrétien (baptiste, Assemblées de Dieu, pentecôtiste, presbytérien, anglican, catholique, etc.)",
-    "English" : "Chrétien (baptiste, Assemblées de Dieu, pentecôtiste, presbytérien, anglican, catholique, etc.)",
+    "Mossi" : "Christian (Baptist, Assemblies of God, Pentecostal, Presbyterian, Anglican, Catholic, etc.)",
+    "French" : "Christian (Baptist, Assemblies of God, Pentecostal, Presbyterian, Anglican, Catholic, etc.)",
+    "Reference French" : "Christian (Baptist, Assemblies of God, Pentecostal, Presbyterian, Anglican, Catholic, etc.)",
+    "English" : "Christian (Baptist, Assemblies of God, Pentecostal, Presbyterian, Anglican, Catholic, etc.)",
     "Reference English" : "Christian (Baptist, Assemblies of God, Pentecostal, Presbyterian, Anglican, Catholic, etc.)",
-    "Dyula" : "Chrétien (baptiste, Assemblées de Dieu, pentecôtiste, presbytérien, anglican, catholique, etc.)",
-    "Gourmanchéma" : "Chrétien (baptiste, Assemblées de Dieu, pentecôtiste, presbytérien, anglican, catholique, etc.)"
+    "Dyula" : "Christian (Baptist, Assemblies of God, Pentecostal, Presbyterian, Anglican, Catholic, etc.)",
+    "Gourmanchéma" : "Christian (Baptist, Assemblies of God, Pentecostal, Presbyterian, Anglican, Catholic, etc.)"
   },
   "christian_BO" : {
     "Spanish" : "Cristiano (Bautista, Asambleas de Dios, Pentecostal, Presbiteriano, Anglicano, Católico, etc)",
@@ -11662,10 +11636,10 @@ const translations = {
     "Reference English" : "Christian (Baptist, Assemblies of God, Pentecostal, Presbyterian, Anglican, Catholic, etc.)"
   },
   "christian_HT" : {
-    "Haitian Creole" : "Chrétien (baptiste, Assemblées de Dieu, pentecôtiste, presbytérien, anglican, catholique, etc.)",
-    "French" : "Chrétien (baptiste, Assemblées de Dieu, pentecôtiste, presbytérien, anglican, catholique, etc.)",
-    "Reference French" : "Chrétien (baptiste, Assemblées de Dieu, pentecôtiste, presbytérien, anglican, catholique, etc.)",
-    "English" : "Chrétien (baptiste, Assemblées de Dieu, pentecôtiste, presbytérien, anglican, catholique, etc.)",
+    "Haitian Creole" : "Christian (Baptist, Assemblies of God, Pentecostal, Presbyterian, Anglican, Catholic, etc.)",
+    "French" : "Christian (Baptist, Assemblies of God, Pentecostal, Presbyterian, Anglican, Catholic, etc.)",
+    "Reference French" : "Christian (Baptist, Assemblies of God, Pentecostal, Presbyterian, Anglican, Catholic, etc.)",
+    "English" : "Christian (Baptist, Assemblies of God, Pentecostal, Presbyterian, Anglican, Catholic, etc.)",
     "Reference English" : "Christian (Baptist, Assemblies of God, Pentecostal, Presbyterian, Anglican, Catholic, etc.)"
   },
   "christian_ID" : {
@@ -11736,12 +11710,12 @@ const translations = {
     "Reference English" : "Christian (Baptist, Assemblies of God, Pentecostal, Presbyterian, Anglican, Catholic, etc.)"
   },
   "christian_TG" : {
-    "French" : "Chrétien (baptiste, Assemblées de Dieu, pentecôtiste, presbytérien, anglican, catholique, etc.)",
-    "Reference French" : "Chrétien (baptiste, Assemblées de Dieu, pentecôtiste, presbytérien, anglican, catholique, etc.)",
-    "English" : "Chrétien (baptiste, Assemblées de Dieu, pentecôtiste, presbytérien, anglican, catholique, etc.)",
+    "French" : "Christian (Baptist, Assemblies of God, Pentecostal, Presbyterian, Anglican, Catholic, etc.)",
+    "Reference French" : "Christian (Baptist, Assemblies of God, Pentecostal, Presbyterian, Anglican, Catholic, etc.)",
+    "English" : "Christian (Baptist, Assemblies of God, Pentecostal, Presbyterian, Anglican, Catholic, etc.)",
     "Reference English" : "Christian (Baptist, Assemblies of God, Pentecostal, Presbyterian, Anglican, Catholic, etc.)",
-    "Kabiye" : "Chrétien (baptiste, Assemblées de Dieu, pentecôtiste, presbytérien, anglican, catholique, etc.)",
-    "Ewe" : "Chrétien (baptiste, Assemblées de Dieu, pentecôtiste, presbytérien, anglican, catholique, etc.)"
+    "Kabiye" : "Christian (Baptist, Assemblies of God, Pentecostal, Presbyterian, Anglican, Catholic, etc.)",
+    "Ewe" : "Christian (Baptist, Assemblies of God, Pentecostal, Presbyterian, Anglican, Catholic, etc.)"
   },
   "christian_TH" : {
     "Lahu" : "Christian (Baptist, Assemblies of God, Pentecostal, Presbyterian, Anglican, Catholic, etc.)",
@@ -11779,7 +11753,6 @@ const translations = {
     "Reference English" : "Muslim (Sunni, Shia, Sufi, etc.)",
     "Amharic" : "ሙስሊም (ሱኒ፣ ሺያ፣ ሱፊ፣  ወዘተ.)",
     "Spanish" : "Musulmanes (sunitas, chiítas, sufíes, etc.)",
-    "Reference French" : "Musulman (sunnite, chiite, soufi, etc.)",
     "Indonesian" : "Islam (Sunni, Shia, Sufi, etc.)",
     "Nyanja" : "Asilamu ((Sunni, Shia, Sufi, etc.)",
     "Swahili" : "Mwislamu (Sunni, Shia, Sufi, nk)"
@@ -11789,13 +11762,13 @@ const translations = {
     "Reference English" : "Muslim (Sunni, Shia, Sufi, etc.)"
   },
   "muslim_BF" : {
-    "Mossi" : "Musulman (sunnite, chiite, soufi, etc.)",
-    "French" : "Musulman (sunnite, chiite, soufi, etc.)",
-    "Reference French" : "Musulman (sunnite, chiite, soufi, etc.)",
-    "English" : "Musulman (sunnite, chiite, soufi, etc.)",
+    "Mossi" : "Muslim (Sunni, Shia, Sufi, etc.)",
+    "French" : "Muslim (Sunni, Shia, Sufi, etc.)",
+    "Reference French" : "Muslim (Sunni, Shia, Sufi, etc.)",
+    "English" : "Muslim (Sunni, Shia, Sufi, etc.)",
     "Reference English" : "Muslim (Sunni, Shia, Sufi, etc.)",
-    "Dyula" : "Musulman (sunnite, chiite, soufi, etc.)",
-    "Gourmanchéma" : "Musulman (sunnite, chiite, soufi, etc.)"
+    "Dyula" : "Muslim (Sunni, Shia, Sufi, etc.)",
+    "Gourmanchéma" : "Muslim (Sunni, Shia, Sufi, etc.)"
   },
   "muslim_BO" : {
     "Spanish" : "Musulmán",
@@ -11853,10 +11826,10 @@ const translations = {
     "Reference English" : "Muslim (Sunni, Shia, Sufi, etc.)"
   },
   "muslim_HT" : {
-    "Haitian Creole" : "Musulman (sunnite, chiite, soufi, etc.)",
-    "French" : "Musulman (sunnite, chiite, soufi, etc.)",
-    "Reference French" : "Musulman (sunnite, chiite, soufi, etc.)",
-    "English" : "Musulman (sunnite, chiite, soufi, etc.)",
+    "Haitian Creole" : "Muslim (Sunni, Shia, Sufi, etc.)",
+    "French" : "Muslim (Sunni, Shia, Sufi, etc.)",
+    "Reference French" : "Muslim (Sunni, Shia, Sufi, etc.)",
+    "English" : "Muslim (Sunni, Shia, Sufi, etc.)",
     "Reference English" : "Muslim (Sunni, Shia, Sufi, etc.)"
   },
   "muslim_ID" : {
@@ -11927,12 +11900,12 @@ const translations = {
     "Reference English" : "Muslim (Sunni, Shia, Sufi, etc.)"
   },
   "muslim_TG" : {
-    "French" : "Musulman (sunnite, chiite, soufi, etc.)",
-    "Reference French" : "Musulman (sunnite, chiite, soufi, etc.)",
-    "English" : "Musulman (sunnite, chiite, soufi, etc.)",
+    "French" : "Muslim (Sunni, Shia, Sufi, etc.)",
+    "Reference French" : "Muslim (Sunni, Shia, Sufi, etc.)",
+    "English" : "Muslim (Sunni, Shia, Sufi, etc.)",
     "Reference English" : "Muslim (Sunni, Shia, Sufi, etc.)",
-    "Kabiye" : "Musulman (sunnite, chiite, soufi, etc.)",
-    "Ewe" : "Musulman (sunnite, chiite, soufi, etc.)"
+    "Kabiye" : "Muslim (Sunni, Shia, Sufi, etc.)",
+    "Ewe" : "Muslim (Sunni, Shia, Sufi, etc.)"
   },
   "muslim_TH" : {
     "Lahu" : "Muslim (Sunni, Shia, Sufi, etc.)",
@@ -11970,7 +11943,6 @@ const translations = {
     "Reference English" : "Buddhist (Mahayana, Theravada, Vajrayana, etc.)",
     "Amharic" : "ቡድሂስት (ማሃያና፣ ቴራቫዳ፣ ቫጅራያና፣ ወዘተ.)",
     "Spanish" : "Budismo (Mahayana, Theravada, Vajrayana, etc.)",
-    "Reference French" : "Bouddhiste (Mahayana, Theravada, Vajrayana, etc.)",
     "Indonesian" : "Budha (Mahayana, Theravada, Vajrayana, etc.)",
     "Nyanja" : "aBuddhist (Mahayana, Theravada, Vajrayana, ndi zina zotele.)",
     "Swahili" : "Buddhist (Mahayana, Theravada, Vajrayana, etc.)"
@@ -11980,13 +11952,13 @@ const translations = {
     "Reference English" : "Buddhist (Mahayana, Theravada, Vajrayana, etc.)"
   },
   "buddhist_BF" : {
-    "Mossi" : "Bouddhiste (Mahayana, Theravada, Vajrayana, etc.)",
-    "French" : "Bouddhiste (Mahayana, Theravada, Vajrayana, etc.)",
-    "Reference French" : "Bouddhiste (Mahayana, Theravada, Vajrayana, etc.)",
-    "English" : "Bouddhiste (Mahayana, Theravada, Vajrayana, etc.)",
+    "Mossi" : "Buddhist (Mahayana, Theravada, Vajrayana, etc.)",
+    "French" : "Buddhist (Mahayana, Theravada, Vajrayana, etc.)",
+    "Reference French" : "Buddhist (Mahayana, Theravada, Vajrayana, etc.)",
+    "English" : "Buddhist (Mahayana, Theravada, Vajrayana, etc.)",
     "Reference English" : "Buddhist (Mahayana, Theravada, Vajrayana, etc.)",
-    "Dyula" : "Bouddhiste (Mahayana, Theravada, Vajrayana, etc.)",
-    "Gourmanchéma" : "Bouddhiste (Mahayana, Theravada, Vajrayana, etc.)"
+    "Dyula" : "Buddhist (Mahayana, Theravada, Vajrayana, etc.)",
+    "Gourmanchéma" : "Buddhist (Mahayana, Theravada, Vajrayana, etc.)"
   },
   "buddhist_BO" : {
     "Spanish" : "Budista",
@@ -12044,10 +12016,10 @@ const translations = {
     "Reference English" : "Buddhist (Mahayana, Theravada, Vajrayana, etc.)"
   },
   "buddhist_HT" : {
-    "Haitian Creole" : "Bouddhiste (Mahayana, Theravada, Vajrayana, etc.)",
-    "French" : "Bouddhiste (Mahayana, Theravada, Vajrayana, etc.)",
-    "Reference French" : "Bouddhiste (Mahayana, Theravada, Vajrayana, etc.)",
-    "English" : "Bouddhiste (Mahayana, Theravada, Vajrayana, etc.)",
+    "Haitian Creole" : "Buddhist (Mahayana, Theravada, Vajrayana, etc.)",
+    "French" : "Buddhist (Mahayana, Theravada, Vajrayana, etc.)",
+    "Reference French" : "Buddhist (Mahayana, Theravada, Vajrayana, etc.)",
+    "English" : "Buddhist (Mahayana, Theravada, Vajrayana, etc.)",
     "Reference English" : "Buddhist (Mahayana, Theravada, Vajrayana, etc.)"
   },
   "buddhist_ID" : {
@@ -12118,12 +12090,12 @@ const translations = {
     "Reference English" : "Buddhist (Mahayana, Theravada, Vajrayana, etc.)"
   },
   "buddhist_TG" : {
-    "French" : "Bouddhiste (Mahayana, Theravada, Vajrayana, etc.)",
-    "Reference French" : "Bouddhiste (Mahayana, Theravada, Vajrayana, etc.)",
-    "English" : "Bouddhiste (Mahayana, Theravada, Vajrayana, etc.)",
+    "French" : "Buddhist (Mahayana, Theravada, Vajrayana, etc.)",
+    "Reference French" : "Buddhist (Mahayana, Theravada, Vajrayana, etc.)",
+    "English" : "Buddhist (Mahayana, Theravada, Vajrayana, etc.)",
     "Reference English" : "Buddhist (Mahayana, Theravada, Vajrayana, etc.)",
-    "Kabiye" : "Bouddhiste (Mahayana, Theravada, Vajrayana, etc.)",
-    "Ewe" : "Bouddhiste (Mahayana, Theravada, Vajrayana, etc.)"
+    "Kabiye" : "Buddhist (Mahayana, Theravada, Vajrayana, etc.)",
+    "Ewe" : "Buddhist (Mahayana, Theravada, Vajrayana, etc.)"
   },
   "buddhist_TH" : {
     "Lahu" : "Buddhist (Mahayana, Theravada, Vajrayana, etc.)",
@@ -12161,7 +12133,6 @@ const translations = {
     "Reference English" : "Hindu",
     "Amharic" : "ሂንዱ",
     "Spanish" : "Hindú",
-    "Reference French" : "Hindou",
     "Nyanja" : "Ahindu",
     "Oromo" : "Hinduu",
     "Swahili" : "Mhindu"
@@ -12171,13 +12142,13 @@ const translations = {
     "Reference English" : "Hindu"
   },
   "hindu_BF" : {
-    "Mossi" : "Hindou",
-    "French" : "Hindou",
-    "Reference French" : "Hindou",
-    "English" : "Hindou",
+    "Mossi" : "Hindu",
+    "French" : "Hindu",
+    "Reference French" : "Hindu",
+    "English" : "Hindu",
     "Reference English" : "Hindu",
-    "Dyula" : "Hindou",
-    "Gourmanchéma" : "Hindou"
+    "Dyula" : "Hindu",
+    "Gourmanchéma" : "Hindu"
   },
   "hindu_BO" : {
     "Spanish" : "Hindú",
@@ -12235,10 +12206,10 @@ const translations = {
     "Reference English" : "Hindu"
   },
   "hindu_HT" : {
-    "Haitian Creole" : "Hindou",
-    "French" : "Hindou",
-    "Reference French" : "Hindou",
-    "English" : "Hindou",
+    "Haitian Creole" : "Hindu",
+    "French" : "Hindu",
+    "Reference French" : "Hindu",
+    "English" : "Hindu",
     "Reference English" : "Hindu"
   },
   "hindu_ID" : {
@@ -12309,12 +12280,12 @@ const translations = {
     "Reference English" : "Hindu"
   },
   "hindu_TG" : {
-    "French" : "Hindou",
-    "Reference French" : "Hindou",
-    "English" : "Hindou",
+    "French" : "Hindu",
+    "Reference French" : "Hindu",
+    "English" : "Hindu",
     "Reference English" : "Hindu",
-    "Kabiye" : "Hindou",
-    "Ewe" : "Hindou"
+    "Kabiye" : "Hindu",
+    "Ewe" : "Hindu"
   },
   "hindu_TH" : {
     "Lahu" : "Hindu",
@@ -12352,7 +12323,6 @@ const translations = {
     "Reference English" : "Traditional, local, or indigenous religions",
     "Amharic" : "ባህላዊ፣ አካባቢያዊ ወይም አገር በቀል ሃይማኖቶች",
     "Spanish" : "Religiones tradicionales, locales o indígenas",
-    "Reference French" : "Religions traditionnelles, locales ou autochtones",
     "Indonesian" : "Tradisional, lokal, atau agama suku",
     "Nyanja" : "Zipembedzo zamakolo, zakumalo, kapena zakwawo",
     "Swahili" : "Dini za kimapokeo, za kienyeji au za kiasili"
@@ -12362,13 +12332,13 @@ const translations = {
     "Reference English" : "Traditional, local, or indigenous religions"
   },
   "local_BF" : {
-    "Mossi" : "Religions traditionnelles, locales ou autochtones",
-    "French" : "Religions traditionnelles, locales ou autochtones",
-    "Reference French" : "Religions traditionnelles, locales ou autochtones",
-    "English" : "Religions traditionnelles, locales ou autochtones",
+    "Mossi" : "Traditional, local, or indigenous religions",
+    "French" : "Traditional, local, or indigenous religions",
+    "Reference French" : "Traditional, local, or indigenous religions",
+    "English" : "Traditional, local, or indigenous religions",
     "Reference English" : "Traditional, local, or indigenous religions",
-    "Dyula" : "Religions traditionnelles, locales ou autochtones",
-    "Gourmanchéma" : "Religions traditionnelles, locales ou autochtones"
+    "Dyula" : "Traditional, local, or indigenous religions",
+    "Gourmanchéma" : "Traditional, local, or indigenous religions"
   },
   "local_BO" : {
     "Spanish" : "Creencias tradicionales o indígenas",
@@ -12426,10 +12396,10 @@ const translations = {
     "Reference English" : "Traditional, local, or indigenous religions"
   },
   "local_HT" : {
-    "Haitian Creole" : "Religions traditionnelles, locales ou autochtones",
-    "French" : "Religions traditionnelles, locales ou autochtones",
-    "Reference French" : "Religions traditionnelles, locales ou autochtones",
-    "English" : "Religions traditionnelles, locales ou autochtones",
+    "Haitian Creole" : "Traditional, local, or indigenous religions",
+    "French" : "Traditional, local, or indigenous religions",
+    "Reference French" : "Traditional, local, or indigenous religions",
+    "English" : "Traditional, local, or indigenous religions",
     "Reference English" : "Traditional, local, or indigenous religions"
   },
   "local_ID" : {
@@ -12500,12 +12470,12 @@ const translations = {
     "Reference English" : "Traditional, local, or indigenous religions"
   },
   "local_TG" : {
-    "French" : "Religions traditionnelles, locales ou autochtones",
-    "Reference French" : "Religions traditionnelles, locales ou autochtones",
-    "English" : "Religions traditionnelles, locales ou autochtones",
+    "French" : "Traditional, local, or indigenous religions",
+    "Reference French" : "Traditional, local, or indigenous religions",
+    "English" : "Traditional, local, or indigenous religions",
     "Reference English" : "Traditional, local, or indigenous religions",
-    "Kabiye" : "Religions traditionnelles, locales ou autochtones",
-    "Ewe" : "Religions traditionnelles, locales ou autochtones"
+    "Kabiye" : "Traditional, local, or indigenous religions",
+    "Ewe" : "Traditional, local, or indigenous religions"
   },
   "local_TH" : {
     "Lahu" : "Traditional, local, or indigenous religions",
@@ -12543,7 +12513,6 @@ const translations = {
     "Reference English" : "No religion (atheist, no particular religion)",
     "Amharic" : "ሃይማኖት የሌለው (አምላክ የለም ባይ፣ ሃይማኖት የሌለው)",
     "Spanish" : "Sin religión (ateo, sin una religión en particular)",
-    "Reference French" : "Aucune religion (athée, aucune religion particulière)",
     "Indonesian" : "Tidak Beragama (Atheis, tidak tergabung dalam agama tertentu)",
     "Nyanja" : "Palibe chipembedzo (okana Mulungu, alibe chipembedzo china)",
     "Swahili" : "Hakuna dini (atheist, hakuna dini fulani)"
@@ -12553,13 +12522,13 @@ const translations = {
     "Reference English" : "No religion (atheist, no particular religion)"
   },
   "none_BF" : {
-    "Mossi" : "Aucune religion (athée, aucune religion particulière)",
-    "French" : "Aucune religion (athée, aucune religion particulière)",
-    "Reference French" : "Aucune religion (athée, aucune religion particulière)",
-    "English" : "Aucune religion (athée, aucune religion particulière)",
+    "Mossi" : "No religion (atheist, no particular religion)",
+    "French" : "No religion (atheist, no particular religion)",
+    "Reference French" : "No religion (atheist, no particular religion)",
+    "English" : "No religion (atheist, no particular religion)",
     "Reference English" : "No religion (atheist, no particular religion)",
-    "Dyula" : "Aucune religion (athée, aucune religion particulière)",
-    "Gourmanchéma" : "Aucune religion (athée, aucune religion particulière)"
+    "Dyula" : "No religion (atheist, no particular religion)",
+    "Gourmanchéma" : "No religion (atheist, no particular religion)"
   },
   "none_BO" : {
     "Spanish" : "Sin religión (ateo, sin religión específica)",
@@ -12617,10 +12586,10 @@ const translations = {
     "Reference English" : "No religion (atheist, no particular religion)"
   },
   "none_HT" : {
-    "Haitian Creole" : "Aucune religion (athée, aucune religion particulière)",
-    "French" : "Aucune religion (athée, aucune religion particulière)",
-    "Reference French" : "Aucune religion (athée, aucune religion particulière)",
-    "English" : "Aucune religion (athée, aucune religion particulière)",
+    "Haitian Creole" : "No religion (atheist, no particular religion)",
+    "French" : "No religion (atheist, no particular religion)",
+    "Reference French" : "No religion (atheist, no particular religion)",
+    "English" : "No religion (atheist, no particular religion)",
     "Reference English" : "No religion (atheist, no particular religion)"
   },
   "none_ID" : {
@@ -12691,12 +12660,12 @@ const translations = {
     "Reference English" : "No religion (atheist, no particular religion)"
   },
   "none_TG" : {
-    "French" : "Aucune religion (athée, aucune religion particulière)",
-    "Reference French" : "Aucune religion (athée, aucune religion particulière)",
-    "English" : "Aucune religion (athée, aucune religion particulière)",
+    "French" : "No religion (atheist, no particular religion)",
+    "Reference French" : "No religion (atheist, no particular religion)",
+    "English" : "No religion (atheist, no particular religion)",
     "Reference English" : "No religion (atheist, no particular religion)",
-    "Kabiye" : "Aucune religion (athée, aucune religion particulière)",
-    "Ewe" : "Aucune religion (athée, aucune religion particulière)"
+    "Kabiye" : "No religion (atheist, no particular religion)",
+    "Ewe" : "No religion (atheist, no particular religion)"
   },
   "none_TH" : {
     "Lahu" : "No religion (atheist, no particular religion)",

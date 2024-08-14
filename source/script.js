@@ -621,7 +621,7 @@ function itemClicked (item, itemIndex) {
     }
   } else if (timeLeft === 0 && extraItems === 0) { // This is for selecting the last letter, and it will be used at the very end.
     if (item.classList.contains('disabled')) { // Shows modal warning user that that item cannot be selected
-      modalContent.innerText = 'Selecciona el último item incorrecto, o la que sigue.'
+      modalContent.innerText = 'Either pick the last incorrect item, or one after that.'
       firstModalButton.innerText = 'Okay'
       secondModalButton.classList.add('hidden')
       firstModalButton.style.width = '100%'
@@ -752,8 +752,8 @@ function pageReading () {
 
 // Incorrect last item modal
 function openExtraItemsModal () {
-  modalContent.innerHTML = ' Haga cualquier corrección ahora. Hacer click en el botón <strong>Cuando</strong> haya terminado.'
-  firstModalButton.innerText = 'OK'
+  modalContent.innerHTML = 'Make any corrections now. Tap the <strong>Finished</strong> button when you are finished.'
+  firstModalButton.innerText = 'Okay'
   secondModalButton.classList.add('hidden')
   firstModalButton.style.width = '100%'
   modal.style.display = 'block'
@@ -763,8 +763,8 @@ function openExtraItemsModal () {
 }
 // Thank you note modal
 function openThankYouModal () {
-  modalContent.innerHTML = 'Gracias. Puede continuar. Pulse sobre Prueba completada.' // Text to display on the modal.
-  firstModalButton.innerText = 'Terminado'
+  modalContent.innerHTML = 'Thank you! You can continue. <br> Tap on Test Complete.' // Text to display on the modal.
+  firstModalButton.innerText = 'Done'
   secondModalButton.classList.add('hidden')
   firstModalButton.style.width = '100%'
   modal.style.display = 'block'
@@ -786,8 +786,8 @@ function openLastItemModal () {
     var thisBox = gridItems[i]
     thisBox.classList.add('disabled')
   }
-  modalContent.innerText = 'Por favor, pulse el último elemento intentado.'
-  firstModalButton.innerText = 'OK'
+  modalContent.innerText = 'Please tap the last item attempted.'
+  firstModalButton.innerText = 'Okay'
   secondModalButton.classList.add('hidden')
   firstModalButton.style.width = '100%'
   modal.style.display = 'block'
@@ -798,8 +798,8 @@ function openLastItemModal () {
 
 function openIncorrectItemsModal () {
   if (strict === 1 && endAfter != null) {
-    modalContent.innerText = endAfter + ' respuestas equivocada en linea 1.'
-    firstModalButton.innerText = 'OK'
+    modalContent.innerText = endAfter + ' wrong answers on row 1.'
+    firstModalButton.innerText = 'Okay'
     secondModalButton.classList.add('hidden')
     firstModalButton.style.width = '100%'
     modal.style.display = 'block'
@@ -815,8 +815,8 @@ function openIncorrectItemsModal () {
       goToNextField(true)
     }
   } else {
-    modalContent.innerText = '¿Terminar ahora? ' + endAfter + ' respuestas equivocada en linea 1.'
-    firstModalButton.innerText = 'Sí'
+    modalContent.innerText = 'End now? ' + endAfter + ' wrong answers on row 1.'
+    firstModalButton.innerText = 'Yes'
     secondModalButton.innerText = 'No'
     modal.style.display = 'block'
     firstModalButton.onclick = function () {
@@ -832,8 +832,8 @@ function openIncorrectItemsModal () {
 
 function endTest () {
   if (finishParameter === 2) {
-    modalContent.innerText = '¿Desea finalizar la evaluación ahora?'
-    firstModalButton.innerText = 'Sí'
+    modalContent.innerText = 'Do you want to end the test now?'
+    firstModalButton.innerText = 'Yes'
     secondModalButton.innerText = 'No'
     modal.style.display = 'block'
     firstModalButton.onclick = function () {
@@ -878,8 +878,8 @@ function endTest () {
 
 // Modal to confirm finishing a test early.
 function finishModal () {
-  modalContent.innerText = '¿Desea finalizar la evaluación ahora?'
-  firstModalButton.innerText = 'Sí'
+  modalContent.innerText = 'Do you want to end the test now?'
+  firstModalButton.innerText = 'Yes'
   secondModalButton.innerText = 'No'
   modal.style.display = 'block'
   firstModalButton.onclick = function () {
@@ -945,7 +945,7 @@ function checkAllAnswered () {
 }
 
 function moveForward () {
-  button.innerHTML = 'Prueba completa'
+  button.innerHTML = 'Test complete'
   button.onclick = function () {
     goToNextField()
   }
@@ -1046,19 +1046,5 @@ function checkPage (pagNum, numPages) {
     $('#nextButton').removeClass('hideButton')
     $('#backButton').removeClass('hideButton')
     $('#finishButton').addClass('hidden')
-  }
-}
-
-// Resize the text to fit the button
-function resizeText () {
-  var gridItems = $.makeArray(document.querySelectorAll('.box')) // Get all grid items - they all have the box class.
-  var i // Temporary counter
-  // Loop through all the buttons
-  for (i = 1; i <= gridItems.length; i++) {
-    var tempItemClass = '.' + 'item' + i // Get the item (button) class to refer to individual buttons
-    $(tempItemClass).textfill({ // Use the textfill.js library to resize the button text.
-      widthOnly: true, // Resize only text width
-      maxFontPixels: 28 // Set maximum font size
-    })
   }
 }

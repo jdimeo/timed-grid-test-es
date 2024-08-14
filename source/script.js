@@ -8,6 +8,11 @@ var type = getPluginParameter('type')
 var finishParameter = getPluginParameter('finish')
 var allAnswered = getPluginParameter('all-answered')
 var numberOfRows = getPluginParameter('page-rows')
+var getDirection = getPluginParameter('direction')
+
+if ((fieldProperties.LANGUAGE !== null && isRTL(fieldProperties.LANGUAGE)) || getDirection === 'rtl') {
+  var isRTL = 1
+}
 
 var previousMetaData = getMetaData() // Load Metadata.
 
@@ -36,6 +41,7 @@ var items = [] // Array to keep the selected items.
 var intervalId
 
 var timerDisp = document.querySelector('#timer') // Span displaying the actual timer.
+var timeLeft = document.querySelector('#timeLeft') // Label showing "TIME LEFT" (need to use javascript for translation)
 var backButton = document.getElementById('backButton') // back button for navigation
 var button = document.querySelector('#startstop') // Button to start, stop, pause and resume test.
 var pauseIcon = button.querySelector('#icon-pause')
@@ -69,8 +75,17 @@ myFunction(x)
 x.addListener(myFunction)
 // end window size check and assignment.
 
-// For testing purposes!
-// screenSize = 'small'
+// TRANSLATION LOOKUP - common to all "universal" plugins and assumes translations.js exists
+function translation(key) {
+  var ret = translations?.[key]?.[fieldProperties.LANGUAGE];
+  if (ret) { return ret; }
+
+  // Fall back to English and warn in the console
+  console.warn("No translation for key " + key + " found for language " + fieldProperties.LANGUAGE);
+  return translations?.[key]?.["Reference English"];
+}
+
+timeLeft.innerHTML = translation('grid_time_left');
 
 // Set parameter default values.
 if (duration == null) {
@@ -142,6 +157,12 @@ if (type === 'letters') {
   type = 'reading'
 } else {
   columns = parseInt(type)
+}
+
+// Set end after to 'null' when it has a value of 0. 
+// This is the equivalent of not providing a value for this (disabling it)
+if (endAfter == 0) {
+  endAfter = null
 }
 
 // Set end after default to 10 for letters and 5 for words.
@@ -402,6 +423,9 @@ function createGrid (keys) {
     for (var i = 0; i < rowCount / columns; i++) {
       var fieldset = document.createElement('div') // Creates a section element. Each section is the equivalent of a row.
       fieldset.setAttribute('class', 'pg')
+      if (isRTL === 1) {
+        fieldset.dir = "rtl";
+      }
       for (var j = 0; j < columns; j++) { // Create the individual boxes in each row/screen.
         if (counter !== checkAllAnswered()) {
           secondDIV = document.createElement('div') // Create the div element.
@@ -412,6 +436,9 @@ function createGrid (keys) {
           itemClass = 'item' + itemValue // CSS class to be applied.
           secondDIV.classList.add('box', itemClass) // Add CSS class.
           secondDIV.classList.add('pgBox') // Add the pgBox class for different styling.
+          if(isRTL === 1) {
+            secondDIV.style.float = 'right';
+          }
           for (var ch of txlbl) {
             if ($.inArray(ch, marks) !== -1) { // Check if the label is a punctuation mark.
               secondDIV.classList.add('pmBox') // Add the pmBox class to punctuation marks.
@@ -426,6 +453,7 @@ function createGrid (keys) {
         }
       }
       div.appendChild(fieldset) // Add the row to main container.
+      
     }
   } else {
     if (screenSize !== 'small') {
@@ -470,6 +498,9 @@ function createGrid (keys) {
   }
   if (isNumber === 2) {
     div.classList.add('pgNumber')
+  }
+  if (isRTL === 1) {
+    div.dir = "rtl";
   }
   return true
 }
@@ -621,7 +652,7 @@ function itemClicked (item, itemIndex) {
     }
   } else if (timeLeft === 0 && extraItems === 0) { // This is for selecting the last letter, and it will be used at the very end.
     if (item.classList.contains('disabled')) { // Shows modal warning user that that item cannot be selected
-      modalContent.innerText = 'Either pick the last incorrect item, or one after that.'
+      modalContent.innerText = translation('grid_time_expired');
       firstModalButton.innerText = 'Okay'
       secondModalButton.classList.add('hidden')
       firstModalButton.style.width = '100%'
@@ -635,8 +666,6 @@ function itemClicked (item, itemIndex) {
       }
       item.classList.add('lastSelected')
       lastSelectedIndex = itemIndex // Get index of last selected item.
-      lastSelectedIndex = itemIndex // Get index of last selected item
-      // checkLastItem() // Check that the selected last item is not before the last clicked item as part of the test.
       complete = 'true'
       finishEarly = 1
       setResult()
@@ -672,6 +701,7 @@ function setResult () {
     totalItems = lastSelectedIndex // total items are all the items.
   }
   if (type === 'reading') { // For reading test.
+    punctuationCount = 0 //Reset the current punctuation count
     for (var x = 0; x < totalItems; x++) {
       var textLabel = choices[x].CHOICE_LABEL // Get the label of each item.
       if ($.inArray(textLabel, marks) !== -1) { // Check if the label is a punctuation mark.
@@ -752,8 +782,8 @@ function pageReading () {
 
 // Incorrect last item modal
 function openExtraItemsModal () {
-  modalContent.innerHTML = 'Make any corrections now. Tap the <strong>Finished</strong> button when you are finished.'
-  firstModalButton.innerText = 'Okay'
+  modalContent.innerHTML = translation('grid_corrections');
+  firstModalButton.innerText = translation('ok');
   secondModalButton.classList.add('hidden')
   firstModalButton.style.width = '100%'
   modal.style.display = 'block'
@@ -763,8 +793,8 @@ function openExtraItemsModal () {
 }
 // Thank you note modal
 function openThankYouModal () {
-  modalContent.innerHTML = 'Thank you! You can continue. <br> Tap on Test Complete.' // Text to display on the modal.
-  firstModalButton.innerText = 'Done'
+  modalContent.innerHTML = translation('grid_complete');
+  firstModalButton.innerText = translation('done');
   secondModalButton.classList.add('hidden')
   firstModalButton.style.width = '100%'
   modal.style.display = 'block'
@@ -786,8 +816,8 @@ function openLastItemModal () {
     var thisBox = gridItems[i]
     thisBox.classList.add('disabled')
   }
-  modalContent.innerText = 'Please tap the last item attempted.'
-  firstModalButton.innerText = 'Okay'
+  modalContent.innerText = translation('grid_last_item');
+  firstModalButton.innerText = translation('ok');
   secondModalButton.classList.add('hidden')
   firstModalButton.style.width = '100%'
   modal.style.display = 'block'
@@ -798,8 +828,8 @@ function openLastItemModal () {
 
 function openIncorrectItemsModal () {
   if (strict === 1 && endAfter != null) {
-    modalContent.innerText = endAfter + ' wrong answers on row 1.'
-    firstModalButton.innerText = 'Okay'
+    modalContent.innerText = endAfter + ' ' + translation('grid_incorrect_on_first_row');
+    firstModalButton.innerText = translation('ok');
     secondModalButton.classList.add('hidden')
     firstModalButton.style.width = '100%'
     modal.style.display = 'block'
@@ -815,9 +845,9 @@ function openIncorrectItemsModal () {
       goToNextField(true)
     }
   } else {
-    modalContent.innerText = 'End now? ' + endAfter + ' wrong answers on row 1.'
-    firstModalButton.innerText = 'Yes'
-    secondModalButton.innerText = 'No'
+    modalContent.innerText = translation('grid_end_now') + ' ' + endAfter + ' ' + translation('grid_incorrect_on_first_row');
+    firstModalButton.innerText = translation('yes');
+    secondModalButton.innerText = translation('no');
     modal.style.display = 'block'
     firstModalButton.onclick = function () {
       modal.style.display = 'none'
@@ -832,9 +862,9 @@ function openIncorrectItemsModal () {
 
 function endTest () {
   if (finishParameter === 2) {
-    modalContent.innerText = 'Do you want to end the test now?'
-    firstModalButton.innerText = 'Yes'
-    secondModalButton.innerText = 'No'
+    modalContent.innerText = translation('grid_end_now');
+    firstModalButton.innerText = translation('yes');
+    secondModalButton.innerText = translation('no');
     modal.style.display = 'block'
     firstModalButton.onclick = function () {
       finishEarly = 1
@@ -878,9 +908,9 @@ function endTest () {
 
 // Modal to confirm finishing a test early.
 function finishModal () {
-  modalContent.innerText = 'Do you want to end the test now?'
-  firstModalButton.innerText = 'Yes'
-  secondModalButton.innerText = 'No'
+  modalContent.innerText = translation('grid_end_now');
+  firstModalButton.innerText = translation('yes');
+  secondModalButton.innerText = translation('no');
   modal.style.display = 'block'
   firstModalButton.onclick = function () {
     modal.style.display = 'none'
@@ -945,7 +975,7 @@ function checkAllAnswered () {
 }
 
 function moveForward () {
-  button.innerHTML = 'Test complete'
+  button.innerHTML = translation('grid_complete_button');
   button.onclick = function () {
     goToNextField()
   }
@@ -1047,4 +1077,27 @@ function checkPage (pagNum, numPages) {
     $('#backButton').removeClass('hideButton')
     $('#finishButton').addClass('hidden')
   }
+}
+
+// Resize the text to fit the button
+function resizeText () {
+  var gridItems = $.makeArray(document.querySelectorAll('.box')) // Get all grid items - they all have the box class.
+  var i // Temporary counter
+  // Loop through all the buttons
+  for (i = 1; i <= gridItems.length; i++) {
+    var tempItemClass = '.' + 'item' + i // Get the item (button) class to refer to individual buttons
+    $(tempItemClass).textfill({ // Use the textfill.js library to resize the button text.
+      widthOnly: true, // Resize only text width
+      maxFontPixels: 28 // Set maximum font size
+    })
+  }
+}
+
+// Detect right-to-left languages
+function isRTL(s){
+  var ltrChars    = 'A-Za-z\u00C0-\u00D6\u00D8-\u00F6\u00F8-\u02B8\u0300-\u0590\u0800-\u1FFF'+'\u2C00-\uFB1C\uFDFE-\uFE6F\uFEFD-\uFFFF',
+      rtlChars    = '\u0591-\u07FF\uFB1D-\uFDFD\uFE70-\uFEFC',
+      rtlDirCheck = new RegExp('^[^'+ltrChars+']*['+rtlChars+']');
+
+  return rtlDirCheck.test(s);
 }
